@@ -8,7 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js" integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <title>飲食店メモ</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>    <title>飲食店メモ</title>
     <style type="text/css">
       body {
         color: #000;
@@ -159,7 +159,7 @@
               "name": "ﾌﾚｯｼｭﾈｽバーガー",
               "genre": "バーガー",
               "closeDay": "無休？",
-              "lastOrder": "21:30",
+              "lastOrder": "21:30?",
               "location": "青梅沿",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13146359/"]
@@ -259,8 +259,8 @@
               "name": "恵",
               "genre": "うどん",
               "star": true,
-              "closeDay": "１の日",
-              "lastOrder": "23:30 土日20:30",
+              "closeDay": "日",
+              "lastOrder": "23:30 土20:30",
               "location": "教会通り",
               "memo": null,
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13141730/"]
@@ -518,9 +518,9 @@
             },
             {
               "name": "荻窪ダイニング",
-              "genre": "ダイニングバー",
-              "closeDay": "木",
-              "lastOrder": "23:30",
+              "genre": "割烹/小料理",
+              "closeDay": "火",
+              "lastOrder": "23:00",
               "location": "住：南",
               "memo": "新しい店",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13206479/"]
@@ -580,7 +580,7 @@
               "genre": "自然食 カフェ",
               "closeDay": "無休",
               "lastOrder": "16:00",
-              "location": "吉祥寺",
+              "location": "北",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13022142/"]
             },
@@ -590,7 +590,7 @@
               "genre": "カフェ 茶",
               "closeDay": "火 祝翌水",
               "lastOrder": "18:30",
-              "location": "吉祥寺",
+              "location": "南",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13098849/"]
             },
@@ -602,7 +602,7 @@
               "star": true,
               "closeDay": "水",
               "lastOrder": "21:00",
-              "location": "吉祥寺",
+              "location": "駅南",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13190311/"]
             },
@@ -612,7 +612,7 @@
               "genre": "洋食 定食",
               "closeDay": "平日休？",
               "lastOrder": "21:00",
-              "location": "吉祥寺",
+              "location": "西",
               "memo": "実質カレーのみ",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13175705/"]
             },
@@ -641,7 +641,7 @@
               "genre": "天丼",
               "closeDay": "不定",
               "lastOrder": "21:30",
-              "location": "吉祥寺",
+              "location": "北",
               "memo": "人気/カード不",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13173834/", "http://www.hannosuke.com/"]
             },
@@ -653,7 +653,7 @@
               "genre": "自然食 和食",
               "closeDay": "水",
               "lastOrder": "22:00 土日祝21:00",
-              "location": "吉祥寺",
+              "location": "南",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13010019/"]
             },
@@ -663,7 +663,7 @@
               "closeDay": "不定",
               "lastOrder": "22:00",
               "location": "南",
-              "memo": "",
+              "memo": "ﾃﾗｽ喫煙可",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13101839/"]
             },
             {
@@ -671,7 +671,7 @@
               "genre": "寿司",
               "closeDay": "無休",
               "lastOrder": "22:00 日祝21:00",
-              "location": "吉祥寺",
+              "location": "南",
               "memo": "煙要確",
               "link": ["http://www.uogashi-nihonichi.com/kichijyojiminamiguchi/"]
             },
@@ -680,7 +680,7 @@
               "genre": "パスタ",
               "closeDay": "無休",
               "lastOrder": "22:00",
-              "location": "吉祥寺",
+              "location": "駅北",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13130985/"]
             },
@@ -721,7 +721,7 @@
               "closeDay": "無休",
               "lastOrder": "22:30",
               "location": "駅前（南）",
-              "memo": "ピザ",
+              "memo": "ピザ ﾃﾗｽ喫煙可",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13005930/"]
             },
             {
@@ -736,11 +736,11 @@
             },
             {
               "name": "三うら",
-              "genre": "割烹",
+              "genre": "割烹/魚介",
               "closeDay": "水/第一火",
               "lastOrder": "22:30?",
               "location": "南",
-              "memo": "人気店/魚介",
+              "memo": "人気店",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13193184/"]
             },
             {
@@ -758,7 +758,7 @@
               "genre": "カレー カフェ",
               "closeDay": "水",
               "lastOrder": "22:30",
-              "location": "吉祥寺",
+              "location": "東",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13049661/"]
             },
@@ -767,7 +767,7 @@
               "genre": "カフェ バー 創作料理",
               "closeDay": "木",
               "lastOrder": "22:30 日祝18:00",
-              "location": "吉祥寺",
+              "location": "西",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13161730/"]
             },
@@ -798,7 +798,7 @@
               "genre": "居酒屋",
               "closeDay": "木",
               "lastOrder": "23:30",
-              "location": "吉祥寺",
+              "location": "北",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13107739/"]
             },
@@ -1241,46 +1241,63 @@
       });
     </script>
     <script type="text/template" id="store-template">
-      <% list.forEach(function(region) { %>
-        <h2 id="<%= region.id %>">■ <%= region.name %></h2>
+      <ul class="nav nav-tabs">
+        <% list.forEach(function(region, n) { %>
+          <li class="<%= n === 0 ? 'active' : '' %>">
+            <a href="#region-<%= n %>" data-toggle="tab"><%= region.name %></a>
+          </li>
+        <% }); %>
+      </ul>
 
-        <table class="table">
-          <tr>
-            <th>店名</th>
-            <th>ジャンル</th>
-            <th>定休</th>
-            <th>L.O.</th>
-            <th>場所</th>
-            <th>メモ</th>
-          </tr>
-          <% region.data.forEach(function(d) { %>
-            <tr>
-              <% if(d.link){ %>
-                <td nowrap>
-                  <% if('star' in d && d.star) { %>
-                    ★
+      <div class="tab-content">
+        <% list.forEach(function(region, n) { %>
+          <div class="tab-pane <%= n === 0 ? 'active' : '' %>" id="region-<%= n %>">
+            <h2 id="<%= region.id %>">■ <%= region.name %></h2>
+
+            <table class="table">
+              <tr>
+                <th>店名</th>
+                <th>ジャンル</th>
+                <th>定休</th>
+                <th>L.O.</th>
+                <th>場所</th>
+                <th>メモ</th>
+              </tr>
+              <% region.data.forEach(function(d) { %>
+                <tr>
+                  <% if(d.link){ %>
+                    <td nowrap>
+                      <% if('star' in d && d.star) { %>
+                        ★
+                      <% }; %>
+
+                      <% d.link.forEach(function(link, i) { %>
+                        <% if(i === 0) { %>
+                          <a href="<%= link %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
+                        <% }else{ %>
+                          <a href="<%= link %>" target="_blank" title="<%= d.nameAlter %>">[<%= i %>]</a>
+                        <% }; %>
+                      <% }); %>
+                    </td>
+                  <% }else{ %>
+                    <td><%= d.name %></td>
                   <% }; %>
+                  <td><%= d.genre %></td>
+                  <td><%= d.closeDay %></td>
+                  <td><%= d.lastOrder %></td>
+                  <td><%= d.location %></td>
+                  <td><%= d.memo %></td>
+                </tr>
+              <% }); %>
 
-                  <% d.link.forEach(function(link, i) { %>
-                    <% if(i === 0) { %>
-                      <a href="<%= link %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
-                    <% }else{ %>
-                      <a href="<%= link %>" target="_blank" title="<%= d.nameAlter %>">[<%= i %>]</a>
-                    <% }; %>
-                  <% }); %>
-                </td>
-              <% }else{ %>
-                <td><%= d.name %></td>
-              <% }; %>
-              <td><%= d.genre %></td>
-              <td><%= d.closeDay %></td>
-              <td><%= d.lastOrder %></td>
-              <td><%= d.location %></td>
-              <td><%= d.memo %></td>
-            </tr>
-          <% }); %>
-        </table>
-      <% }); %>
+              <tr>
+                <td colspan="5">&nbsp;</td>
+                <td>(全 <%= region.data.length %> 件)</td>
+              </tr>
+            </table>
+          </div>
+        <% }); %>
+      </div>
     </script>
   </head>
   <body>
