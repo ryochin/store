@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="file:///Users/ryo/work/developer-favicon/favicon_static.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js" integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>    <title>飲食店メモ</title>
     <style type="text/css">
@@ -27,7 +28,18 @@
         {
           "name": "荻窪（普段使い）",
           "id": "ogikubo",
+          "mapPlace": "荻窪駅",
           "data": [
+            {
+              "name": "カフェ スティル",
+              "nameAlter": "Cafe Style",
+              "genre": "カフェ",
+              "closeDay": "月",
+              "lastOrder": "18:30 日17:30",
+              "location": "商",
+              "memo": null,
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13183211/", "http://cafe-lestyle.jp/menu/"]
+            },
             {
               "name": "さんかく山",
               "genre": "定食",
@@ -41,11 +53,13 @@
               "name": "サブウェイ",
               "genre": "サンドイッチ",
               "closeDay": "不定",
-              "lastOrder": "20:00",
+              "lastOrder": "19:45",
               "location": "商",
               "memo": "ﾌｧﾐﾏ内",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13179098/"]
             },
+
+            // 20:00
             {
               "name": "トマト",
               "genre": "カレー",
@@ -64,6 +78,8 @@
               "memo": null,
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13154596/"]
             },
+
+            // 20:30
             {
               "name": "コム デ ジュルノー",
               "nameAlter": "comme des journaux",
@@ -91,6 +107,15 @@
               "location": "すずらん",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13068134/"]
+            },
+            {
+              "name": "3米3 (sanmaisan)",
+              "genre": "お粥",
+              "closeDay": "火",
+              "lastOrder": "20:30",
+              "location": "青梅街道",
+              "memo": null,
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13208624/"]
             },
 
             // 21:00
@@ -298,6 +323,7 @@
         {
           "name": "荻窪（お出かけ）",
           "id": "ogikubo-odekake",
+          "mapPlace": "荻窪駅",
           "data": [
             {
               "name": "安斎",
@@ -327,6 +353,8 @@
               "memo": "お高い",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13000713/"]
             },
+
+            // 21:00
             {
               "name": "北京遊膳",
               "genre": "中華",
@@ -336,8 +364,6 @@
               "memo": "お高い",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13001102/"]
             },
-
-            // 21:00
             {
               "name": "カプチーナ",
               "genre": "ファミレス",
@@ -365,6 +391,16 @@
               "memo": "お高め",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13120883/"]
             },
+            {
+              "name": "ポワン ドゥ デパー",
+              "nameAlter": "Point de depart",
+              "genre": "フレンチ",
+              "closeDay": "月火",
+              "lastOrder": "21:00",
+              "location": "住宅街/青梅街",
+              "memo": "お高い",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13207896/"]
+            },
 
             // 21:30
             {
@@ -376,6 +412,15 @@
               "location": "駅前",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13116014/"]
+            },
+            {
+              "name": "TO THE HERBS",
+              "genre": "パスタ/クレープ",
+              "closeDay": "無休",
+              "lastOrder": "21:30 日祝21:00",
+              "location": "ルミネ",
+              "memo": null,
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13129501/"]
             },
             {
               "name": "つばめグリル",
@@ -539,6 +584,7 @@
         {
           "name": "西荻",
           "id": "nishiogi",
+          "mapPlace": "西荻窪駅",
           "data": [
             {
               "name": "大岩食堂",
@@ -573,6 +619,7 @@
         {
           "name": "吉祥寺",
           "id": "kichijoji",
+          "mapPlace": "吉祥寺駅",
           "data": [
             {
               "name": "DevaDeva Cafe",
@@ -604,7 +651,7 @@
               "lastOrder": "21:00",
               "location": "駅南",
               "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1320/A132001/13190311/"]
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13190311/", "http://kaidan-shokudo.tokyo/menu/"]
             },
             {
               "name": "ヨシダゴハン",
@@ -836,6 +883,7 @@
         {
           "name": "西新宿",
           "id": "nishi-shinjuku",
+          "mapPlace": "西新宿駅",
           "data": [
             {
               "name": "BASE POINT",
@@ -847,6 +895,16 @@
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13150954/"]
             },
             {
+              "name": " コチン ニヴァース",
+              "nameAlter": "COCHIN NIVAS",
+              "genre": "インドカレー",
+              "closeDay": "月火",
+              "lastOrder": "21:00",
+              "location": "西新宿",
+              "memo": "ちょい遠",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13056242/"]
+            },
+            {
               "name": "丸亀製麺 新宿三井ビル店",
               "genre": "うどん",
               "closeDay": "無休",
@@ -854,6 +912,25 @@
               "location": "西新宿",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13095189/"]
+            },
+            {
+              "name": "ムット",
+              "nameAlter": "MUTHU",
+              "genre": "インドカレー",
+              "closeDay": "日",
+              "lastOrder": "21:30?",
+              "location": "西新宿",
+              "memo": "カード不可",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13040853/"]
+            },
+            {
+              "name": "もうやんカレー",
+              "genre": "カレー",
+              "closeDay": "土",
+              "lastOrder": "22:30",
+              "location": "西新宿",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13001046/", "http://www.moyan.jp/"]
             },
             {
               "name": "頑固おやじ",
@@ -864,49 +941,32 @@
               "memo": "日本酒",
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13128233/"]
             },
-            {
-              "name": "魚がし日本一",
-              "genre": "寿司",
-              "closeDay": "無休",
-              "lastOrder": "22:30 土日祝21:30",
-              "location": "新宿西口",
-              "memo": "煙要確",
-              "link": ["http://www.uogashi-nihonichi.com/shinjyukunishiguchi/"]
-            },
-            {
-              "name": " コチン ニヴァース",
-              "nameAlter": "COCHIN NIVAS",
-              "genre": "カレー",
-              "closeDay": "月火",
-              "lastOrder": "21:00",
-              "location": "西新宿",
-              "memo": "ちょい遠",
-              "link": ["https://tabelog.com/tokyo/A1304/A130401/13056242/"]
-            }
           ]
         },
         {
           "name": "新宿駅〜新宿３丁目",
           "id": "shinjuku",
+          "mapPlace": "新宿駅",
           "data": [
             {
-              "name": "Caffice",
-              "genre": "カフェ/オフィス",
-              "closeDay": "無休",
-              "lastOrder": "食22:00/飲22:30",
-              "location": "新宿４丁目",
-              "memo": "電源あり",
-              "link": ["https://tabelog.com/tokyo/A1304/A130401/13174391/"]
-            },
-            {
-              "name": "CLOVE",
-              "nameAlter": "クローブ",
-              "genre": "カレー",
-              "closeDay": "不定",
-              "lastOrder": "21:00",
-              "location": "紀伊国屋地下",
+              "name": "カフェナチュレ",
+              "genre": "カフェ",
+              "closeDay": "不明",
+              "lastOrder": "19:30",
+              "location": "新宿駅",
               "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1304/A130401/13135095/"]
+              "link": ["https://tabelog.com/tokyo/A1304/A130402/13040445/"]
+            },
+
+            // 20:30
+            {
+              "name": "curry 草枕",
+              "genre": "カレー",
+              "closeDay": "無休",
+              "lastOrder": "20:30",
+              "location": "新宿",
+              "memo": "人気店",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13042970/"]
             },
             {
               "name": "水山",
@@ -918,24 +978,42 @@
               "memo": "ｲﾏｲﾁになった",
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13016554/"]
             },
+
+            // 21:00
             {
-              "name": "カフェ ウォール",
-              "genre": "カフェ",
-              "closeDay": "無休",
-              "lastOrder": "23:00",
-              "location": "新宿駅",
-              "memo": "カクテル有",
-              "link": ["https://tabelog.com/tokyo/A1304/A130401/13171550/"]
-            },
-            {
-              "name": "カフェナチュレ",
-              "genre": "カフェ",
-              "closeDay": "不明",
-              "lastOrder": "19:30",
-              "location": "新宿駅",
+              "name": "CLOVE",
+              "nameAlter": "クローブ",
+              "genre": "カレー",
+              "closeDay": "不定",
+              "lastOrder": "21:00",
+              "location": "紀伊国屋地下",
               "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1304/A130402/13040445/"]
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13135095/"]
             },
+
+            // 21:30
+            {
+              "name": "Manna（新宿中村屋）",
+              "genre": "カレー",
+              "closeDay": "無休",
+              "lastOrder": "21:30",
+              "location": "新宿３丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13174647/"]
+            },
+
+            // 22:00
+            {
+              "name": "Caffice",
+              "genre": "カフェ/オフィス",
+              "closeDay": "無休",
+              "lastOrder": "食22:00/飲22:30",
+              "location": "新宿４丁目",
+              "memo": "電源あり",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13174391/"]
+            },
+
+            // 22:30
             {
               "name": "カフェ ラ・ボエム",
               "genre": "カフェ イタリアン",
@@ -946,15 +1024,6 @@
               "link": ["https://tabelog.com/tokyo/A1304/A130402/13004291/"]
             },
             {
-              "name": "こころむすび",
-              "genre": "割烹 小料理",
-              "closeDay": "日祝",
-              "lastOrder": "23:30",
-              "location": "新宿三丁",
-              "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1304/A130401/13039210/"]
-            },
-            {
               "name": "西尾さん",
               "genre": "居酒屋",
               "closeDay": "日or月",
@@ -962,24 +1031,6 @@
               "location": "新宿三丁",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13026389/"]
-            },
-            {
-              "name": "camp",
-              "genre": "野菜カレー",
-              "closeDay": "日",
-              "lastOrder": "22:30",
-              "location": "新宿",
-              "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1304/A130403/13036978/"]
-            },
-            {
-              "name": "curry 草枕",
-              "genre": "カレー",
-              "closeDay": "無休",
-              "lastOrder": "20:30",
-              "location": "新宿",
-              "memo": "人気店",
-              "link": ["https://tabelog.com/tokyo/A1304/A130401/13042970/"]
             },
             {
               "name": "サナギ新宿",
@@ -998,12 +1049,64 @@
               "location": "新宿",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13006805/"]
-            }
+            },
+            {
+              "name": "すうぷ屋",
+              "genre": "パスタ/スープ",
+              "closeDay": "ほぼ無休",
+              "lastOrder": "22:15?",
+              "location": "ミロード8F",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13000826/", "http://sangs.co.jp/soup-ya/"]
+            },
+            {
+              "name": "COTO-COTO 茶寮",
+              "genre": "パスタ風うどん/スイーツ",
+              "star": true,
+              "closeDay": "ほぼ無休",
+              "lastOrder": "22:30",
+              "location": "ミロード8F",
+              "memo": "カード不可",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13184035/", "https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=823"]
+            },
+            {
+              "name": "ヘッドクォーターズカフェ",
+              "nameAlter": "Head Quarters cafe",
+              "genre": "カフェ飯",
+              "closeDay": "ほぼ無休",
+              "lastOrder": "22:30",
+              "location": "ミロード8F",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13166843/", "https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=826"]
+            },
+
+            // 23:00
+            {
+              "name": "カフェ ウォール",
+              "genre": "カフェ",
+              "closeDay": "無休",
+              "lastOrder": "23:00",
+              "location": "新宿駅",
+              "memo": "カクテル有",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13171550/"]
+            },
+
+            // 23:30
+            {
+              "name": "こころむすび",
+              "genre": "割烹 小料理",
+              "closeDay": "日祝",
+              "lastOrder": "23:30",
+              "location": "新宿三丁",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1304/A130401/13039210/"]
+            },
           ]
         },
         {
           "name": "渋谷",
           "id": "shibuya",
+          "mapPlace": "渋谷駅",
           "data": [
             {
               "name": "天松",
@@ -1086,12 +1189,89 @@
         {
           "name": "六本木",
           "id": "roppongi",
+          "mapPlace": "六本木駅",
           "data": [
+          ]
+        },
+        {
+          "name": "銀座",
+          "id": "ginza",
+          "mapPlace": "銀座駅",
+          "data": [
+            {
+              "name": "デリー",
+              "nameAlter": "DELHI",
+              "genre": "印カレー",
+              "closeDay": "無休",
+              "lastOrder": "21:30",
+              "location": "６丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13002616/"]
+            },
+            {
+              "name": "グルガオン",
+              "genre": "印カレー",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "22:00 土日祝21:00",
+              "location": "１丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13002457/"]
+            },
+            {
+              "name": "アーンドラ・ダイニング",
+              "genre": "印カレー",
+              "closeDay": "無休",
+              "lastOrder": "22:00 土日祝21:00",
+              "location": "１丁目",
+              "memo": "店内に喫煙所",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13136701/"]
+            },
+            {
+              "name": "カイバル",
+              "nameAlter": "Khyber",
+              "genre": "印カレー",
+              "closeDay": "無休",
+              "lastOrder": "22:00 土日祝21:00",
+              "location": "１丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13026440/"]
+            },
+            {
+              "name": "ダルマサーガラ",
+              "nameAlter": "Dharmasagara",
+              "genre": "印カレー",
+              "closeDay": "無休",
+              "lastOrder": "22:00 土日祝21:00",
+              "location": "４丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13002374/"]
+            },
+            {
+              "name": "マントラカフェ",
+              "genre": "印カレー",
+              "closeDay": "無休",
+              "lastOrder": "22:30?",
+              "location": "５丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13123385/"]
+            },
+            {
+              "name": "クリッパー",
+              "nameAlter": "CLIPPER",
+              "genre": "バー",
+              "closeDay": "日祝",
+              "lastOrder": "02:30？",
+              "location": "２丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13075585/", "http://barclipper.jp/"]
+            }
           ]
         },
         {
           "name": "その他",
           "id": "other",
+          "mapPlace": "東京駅",
           "data": [
             {
               "name": "シターラ 青山",
@@ -1130,15 +1310,6 @@
               "location": "西新宿ﾋﾙﾄﾝ",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1304/A130401/13172873/"]
-            },
-            {
-              "name": "クリッパー",
-              "genre": "バー",
-              "closeDay": "祝",
-              "lastOrder": "？",
-              "location": "銀座",
-              "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1301/A130101/13075585/"]
             },
             {
               "name": "びじゃぽん",
@@ -1238,21 +1409,39 @@
 
       $(document).ready(function(){
         $('#content').html(_.template($('#store-template').html(), { list: list }));
+
+        var cookieKey = 'storeRegion';
+
+        $('.region-tab').on('click', function(){
+          $('.tab-title').removeClass('active');
+
+          Cookies.set(cookieKey, $(this).data('region'));
+        });
+
+        var region = Cookies.get(cookieKey);
+        if( region !== undefined ){
+          $('.nav-tabs a[href="#region-' + region + '"]').tab('show');
+
+          $('#region-title-' + region).addClass('active');
+        }
       });
     </script>
     <script type="text/template" id="store-template">
       <ul class="nav nav-tabs">
         <% list.forEach(function(region, n) { %>
-          <li class="<%= n === 0 ? 'active' : '' %>">
-            <a href="#region-<%= n %>" data-toggle="tab"><%= region.name %></a>
+          <li class="tab-title <%= n === 0 ? 'show' : '' %>" id="region-title-<%= region.id %>">
+            <a href="#region-<%= region.id %>" data-toggle="tab" class="region-tab" data-region="<%= region.id %>"><%= region.name %></a>
           </li>
         <% }); %>
       </ul>
 
       <div class="tab-content">
         <% list.forEach(function(region, n) { %>
-          <div class="tab-pane <%= n === 0 ? 'active' : '' %>" id="region-<%= n %>">
-            <h2 id="<%= region.id %>">■ <%= region.name %></h2>
+          <div class="tab-pane <%= n === 0 ? 'active' : '' %>" id="region-<%= region.id %>">
+            <h2 id="<%= region.id %>">
+              ■ <%= region.name %>
+              <a href="https://www.google.co.jp/maps/search/<%= region.mapPlace %>" target="_blank">[map]</a>
+            </h2>
 
             <table class="table">
               <tr>
