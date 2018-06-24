@@ -10,25 +10,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>    <title>飲食店メモ</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <style type="text/css">
       body {
         color: #000;
-        background: #ccc;
+        background: #ccccd0;
         font-size: 9pt;
       }
+      a {
+        color: #336a97;
+      }
       h1 {
-        font-size: 13pt;
+        color: #262626;
+        font-size: 11pt;
+        margin: 16px 0 12px 6px;
+      }
+      p {
+        color: #767676;
+        margin-left: 6px
       }
       h2 {
         font-size: 11pt;
+      }
+      td {
+        padding: 7px !important;
+        color: #333;
+      }
+      .nav-tabs li a {
+        padding: 6px 10px;
+      }
+      i {
+        margin-right: 4px;
       }
     </style>
     <script type="text/javascript">
       var list = [
         {
-          "name": "荻窪（普段使い）",
+          "name": "荻窪（普）",
           "id": "ogikubo",
-          "mapPlace": "荻窪駅",
           "data": [
             {
               "name": "カフェ スティル",
@@ -214,7 +233,7 @@
             {
               "name": " 呉さんの台湾料理",
               "genre": "台湾料理",
-              "closeDay": "火",
+              "closeDay": "火/第三月",
               "lastOrder": "22:30",
               "location": "八幡通り",
               "memo": null,
@@ -321,9 +340,8 @@
           ]
         },
         {
-          "name": "荻窪（お出かけ）",
+          "name": "荻窪（出）",
           "id": "ogikubo-odekake",
-          "mapPlace": "荻窪駅",
           "data": [
             {
               "name": "安斎",
@@ -400,6 +418,16 @@
               "location": "住宅街/青梅街",
               "memo": "お高い",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13207896/"]
+            },
+            {
+              "name": "潮州",
+              "nameAlter": "チョウシュウ",
+              "genre": "中華",
+              "closeDay": "月/祝翌火",
+              "lastOrder": "21:00",
+              "location": "住宅街",
+              "memo": "お高い",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13001116//"]
             },
 
             // 21:30
@@ -584,14 +612,13 @@
         {
           "name": "西荻",
           "id": "nishiogi",
-          "mapPlace": "西荻窪駅",
           "data": [
             {
               "name": "大岩食堂",
               "genre": "印カレー",
               "closeDay": "月木",
               "lastOrder": "22:00",
-              "location": "西荻駅",
+              "location": "駅近",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131907/13171369/"]
             },
@@ -600,9 +627,18 @@
               "genre": "カレー",
               "closeDay": "月",
               "lastOrder": "01:00 日21:00",
-              "location": "西荻南",
+              "location": "南",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131907/13166330/"]
+            },
+            {
+              "name": "欧風料理 華",
+              "genre": "西洋各国料理",
+              "closeDay": "木",
+              "lastOrder": "22;30",
+              "location": "南",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131907/13011830/"]
             },
             {
               "name": "サジロクローブ",
@@ -610,16 +646,33 @@
               "genre": "印カレー",
               "closeDay": "無休",
               "lastOrder": "22:30",
-              "location": "西荻北",
+              "location": "北",
               "memo": "ちょい遠い",
               "link": ["https://tabelog.com/tokyo/A1319/A131907/13137062/"]
+            },
+            {
+              "name": "MINTON HOUSE",
+              "genre": "ジャズバー",
+              "closeDay": "不定休",
+              "lastOrder": "22:30",
+              "location": "北",
+              "memo": "",
+              "link": ["http://www7b.biglobe.ne.jp/~mintonhouse/page005.html"]
+            },
+            {
+              "name": "アヒルの空",
+              "genre": "イタリアン",
+              "closeDay": "木",
+              "lastOrder": "22:30",
+              "location": "北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131907/13100655/"]
             }
           ]
         },
         {
           "name": "吉祥寺",
           "id": "kichijoji",
-          "mapPlace": "吉祥寺駅",
           "data": [
             {
               "name": "DevaDeva Cafe",
@@ -651,7 +704,7 @@
               "lastOrder": "21:00",
               "location": "駅南",
               "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1320/A132001/13190311/", "http://kaidan-shokudo.tokyo/menu/"]
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13190311/", "http://kaidan-shokudo.tokyo/"]
             },
             {
               "name": "ヨシダゴハン",
@@ -759,6 +812,15 @@
               "location": "駅前",
               "memo": "グルジア？",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13038750/"]
+            },
+            {
+              "name": "Vietnam French De salita",
+              "genre": "ベトナム料理",
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "南",
+              "memo": "新規",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13222179/"]
             },
 
             // 22:30
@@ -881,9 +943,42 @@
           ]
         },
         {
+          "name": "阿/高/中",
+          "id": "chuosen",
+          "data": [
+            {
+              "name": "じゃんぐる",
+              "genre": "居酒屋",
+              "closeDay": "火",
+              "lastOrder": "01:30 日20:30",
+              "location": "阿佐ヶ谷北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131905/13169181/"]
+            },
+            {
+              "name": "ピッキーヌ",
+              "nameAlter": "Plikk Kee Noo",
+              "genre": "タイ料理",
+              "closeDay": "火",
+              "lastOrder": "22:00",
+              "location": "阿佐ヶ谷西",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131905/13000728/", "http://thai-restaurant-plikk-kee-noo-asagaya.com/"]
+            },
+            {
+              "name": "101アンゼロアン",
+              "genre": "フレンチ",
+              "closeDay": "水",
+              "lastOrder": "23:00",
+              "location": "阿佐ヶ谷北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131905/13147108/"]
+            }
+          ]
+        },
+        {
           "name": "西新宿",
           "id": "nishi-shinjuku",
-          "mapPlace": "西新宿駅",
           "data": [
             {
               "name": "BASE POINT",
@@ -944,9 +1039,8 @@
           ]
         },
         {
-          "name": "新宿駅〜新宿３丁目",
+          "name": "新宿",
           "id": "shinjuku",
-          "mapPlace": "新宿駅",
           "data": [
             {
               "name": "カフェナチュレ",
@@ -1106,7 +1200,6 @@
         {
           "name": "渋谷",
           "id": "shibuya",
-          "mapPlace": "渋谷駅",
           "data": [
             {
               "name": "天松",
@@ -1157,6 +1250,15 @@
               "link": ["https://tabelog.com/tokyo/A1303/A130301/13126583/"]
             },
             {
+              "name": "山城屋庄蔵",
+              "genre": "割烹・小料理",
+              "closeDay": "？",
+              "lastOrder": "22:00",
+              "location": "渋谷",
+              "memo": "接待",
+              "link": ["https://tabelog.com/tokyo/A1303/A130301/13020243/"]
+            },
+            {
               "name": "Bar 天竺",
               "genre": "居酒屋/バー",
               "closeDay": "日",
@@ -1164,15 +1266,6 @@
               "location": "",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1303/A130301/13193537/"]
-            },
-            {
-              "name": "スタンド7",
-              "genre": "バー",
-              "closeDay": "日",
-              "lastOrder": "?",
-              "location": "",
-              "memo": "10分以上かかる",
-              "link": ["https://tabelog.com/tokyo/A1303/A130301/13139786/", "http://stand7.net/"]
             },
             {
               "name": "KINKA SUSHI BAR",
@@ -1183,21 +1276,90 @@
               "location": "",
               "memo": "ランチあり",
               "link": ["https://tabelog.com/tokyo/A1303/A130301/13199924/", "http://www.kinka.com/"]
+            },
+            {
+              "name": "スタンド7",
+              "genre": "バー",
+              "closeDay": "日",
+              "lastOrder": "23:30?",
+              "location": "",
+              "memo": "遠",
+              "link": ["https://tabelog.com/tokyo/A1303/A130301/13139786/", "http://stand7.net/"]
             }
           ]
         },
         {
           "name": "六本木",
           "id": "roppongi",
-          "mapPlace": "六本木駅",
           "data": [
+            {
+              "name": "グリーンアジア",
+              "genre": "アジア料理",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "ヒルズ B1",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1307/A130701/13005455/", "http://www.roppongihills.com/shops_restaurants/restaurants/00121.html"]
+            },
+            {
+              "name": "麻布 久徳",
+              "nameAlter": "あざぶきゅうとく",
+              "genre": "うどん",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "ヒルズ 5F",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1307/A130701/13015611/", "http://www.roppongihills.com/shops_restaurants/restaurants/00099.html"]
+            },
+            {
+              "name": "ダル・マット",
+              "nameAlter": "DAL-MATTO",
+              "genre": "イタリアン",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "ヒルズ 5F",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1307/A130701/13162051/", "http://www.roppongihills.com/shops_restaurants/restaurants/00168.html"]
+            }
           ]
         },
         {
           "name": "銀座",
           "id": "ginza",
-          "mapPlace": "銀座駅",
           "data": [
+            {
+              "name": "キル フェ ボン",
+              "nameAlter": "Qu'il fait bon",
+              "genre": "スイーツ/タルト",
+              "closeDay": "無休",
+              "lastOrder": "19:30?",
+              "location": "１丁目",
+              "memo": "人気店",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13125583/", "http://www.quil-fait-bon.com/"]
+            },
+            {
+              "name": "アンリ・シャルパンティエ",
+              "nameAlter": "HENRI CHARPENTIER",
+              "genre": "スイーツ",
+              "closeDay": "無休",
+              "lastOrder": "19:30/平日バー 22:30?",
+              "location": "１丁目",
+              "memo": "お高い",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13002449/", "http://www.henri-charpentier.com/"]
+            },
+            {
+              "name": "びいどろ",
+              "genre": "スペイン料理",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "21:30 日祝21:00",
+              "location": "５丁目",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13015023/", "http://www.vidriog.co.jp/vidrio/i"]
+            },
             {
               "name": "デリー",
               "nameAlter": "DELHI",
@@ -1240,6 +1402,7 @@
             {
               "name": "ダルマサーガラ",
               "nameAlter": "Dharmasagara",
+              "star": true,
               "genre": "印カレー",
               "closeDay": "無休",
               "lastOrder": "22:00 土日祝21:00",
@@ -1271,7 +1434,6 @@
         {
           "name": "その他",
           "id": "other",
-          "mapPlace": "東京駅",
           "data": [
             {
               "name": "シターラ 青山",
@@ -1292,15 +1454,6 @@
               "location": "表参道",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1306/A130602/13188166/"]
-            },
-            {
-              "name": "MINTON HOUSE",
-              "genre": "ジャズバー",
-              "closeDay": "不定休",
-              "lastOrder": "22:30",
-              "location": "西荻窪",
-              "memo": "",
-              "link": ["http://www7b.biglobe.ne.jp/~mintonhouse/page005.html"]
             },
             {
               "name": "ZATTA",
@@ -1337,15 +1490,6 @@
               "location": "日本橋",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1302/A130202/13146590/"]
-            },
-            {
-              "name": "山城屋庄蔵",
-              "genre": "割烹・小料理",
-              "closeDay": "？",
-              "lastOrder": "22:00",
-              "location": "渋谷",
-              "memo": "接待",
-              "link": ["https://tabelog.com/tokyo/A1303/A130301/13020243/"]
             },
             {
               "name": "金子半之助 本店",
@@ -1415,7 +1559,7 @@
         $('.region-tab').on('click', function(){
           $('.tab-title').removeClass('active');
 
-          Cookies.set(cookieKey, $(this).data('region'));
+          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 });
         });
 
         var region = Cookies.get(cookieKey);
@@ -1423,6 +1567,9 @@
           $('.nav-tabs a[href="#region-' + region + '"]').tab('show');
 
           $('#region-title-' + region).addClass('active');
+        }
+        else{
+          $('#region-title-ogikubo').addClass('active');
         }
       });
     </script>
@@ -1438,11 +1585,6 @@
       <div class="tab-content">
         <% list.forEach(function(region, n) { %>
           <div class="tab-pane <%= n === 0 ? 'active' : '' %>" id="region-<%= region.id %>">
-            <h2 id="<%= region.id %>">
-              ■ <%= region.name %>
-              <a href="https://www.google.co.jp/maps/search/<%= region.mapPlace %>" target="_blank">[map]</a>
-            </h2>
-
             <table class="table">
               <tr>
                 <th>店名</th>
@@ -1474,7 +1616,10 @@
                   <td><%= d.genre %></td>
                   <td><%= d.closeDay %></td>
                   <td><%= d.lastOrder %></td>
-                  <td><%= d.location %></td>
+                  <td>
+                    <a href="https://www.google.co.jp/maps/search/<%= region.name %>+<%= d.name %>" target="_blank"><i class="fa fa-map-marker-alt"></i></a>
+                    <%= d.location %>
+                  </td>
                   <td><%= d.memo %></td>
                 </tr>
               <% }); %>
@@ -1493,7 +1638,7 @@
     <div class="container">
       <H1>飲食店メモ</H1>
 
-      <p>おもに夜の営業について。もちろん完全禁煙のみ</p>
+      <p>おもに夜の営業について。完全禁煙のみ</p>
 
       <div id="content"></div>
     </div>
