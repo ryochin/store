@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="file:///Users/ryo/work/developer-favicon/favicon_static.ico">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/ryochin/developer-favicon/master/favicon_static.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js" integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
     <style type="text/css">
       body {
         color: #000;
-        background: #ccccd0;
+        background: #E0E0E2;
         font-size: 9pt;
       }
       a {
@@ -35,6 +35,7 @@
       td {
         padding: 7px !important;
         color: #333;
+        border-color: #CAC9D0 !important;
       }
       .nav-tabs li a {
         padding: 6px 10px;
@@ -42,9 +43,103 @@
       i {
         margin-right: 4px;
       }
+      i.star {
+        color: #EE4220;
+      }
+      .unvisited {
+        color: #9BA2A8;
+      }
     </style>
     <script type="text/javascript">
       var list = [
+        {
+          "name": "New!",
+          "id": "new",
+          "data": [
+            {
+              "name": "M.J. Smile",
+              "genre": "バー/カフェ",
+              "unvisited": true,
+              "closeDay": "日",
+              "lastOrder": "22:30?",
+              "location": "南",
+              "memo": "ライブ有",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13213558/", "https://www.mjsmile.com/"]
+            },
+            {
+              "name": "グレートスコット!",
+              "genre": "バル",
+              "unvisited": true,
+              "closeDay": "日祝",
+              "lastOrder": "22:00",
+              "location": "寿通",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13206808/", "https://hitosara.com/0006082070/"]
+            },
+            {
+              "name": "鮨処虎秀",
+              "genre": "寿司",
+              "unvisited": true,
+              "closeDay": "日祝",
+              "lastOrder": "22:30",
+              "location": "神宮前",
+              "memo": "評判高",
+              "link": ["https://tabelog.com/tokyo/A1303/A130301/13219374/"]
+            },
+            {
+              "name": "根室花まる",
+              "genre": "回転寿司",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "22:30 日祝21:30",
+              "location": "丸の内",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1302/A130201/13153777/"]
+            },
+
+            {
+              "name": "ヴィッラ マニョーリア",
+              "genre": "イタリアン",
+              "unvisited": true,
+              "closeDay": "火",
+              "lastOrder": "22:030 日祝21:30",
+              "location": "吉祥寺",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13159155/", "http://www.villamagnolia.tokyo"]
+            },
+            {
+              "name": "ペパカフェ・フォレスト",
+              "nameAlter": "pepacafe FOREST",
+              "unvisited": true,
+              "genre": "ベトナム/タイ料理",
+              "closeDay": "無休",
+              "lastOrder": "21:00",
+              "location": "吉祥寺 井の頭公園内",
+              "memo": "動物可",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13005873/"]
+            },
+            {
+              "name": "Organic Cafe あたたかなお皿",
+              "genre": "カフェ/イタリアン",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "吉祥寺 南",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13194649/"]
+            },
+            {
+              "name": "Wine＆Tapas Chill",
+              "genre": "ワインバー/バル",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "00:00 日祝22:00",
+              "location": "吉祥寺 北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13131274/"]
+            }
+          ]
+        },
         {
           "name": "荻窪（普）",
           "id": "ogikubo",
@@ -52,6 +147,7 @@
             {
               "name": "カフェ スティル",
               "nameAlter": "Cafe Style",
+              "unvisited": true,
               "genre": "カフェ",
               "closeDay": "月",
               "lastOrder": "18:30 日17:30",
@@ -82,6 +178,7 @@
             {
               "name": "トマト",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "水木+不定",
               "lastOrder": "20:00",
               "location": "住",
@@ -97,11 +194,22 @@
               "memo": null,
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13154596/"]
             },
+            {
+              "name": "中華徳大",
+              "genre": "中華",
+              "unvisited": true,
+              "closeDay": "日祝",
+              "lastOrder": "20:15?",
+              "location": "南",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13001111/"]
+            },
 
             // 20:30
             {
               "name": "コム デ ジュルノー",
               "nameAlter": "comme des journaux",
+              "unvisited": true,
               "genre": "クレープ",
               "closeDay": "水",
               "lastOrder": "20:30",
@@ -112,6 +220,7 @@
             {
               "name": "Blue Bell",
               "genre": "洋食 オムライス",
+              "unvisited": true,
               "closeDay": "第2/4水",
               "lastOrder": "20:30 日祝昼のみ",
               "location": "住：駅南東",
@@ -121,6 +230,7 @@
             {
               "name": "松月庵",
               "genre": "そばうどん",
+              "unvisited": true,
               "closeDay": "？",
               "lastOrder": "20:30??",
               "location": "すずらん",
@@ -130,6 +240,7 @@
             {
               "name": "3米3 (sanmaisan)",
               "genre": "お粥",
+              "unvisited": true,
               "closeDay": "火",
               "lastOrder": "20:30",
               "location": "青梅街道",
@@ -162,7 +273,7 @@
             {
               "name": "ベルソーレ",
               "nameAlter": "Bel Sole",
-              "star": true,
+              "unvisited": true,
               "genre": "イタリアン",
               "closeDay": "月祝/木昼",
               "lastOrder": "21:30",
@@ -173,6 +284,7 @@
             {
               "name": "ごはん",
               "genre": "定食",
+              "star": true,
               "closeDay": "土夜/日",
               "lastOrder": "21:30",
               "location": "商",
@@ -202,6 +314,7 @@
             {
               "name": "ﾌﾚｯｼｭﾈｽバーガー",
               "genre": "バーガー",
+              "unvisited": true,
               "closeDay": "無休？",
               "lastOrder": "21:30?",
               "location": "青梅沿",
@@ -213,10 +326,11 @@
             {
               "name": "ミオピッツァ",
               "genre": "ピザ",
+              "unvisited": true,
               "closeDay": "月",
               "lastOrder": "22:00 日祝21:00",
               "location": "住",
-              "memo": "屋台風",
+              "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13197881/"]
             },
 
@@ -233,7 +347,7 @@
             {
               "name": " 呉さんの台湾料理",
               "genre": "台湾料理",
-              "closeDay": "火/第三月",
+              "closeDay": "火水",
               "lastOrder": "22:30",
               "location": "八幡通り",
               "memo": null,
@@ -242,6 +356,7 @@
             {
               "name": "倉はし",
               "genre": "お好み焼き",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:30 土日祝22:00",
               "location": "青梅街",
@@ -277,6 +392,16 @@
               "memo": "持帰可",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13201120/"]
             },
+            {
+              "name": "ラーメン久保田",
+              "genre": "ラーメン",
+              "unvisited": true,
+              "closeDay": "水/日祝夜",
+              "lastOrder": "22:30?",
+              "location": "北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13135388/"]
+            },
 
             // 23:00 -
             {
@@ -302,11 +427,10 @@
             {
               "name": "恵",
               "genre": "うどん",
-              "star": true,
               "closeDay": "日",
               "lastOrder": "23:30 土20:30",
               "location": "教会通り",
-              "memo": null,
+              "memo": "タバコ？",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13141730/"]
             },
             {
@@ -328,13 +452,23 @@
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13057770/"]
             },
             {
+              "name": "手もみラーメン 十八番",
+              "genre": "ラーメン",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "01:00?",
+              "location": "北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13001114/"]
+            },
+            {
               "name": "quanto basta",
               "genre": "イタリアン",
               "star": true,
               "closeDay": "水 祝翌木 2火",
               "lastOrder": "02:30 日23:30",
               "location": "日大二高",
-              "memo": null,
+              "memo": "要食事",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13163543/"]
             }
           ]
@@ -346,6 +480,7 @@
             {
               "name": "安斎",
               "nameAlter": "あんざい",
+              "unvisited": true,
               "genre": "うなぎ",
               "closeDay": "水木",
               "lastOrder": "19:30",
@@ -356,6 +491,7 @@
             {
               "name": "高はし",
               "genre": "そば",
+              "unvisited": true,
               "closeDay": "火水",
               "lastOrder": "19:30",
               "location": "住：遠",
@@ -365,6 +501,7 @@
             {
               "name": "Drammatico",
               "genre": " イタリアン ",
+              "unvisited": true,
               "closeDay": "水/第3火",
               "lastOrder": "20:30",
               "location": "住：南",
@@ -376,6 +513,7 @@
             {
               "name": "北京遊膳",
               "genre": "中華",
+              "unvisited": true,
               "closeDay": "火/第一月",
               "lastOrder": "21:00 土日祝20:30",
               "location": "駅裏",
@@ -385,6 +523,7 @@
             {
               "name": "カプチーナ",
               "genre": "ファミレス",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "21:00",
               "location": "ﾀｳﾝｾﾌﾞﾝ",
@@ -394,6 +533,7 @@
             {
               "name": "CULTiCO",
               "genre": "カフェ イタリアン",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "21:00 金土祝前 22:00",
               "location": "商",
@@ -403,6 +543,7 @@
             {
               "name": "ビストロ天下井",
               "genre": "フレンチ ワインバー",
+              "unvisited": true,
               "closeDay": "水",
               "lastOrder": "21:00",
               "location": "住：南",
@@ -412,6 +553,7 @@
             {
               "name": "ポワン ドゥ デパー",
               "nameAlter": "Point de depart",
+              "unvisited": true,
               "genre": "フレンチ",
               "closeDay": "月火",
               "lastOrder": "21:00",
@@ -422,18 +564,20 @@
             {
               "name": "潮州",
               "nameAlter": "チョウシュウ",
+              "unvisited": true,
               "genre": "中華",
               "closeDay": "月/祝翌火",
               "lastOrder": "21:00",
               "location": "住宅街",
               "memo": "お高い",
-              "link": ["https://tabelog.com/tokyo/A1319/A131906/13001116//"]
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13001116/"]
             },
 
             // 21:30
             {
               "name": "la gallina",
               "nameAlter": "ラ・ガッリーナ",
+              "unvisited": true,
               "genre": "イタリアン",
               "closeDay": "月",
               "lastOrder": "21:30",
@@ -444,6 +588,7 @@
             {
               "name": "TO THE HERBS",
               "genre": "パスタ/クレープ",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "21:30 日祝21:00",
               "location": "ルミネ",
@@ -511,6 +656,7 @@
             {
               "name": "ふじかけ",
               "genre": "中華",
+              "unvisited": true,
               "closeDay": "火,第二水？",
               "lastOrder": "21:30",
               "location": "八幡通り",
@@ -520,6 +666,7 @@
             {
               "name": "和田上",
               "genre": "寿司",
+              "unvisited": true,
               "closeDay": "月/月２連",
               "lastOrder": "21:30 日 21:00",
               "location": "商",
@@ -529,6 +676,7 @@
             {
               "name": "川南 末廣鮨",
               "genre": "寿司",
+              "unvisited": true,
               "closeDay": "火",
               "lastOrder": "21:30",
               "location": "住：遠",
@@ -539,7 +687,8 @@
             // 22:00
             {
               "name": "Albero (ｱﾙﾍﾞﾛ)",
-              "genre": "イタリアン ビストロ",
+              "genre": "イタリアン/ビストロ",
+              "unvisited": true,
               "closeDay": "火,月一連",
               "lastOrder": "22:00",
               "location": "青梅沿",
@@ -548,18 +697,31 @@
             },
             {
               "name": "てんぷら祥天",
-              "genre": "天ぷら 天丼",
+              "genre": "天ぷら/天丼",
+              "unvisited": true,
               "closeDay": "水",
               "lastOrder": "22:00",
               "location": "住：南",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13182799/"]
             },
+            {
+              "name": "orq.",
+              "nameAlter": "オーク",
+              "genre": "ビストロ/野菜料理",
+              "unvisited": true,
+              "closeDay": "不定",
+              "lastOrder": "22:00?",
+              "location": "住：南",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13206596/"]
+            },
 
             // 22:30
             {
               "name": "有いち",
               "nameAlter": "ゆういち",
+              "unvisited": true,
               "genre": "割烹",
               "closeDay": "日、祝の月",
               "lastOrder": "22:30",
@@ -567,12 +729,23 @@
               "memo": "お高い",
               "link": ["https://tabelog.com/tokyo/A1319/A131906/13054194/"]
             },
+            {
+              "name": "トラットリア エルモチェーロ",
+              "nameAlter": "TRATTORIA Elmo Cielo",
+              "genre": "イタリアン",
+              "closeDay": "不定",
+              "lastOrder": "22:30",
+              "location": "商：南",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1319/A131906/13162376/"]
+            },
 
 
             // 23:00 -
             {
               "name": "和庵",
               "genre": "割烹・小料理",
+              "unvisited": true,
               "closeDay": "日月",
               "lastOrder": "23:00 祝21:30",
               "location": "商：北西",
@@ -592,6 +765,7 @@
             {
               "name": "荻窪ダイニング",
               "genre": "割烹/小料理",
+              "unvisited": true,
               "closeDay": "火",
               "lastOrder": "23:00",
               "location": "住：南",
@@ -601,6 +775,7 @@
             {
               "name": "ゆき椿",
               "genre": "居酒屋 割烹",
+              "unvisited": true,
               "closeDay": "日",
               "lastOrder": "00:00",
               "location": "青梅沿：西",
@@ -616,6 +791,7 @@
             {
               "name": "大岩食堂",
               "genre": "印カレー",
+              "unvisited": true,
               "closeDay": "月木",
               "lastOrder": "22:00",
               "location": "駅近",
@@ -625,6 +801,7 @@
             {
               "name": "シューベル",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "月",
               "lastOrder": "01:00 日21:00",
               "location": "南",
@@ -634,6 +811,7 @@
             {
               "name": "欧風料理 華",
               "genre": "西洋各国料理",
+              "unvisited": true,
               "closeDay": "木",
               "lastOrder": "22;30",
               "location": "南",
@@ -643,6 +821,7 @@
             {
               "name": "サジロクローブ",
               "nameAlter": "Sajilo Clove",
+              "unvisited": true,
               "genre": "印カレー",
               "closeDay": "無休",
               "lastOrder": "22:30",
@@ -653,6 +832,7 @@
             {
               "name": "MINTON HOUSE",
               "genre": "ジャズバー",
+              "unvisited": true,
               "closeDay": "不定休",
               "lastOrder": "22:30",
               "location": "北",
@@ -662,6 +842,7 @@
             {
               "name": "アヒルの空",
               "genre": "イタリアン",
+              "unvisited": true,
               "closeDay": "木",
               "lastOrder": "22:30",
               "location": "北",
@@ -687,6 +868,7 @@
             {
               "name": "chai break",
               "nameAlter": "チャイブレイク",
+              "unvisited": true,
               "genre": "カフェ 茶",
               "closeDay": "火 祝翌水",
               "lastOrder": "18:30",
@@ -719,17 +901,30 @@
             {
               "name": "リトル・スパイス",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "不定",
               "lastOrder": "21:00",
               "location": "北",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13009943/"]
             },
+            {
+              "name": "四歩",
+              "nameAlter": "しっぽ",
+              "genre": "定食",
+              "star": true,
+              "closeDay": "木",
+              "lastOrder": "21:15",
+              "location": "吉祥寺 北",
+              "memo": "",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13134212/", "https://www.sippo-4.com/"]
+            },
 
             // 21:30
             {
               "name": "茶房 武蔵野文庫",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "月火",
               "lastOrder": "21:30?",
               "location": "北",
@@ -739,6 +934,7 @@
             {
               "name": "金子屋",
               "genre": "天丼",
+              "unvisited": true,
               "closeDay": "不定",
               "lastOrder": "21:30",
               "location": "北",
@@ -750,6 +946,7 @@
             {
               "name": "もんくすふーず",
               "nameAlter": "MONK’S FOODS",
+              "unvisited": true,
               "genre": "自然食 和食",
               "closeDay": "水",
               "lastOrder": "22:00 土日祝21:00",
@@ -767,17 +964,9 @@
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13101839/"]
             },
             {
-              "name": "魚がし日本一",
-              "genre": "寿司",
-              "closeDay": "無休",
-              "lastOrder": "22:00 日祝21:00",
-              "location": "南",
-              "memo": "煙要確",
-              "link": ["http://www.uogashi-nihonichi.com/kichijyojiminamiguchi/"]
-            },
-            {
               "name": "ヒラタパスタ",
               "genre": "パスタ",
+              "star": true,
               "closeDay": "無休",
               "lastOrder": "22:00",
               "location": "駅北",
@@ -797,6 +986,7 @@
             {
               "name": "ラトリエ・デュ・グー",
               "nameAlter": "L'atelier du gout",
+              "unvisited": true,
               "genre": "フレンチ",
               "closeDay": "火",
               "lastOrder": "22:00",
@@ -807,6 +997,7 @@
             {
               "name": "Cafe RUSSIA",
               "genre": "ロシア料理？",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:00",
               "location": "駅前",
@@ -816,11 +1007,22 @@
             {
               "name": "Vietnam French De salita",
               "genre": "ベトナム料理",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:00",
               "location": "南",
               "memo": "新規",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13222179/"]
+            },
+            {
+              "name": "築地玉寿司",
+              "genre": "寿司/海鮮",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "駅北",
+              "memo": "カード不可",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13186848/"]
             },
 
             // 22:30
@@ -836,6 +1038,7 @@
             {
               "name": "マザーズ",
               "nameAlter": "Trattoria e Pizzeria MOTHERS",
+              "unvisited": true,
               "genre": "イタリアン",
               "closeDay": "無休",
               "lastOrder": "22:30/日祝21:00",
@@ -846,6 +1049,7 @@
             {
               "name": "三うら",
               "genre": "割烹/魚介",
+              "unvisited": true,
               "closeDay": "水/第一火",
               "lastOrder": "22:30?",
               "location": "南",
@@ -855,6 +1059,7 @@
             {
               "name": "喜久や",
               "genre": "天ぷら立ち飲み",
+              "unvisited": true,
               "closeDay": "不定",
               "lastOrder": "22:30 飲23:00",
               "location": "吉祥寺アトレ",
@@ -864,6 +1069,7 @@
             {
               "name": "Sajilo Cafe",
               "nameAlter": "サジロ カフェ",
+              "unvisited": true,
               "genre": "カレー カフェ",
               "closeDay": "水",
               "lastOrder": "22:30",
@@ -874,6 +1080,7 @@
             {
               "name": "月波珈琲店＆bar",
               "genre": "カフェ バー 創作料理",
+              "unvisited": true,
               "closeDay": "木",
               "lastOrder": "22:30 日祝18:00",
               "location": "西",
@@ -885,6 +1092,7 @@
             {
               "name": "BUCA",
               "nameAlter": "ブーカ",
+              "unvisited": true,
               "genre": "イタリアン",
               "closeDay": "月",
               "lastOrder": "23:00 日22:00",
@@ -895,6 +1103,7 @@
             {
               "name": "ビストロ エピス",
               "nameAlter": "Bistro epices",
+              "unvisited": true,
               "genre": "フレンチ",
               "closeDay": "月",
               "lastOrder": "23:00",
@@ -905,6 +1114,7 @@
             {
               "name": "にほん酒や",
               "genre": "居酒屋",
+              "unvisited": true,
               "closeDay": "木",
               "lastOrder": "23:30",
               "location": "北",
@@ -914,6 +1124,7 @@
             {
               "name": "魚真",
               "nameAlter": "うおしん",
+              "unvisited": true,
               "genre": "居酒屋/魚介",
               "closeDay": "無休",
               "lastOrder": "23:00 土23:30",
@@ -924,8 +1135,9 @@
             {
               "name": "PANORAMA KITCHEN",
               "genre": "イタリアン",
+              "unvisited": true,
               "closeDay": "火/第２日",
-              "lastOrder": "24:00",
+              "lastOrder": "00:00",
               "location": "北",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13155395/"]
@@ -933,12 +1145,23 @@
             {
               "name": "クラフト&ロマンス ",
               "nameAlter": "CRAFT＆Romance",
+              "unvisited": true,
               "genre": "西洋各種",
               "closeDay": "無休",
-              "lastOrder": "24:00",
+              "lastOrder": "00:00",
               "location": "南",
               "memo": "カクテル",
               "link": ["https://tabelog.com/tokyo/A1320/A132001/13193122/"]
+            },
+            {
+              "name": "The Wigtown",
+              "genre": "バー/パブ",
+              "star": true,
+              "closeDay": "無休",
+              "lastOrder": "01:30",
+              "location": "東",
+              "memo": "ジン",
+              "link": ["https://tabelog.com/tokyo/A1320/A132001/13213388/"]
             }
           ]
         },
@@ -949,6 +1172,7 @@
             {
               "name": "じゃんぐる",
               "genre": "居酒屋",
+              "unvisited": true,
               "closeDay": "火",
               "lastOrder": "01:30 日20:30",
               "location": "阿佐ヶ谷北",
@@ -958,6 +1182,7 @@
             {
               "name": "ピッキーヌ",
               "nameAlter": "Plikk Kee Noo",
+              "unvisited": true,
               "genre": "タイ料理",
               "closeDay": "火",
               "lastOrder": "22:00",
@@ -968,6 +1193,7 @@
             {
               "name": "101アンゼロアン",
               "genre": "フレンチ",
+              "unvisited": true,
               "closeDay": "水",
               "lastOrder": "23:00",
               "location": "阿佐ヶ谷北",
@@ -992,6 +1218,7 @@
             {
               "name": " コチン ニヴァース",
               "nameAlter": "COCHIN NIVAS",
+              "unvisited": true,
               "genre": "インドカレー",
               "closeDay": "月火",
               "lastOrder": "21:00",
@@ -1002,6 +1229,7 @@
             {
               "name": "丸亀製麺 新宿三井ビル店",
               "genre": "うどん",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "21:30 土日祝19:30",
               "location": "西新宿",
@@ -1011,6 +1239,7 @@
             {
               "name": "ムット",
               "nameAlter": "MUTHU",
+              "unvisited": true,
               "genre": "インドカレー",
               "closeDay": "日",
               "lastOrder": "21:30?",
@@ -1021,6 +1250,7 @@
             {
               "name": "もうやんカレー",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "土",
               "lastOrder": "22:30",
               "location": "西新宿",
@@ -1030,6 +1260,7 @@
             {
               "name": "頑固おやじ",
               "genre": "居酒屋",
+              "unvisited": true,
               "closeDay": "日祝",
               "lastOrder": "23:00 土22:00",
               "location": "西新宿",
@@ -1045,6 +1276,7 @@
             {
               "name": "カフェナチュレ",
               "genre": "カフェ",
+              "unvisited": true,
               "closeDay": "不明",
               "lastOrder": "19:30",
               "location": "新宿駅",
@@ -1089,6 +1321,7 @@
             {
               "name": "Manna（新宿中村屋）",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "21:30",
               "location": "新宿３丁目",
@@ -1100,6 +1333,7 @@
             {
               "name": "Caffice",
               "genre": "カフェ/オフィス",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "食22:00/飲22:30",
               "location": "新宿４丁目",
@@ -1111,6 +1345,7 @@
             {
               "name": "カフェ ラ・ボエム",
               "genre": "カフェ イタリアン",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:30",
               "location": "新宿御苑",
@@ -1120,6 +1355,7 @@
             {
               "name": "西尾さん",
               "genre": "居酒屋",
+              "unvisited": true,
               "closeDay": "日or月",
               "lastOrder": "22:30",
               "location": "新宿三丁",
@@ -1129,6 +1365,7 @@
             {
               "name": "サナギ新宿",
               "genre": "エスニック？",
+              "unvisited": true,
               "closeDay": "不定休",
               "lastOrder": "22:30",
               "location": "新宿",
@@ -1138,6 +1375,7 @@
             {
               "name": "サンサール新宿店",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:30",
               "location": "新宿",
@@ -1147,6 +1385,7 @@
             {
               "name": "すうぷ屋",
               "genre": "パスタ/スープ",
+              "unvisited": true,
               "closeDay": "ほぼ無休",
               "lastOrder": "22:15?",
               "location": "ミロード8F",
@@ -1166,6 +1405,7 @@
             {
               "name": "ヘッドクォーターズカフェ",
               "nameAlter": "Head Quarters cafe",
+              "unvisited": true,
               "genre": "カフェ飯",
               "closeDay": "ほぼ無休",
               "lastOrder": "22:30",
@@ -1178,6 +1418,7 @@
             {
               "name": "カフェ ウォール",
               "genre": "カフェ",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "23:00",
               "location": "新宿駅",
@@ -1189,6 +1430,7 @@
             {
               "name": "こころむすび",
               "genre": "割烹 小料理",
+              "unvisited": true,
               "closeDay": "日祝",
               "lastOrder": "23:30",
               "location": "新宿三丁",
@@ -1204,6 +1446,7 @@
             {
               "name": "天松",
               "nameAlter": "てんまつ",
+              "unvisited": true,
               "genre": "天ぷら",
               "closeDay": "不定",
               "lastOrder": "20:30?",
@@ -1224,6 +1467,7 @@
             {
               "name": "雷庵",
               "nameAlter": "ライアン-ＲＹＡＮ-",
+              "unvisited": true,
               "genre": "そば 和食",
               "closeDay": "無休",
               "lastOrder": "22:00",
@@ -1234,6 +1478,7 @@
             {
               "name": "タイ料理研究所 渋谷店",
               "genre": "タイ料理",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:00",
               "location": "",
@@ -1243,6 +1488,7 @@
             {
               "name": "ハノイのホイさん",
               "genre": "ベトナム料理",
+              "unvisited": true,
               "closeDay": "日",
               "lastOrder": "22:00",
               "location": "",
@@ -1252,6 +1498,7 @@
             {
               "name": "山城屋庄蔵",
               "genre": "割烹・小料理",
+              "unvisited": true,
               "closeDay": "？",
               "lastOrder": "22:00",
               "location": "渋谷",
@@ -1261,6 +1508,7 @@
             {
               "name": "Bar 天竺",
               "genre": "居酒屋/バー",
+              "unvisited": true,
               "closeDay": "日",
               "lastOrder": "食23:00/飲23:30",
               "location": "",
@@ -1270,6 +1518,7 @@
             {
               "name": "KINKA SUSHI BAR",
               "nameAlter": "キンカ",
+              "unvisited": true,
               "genre": "寿司 居酒屋",
               "closeDay": "不定",
               "lastOrder": "23:30 日祝22:30",
@@ -1280,6 +1529,7 @@
             {
               "name": "スタンド7",
               "genre": "バー",
+              "unvisited": true,
               "closeDay": "日",
               "lastOrder": "23:30?",
               "location": "",
@@ -1343,6 +1593,7 @@
             {
               "name": "アンリ・シャルパンティエ",
               "nameAlter": "HENRI CHARPENTIER",
+              "unvisited": true,
               "genre": "スイーツ",
               "closeDay": "無休",
               "lastOrder": "19:30/平日バー 22:30?",
@@ -1358,11 +1609,12 @@
               "lastOrder": "21:30 日祝21:00",
               "location": "５丁目",
               "memo": "",
-              "link": ["https://tabelog.com/tokyo/A1301/A130101/13015023/", "http://www.vidriog.co.jp/vidrio/i"]
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13015023/", "http://www.vidriog.co.jp/vidrio/"]
             },
             {
               "name": "デリー",
               "nameAlter": "DELHI",
+              "unvisited": true,
               "genre": "印カレー",
               "closeDay": "無休",
               "lastOrder": "21:30",
@@ -1383,6 +1635,7 @@
             {
               "name": "アーンドラ・ダイニング",
               "genre": "印カレー",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:00 土日祝21:00",
               "location": "１丁目",
@@ -1392,6 +1645,7 @@
             {
               "name": "カイバル",
               "nameAlter": "Khyber",
+              "unvisited": true,
               "genre": "印カレー",
               "closeDay": "無休",
               "lastOrder": "22:00 土日祝21:00",
@@ -1413,11 +1667,23 @@
             {
               "name": "マントラカフェ",
               "genre": "印カレー",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:30?",
               "location": "５丁目",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1301/A130101/13123385/"]
+            },
+            {
+              "name": "ゼスト キャンティーナ",
+              "nameAlter": "",
+              "unvisited": true,
+              "genre": "メキシコ料理",
+              "closeDay": "無休",
+              "lastOrder": "23:30 金土祝前24:30",
+              "location": "銀座",
+              "memo": "肉メイン？",
+              "link": ["https://tabelog.com/tokyo/A1301/A130101/13009492/"]
             },
             {
               "name": "クリッパー",
@@ -1448,6 +1714,7 @@
             {
               "name": "ハブモアカレー",
               "nameAlter": "have more curry",
+              "unvisited": true,
               "genre": "カレー",
               "closeDay": "木/日夜",
               "lastOrder": "21:00",
@@ -1458,6 +1725,7 @@
             {
               "name": "ZATTA",
               "genre": "バー",
+              "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "00:00",
               "location": "西新宿ﾋﾙﾄﾝ",
@@ -1467,6 +1735,7 @@
             {
               "name": "びじゃぽん",
               "genre": "バー",
+              "unvisited": true,
               "closeDay": "日",
               "lastOrder": "01:00",
               "location": "横浜",
@@ -1485,6 +1754,7 @@
             {
               "name": "つじ半",
               "genre": "海鮮丼",
+              "unvisited": true,
               "closeDay": "不定休",
               "lastOrder": "21:00",
               "location": "日本橋",
@@ -1494,15 +1764,17 @@
             {
               "name": "金子半之助 本店",
               "genre": "天丼",
+              "unvisited": true,
               "closeDay": "不定休",
               "lastOrder": "21:30 土日祝20:30",
               "location": "日本橋",
               "memo": "売切御免",
-              "link": ["http://kaneko-hannosuke.com/shopinfo/"]
+              "link": ["http://kaneko-hannosuke.com/shopinfo-2/"]
             },
             {
               "name": "魚がし日本一",
               "genre": "寿司",
+              "unvisited": true,
               "closeDay": "日祝",
               "lastOrder": "22:30 土20:30",
               "location": "霞ヶ関飯野Bld",
@@ -1512,6 +1784,7 @@
             {
               "name": "ケララの風II",
               "genre": "カレー",
+              "unvisited": true,
               "closeDay": "火水木",
               "lastOrder": "14:30",
               "location": "大森",
@@ -1521,6 +1794,7 @@
             {
               "name": "シバカリー ワラ",
               "nameAlter": "shiva curry wara",
+              "unvisited": true,
               "genre": "カレー",
               "closeDay": "月・月祝火",
               "lastOrder": "21:45",
@@ -1531,6 +1805,7 @@
             {
               "name": "ニルヴァナム",
               "nameAlter": "Nirvanam",
+              "unvisited": true,
               "genre": "カレー",
               "closeDay": "無休",
               "lastOrder": "21:30",
@@ -1541,11 +1816,65 @@
             {
               "name": "ヴェトナム アリス 神楽坂店",
               "genre": "ベトナム料理",
+              "unvisited": true,
               "closeDay": "月",
               "lastOrder": "22:30",
               "location": "神楽坂",
               "memo": "",
               "link": ["https://tabelog.com/tokyo/A1309/A130905/13209193/"]
+            },
+            {
+              "name": "ピアッティ カステリーナ",
+              "genre": "イタリアン",
+              "unvisited": true,
+              "closeDay": "水",
+              "lastOrder": "20:30?",
+              "location": "神楽坂",
+              "memo": "お高め 中目黒にも",
+              "link": ["https://tabelog.com/tokyo/A1309/A130905/13130769/", "http://castellina.co.jp"]
+            },
+            {
+              "name": "BOSQUE",
+              "nameAlter": "",
+              "genre": "メキシコ料理",
+              "closeDay": "無休",
+              "lastOrder": "22:30",
+              "location": "目黒",
+              "memo": "創作系/お高め",
+              "link": ["https://tabelog.com/tokyo/A1316/A131601/13216177/"]
+            },
+            {
+              "name": "フリホーレス",
+              "nameAlter": "",
+              "unvisited": true,
+              "genre": "メキシコ料理",
+              "closeDay": "第三水",
+              "lastOrder": "21:45",
+              "location": "代官山",
+              "memo": null,
+              "link": ["https://tabelog.com/tokyo/A1303/A130303/13213937/"]
+            },
+            {
+              "name": "ラ・カシータ",
+              "nameAlter": "",
+              "unvisited": true,
+              "genre": "メキシコ料理",
+              "closeDay": "火",
+              "lastOrder": "22:00",
+              "location": "代官山",
+              "memo": null,
+              "link": ["https://tabelog.com/tokyo/A1303/A130303/13002061/"]
+            },
+            {
+              "name": "エルパソ",
+              "nameAlter": "ELPASO",
+              "unvisited": true,
+              "genre": "メキシコ料理",
+              "closeDay": "日",
+              "lastOrder": "22:30",
+              "location": "青山",
+              "memo": null,
+              "link": ["https://tabelog.com/tokyo/A1306/A130603/13155452/"]
             }
           ]
         }
@@ -1599,7 +1928,9 @@
                   <% if(d.link){ %>
                     <td nowrap>
                       <% if('star' in d && d.star) { %>
-                        ★
+                        <i class="star fa fa-star"></i>
+                      <% } else if('unvisited' in d && d.unvisited) { %>
+                        <i class="unvisited fa fa-question"></i>
                       <% }; %>
 
                       <% d.link.forEach(function(link, i) { %>
@@ -1617,7 +1948,9 @@
                   <td><%= d.closeDay %></td>
                   <td><%= d.lastOrder %></td>
                   <td>
-                    <a href="https://www.google.co.jp/maps/search/<%= region.name %>+<%= d.name %>" target="_blank"><i class="fa fa-map-marker-alt"></i></a>
+                    <a href="https://www.google.co.jp/maps/search/<%= region.name %>+<%= d.name %>" target="_blank">
+                      <i class="fa fa-map-marker-alt"></i>
+                    </a>
                     <%= d.location %>
                   </td>
                   <td><%= d.memo %></td>
