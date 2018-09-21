@@ -47,8 +47,20 @@
       i.star {
         color: #EE4220;
       }
-      .fa-check {
+      i.fa-check {
         color: #8B9298;
+      }
+      i.fish {
+        color: #9099f1;
+      }
+      i.sweets {
+        color: #d0a640;
+      }
+      i.cafe {
+        color: #724c22;
+      }
+      i.bar {
+        color: #999;
       }
       .unvisited {
         color: #bcc3c9;
@@ -348,9 +360,10 @@
             // 22:00
             {
               "name": "ミオピッツァ",
+              "nameAlter": "MIO PIZZA",
               "genre": "ピザ",
               "unvisited": true,
-              "closeDay": "月",
+              "closeDay": "月火",
               "lastOrder": "22:00 日祝21:00",
               "location": "住",
               "memo": "",
@@ -560,7 +573,7 @@
             },
             {
               "name": "CULTiCO",
-              "genre": "カフェ イタリアン",
+              "genre": "カフェ/イタリアン",
               "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "21:00 金土祝前 22:00",
@@ -891,7 +904,7 @@
             {
               "name": "DevaDeva Cafe",
               "nameAlter": "デーヴァデーヴァ・カフェ",
-              "genre": "自然食 カフェ",
+              "genre": "自然食/カフェ",
               "closeDay": "無休",
               "lastOrder": "16:00",
               "location": "北",
@@ -902,12 +915,36 @@
               "name": "chai break",
               "nameAlter": "チャイブレイク",
               "unvisited": true,
-              "genre": "カフェ 茶",
+              "genre": "カフェ/茶",
               "closeDay": "火 祝翌水",
               "lastOrder": "18:30",
               "location": "南",
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13098849/"
+            },
+            {
+              "name": "FLIPPER’S",
+              "unvisited": true,
+              "genre": "パンケーキ",
+              "closeDay": "無休",
+              "lastOrder": "19:30",
+              "location": "北",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13200801/",
+              "home": "http://flippers-pancake.jp/"
+            },
+
+            // 20:30
+            {
+              "name": "パブリックキッチンカフェ",
+              "genre": "定食/自然食",
+              "unvisited": true,
+              "closeDay": "火",
+              "lastOrder": "20:30? 21:00?",
+              "location": "東",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13176895/",
+              "home": "http://pkp.co.jp"
             },
 
             // 21:00
@@ -945,17 +982,6 @@
               "link": ["http://osietesite.com/gourmet/tokyo/yosyoku/cury/litlespice"]
             },
             {
-              "name": "アルトゴット",
-              "nameAlter": "ALLT GOTT",
-              "genre": "北欧料理",
-              "unvisited": true,
-              "closeDay": "月/祝翌火",
-              "lastOrder": "21:00",
-              "location": "北",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005761/"
-            },
-            {
               "name": "四歩",
               "nameAlter": "しっぽ",
               "genre": "定食",
@@ -966,6 +992,16 @@
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13134212/",
               "home": "https://www.sippo-4.com/"
+            },
+            {
+              "name": "アルトゴット",
+              "nameAlter": "ALLT GOTT",
+              "genre": "北欧料理",
+              "closeDay": "月/祝翌火",
+              "lastOrder": "21:00",
+              "location": "北",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005761/"
             },
 
             // 21:30
@@ -995,11 +1031,11 @@
             {
               "name": "もんくすふーず",
               "nameAlter": "MONK’S FOODS",
-              "unvisited": true,
+              "star": true,
               "genre": "自然食 和食",
               "closeDay": "水",
               "lastOrder": "22:00 土日祝21:00",
-              "location": "南",
+              "location": "南/吉祥寺通",
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13010019/",
               "home": "http://monksfoods.seesaa.net/"
@@ -1009,7 +1045,7 @@
               "genre": "野菜料理",
               "closeDay": "不定",
               "lastOrder": "22:00",
-              "location": "南",
+              "location": "南/吉祥寺通",
               "memo": "ﾃﾗｽ喫煙可",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13101839/",
               "home": "https://www.facebook.com/88yakichi/"
@@ -1020,7 +1056,7 @@
               "star": true,
               "closeDay": "無休",
               "lastOrder": "22:00",
-              "location": "駅北",
+              "location": "ハモニカ横町",
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13130985/"
             },
@@ -1030,7 +1066,7 @@
               "genre": "ピザ",
               "closeDay": "無休",
               "lastOrder": "22:00",
-              "location": "南",
+              "location": "南町",
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13047308/",
               "twitter": "pizzeriaGG"
@@ -1062,7 +1098,7 @@
               "unvisited": true,
               "closeDay": "無休",
               "lastOrder": "22:00",
-              "location": "南",
+              "location": "南/吉祥寺通",
               "memo": "新規",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13222179/"
             },
@@ -1083,21 +1119,10 @@
               "genre": "イタリアン",
               "closeDay": "無休",
               "lastOrder": "22:30",
-              "location": "駅前（南）",
+              "location": "南町",
               "memo": "ピザ ﾃﾗｽ喫煙可",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005930/",
               "home": "https://www.instagram.com/befanakichijoji/"
-            },
-            {
-              "name": "マザーズ",
-              "nameAlter": "Trattoria e Pizzeria MOTHERS",
-              "unvisited": true,
-              "genre": "イタリアン",
-              "closeDay": "無休",
-              "lastOrder": "22:30/日祝21:00",
-              "location": "南",
-              "memo": "ピザ",
-              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13129774/"
             },
             {
               "name": "三うら",
@@ -1105,10 +1130,20 @@
               "unvisited": true,
               "closeDay": "水/第一火",
               "lastOrder": "22:30?",
-              "location": "南",
+              "location": "南町",
               "memo": "人気店",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13193184/",
               "twitter": "kichijoji_miura"
+            },
+            {
+              "name": "マザーズ",
+              "nameAlter": "Trattoria e Pizzeria MOTHERS",
+              "genre": "イタリアン",
+              "closeDay": "無休",
+              "lastOrder": "22:30/日祝21:00",
+              "location": "南",
+              "memo": "ピザ/テラス喫煙席",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13129774/"
             },
             {
               "name": "喜久や",
@@ -1141,8 +1176,20 @@
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13161730/"
             },
+            {
+              "name": "NERORI",
+              "genre": "イタリアン",
+              "unvisited": true,
+              "closeDay": "10月から無休",
+              "lastOrder": "22:30",
+              "location": "南",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13225792/",
+              "home": "https://www.osteria-nerori.com/",
+              "link": ["https://kichifan.com/2018/09/08/nerori_open/"]
+            },
 
-            // 23:00 -
+            // 23:00
             {
               "name": "BUCA",
               "nameAlter": "ブーカ",
@@ -1186,6 +1233,8 @@
               "memo": "人気店",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13015945/"
             },
+
+            // 00:00 -
             {
               "name": "PANORAMA KITCHEN",
               "genre": "イタリアン",
@@ -1208,12 +1257,23 @@
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13193122/"
             },
             {
+              "name": "Chill",
+              "nameAlter": "チル",
+              "genre": "バル/イタリアン",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "00:00 日祝22:00",
+              "location": "駅北",
+              "memo": "ワインバー",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13131274/"
+            },
+            {
               "name": "The Wigtown",
               "genre": "バー/パブ",
               "star": true,
               "closeDay": "無休",
               "lastOrder": "01:30",
-              "location": "東",
+              "location": "南東の通り",
               "memo": "ジン",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213388/"
             }
@@ -1517,7 +1577,7 @@
             {
               "name": "kawara CAFE&KITCHEN",
               "nameAlter": "カワラ",
-              "genre": "和カフェ ダイニング",
+              "genre": "和カフェ/ダイニング",
               "closeDay": "不定",
               "lastOrder": "22:00",
               "location": "東急東横 西9F",
@@ -1856,7 +1916,7 @@
             },
             {
               "name": "ケララの風II",
-              "genre": "カレー",
+              "genre": "印カレー",
               "unvisited": true,
               "closeDay": "火水木",
               "lastOrder": "14:30",
@@ -1879,7 +1939,7 @@
               "name": "ニルヴァナム",
               "nameAlter": "Nirvanam",
               "unvisited": true,
-              "genre": "カレー",
+              "genre": "印カレー",
               "closeDay": "無休",
               "lastOrder": "21:30",
               "location": "神谷町",
@@ -2064,7 +2124,29 @@
                       <% }); %>
                     <% }; %>
                   </td>
-                  <td><%= d.genre %></td>
+                  <td>
+                    <%= d.genre %>
+
+                    <!-- fish -->
+                    <% if(d.genre.match(/(魚介?|海鮮|寿司)([\s\/]?|$)/)){ %>
+                      <i class="fish fa fa-fish"></i>
+                    <% }; %>
+
+                    <!-- sweets -->
+                    <% if(d.genre.match(/(スイーツ|ケーキ|クレープ|アイス)([\s\/]?|$)/)){ %>
+                      <i class="sweets fa fa-cookie-bite"></i>
+                    <% }; %>
+
+                    <!-- cafe -->
+                    <% if(d.genre.match(/(カフェ|ジュース)([\s\/]?|$)/)){ %>
+                      <i class="cafe fa fa-coffee"></i>
+                    <% }; %>
+
+                    <!-- bar -->
+                    <% if(d.genre.match(/(バー|バー?ル|居酒屋|飲み)([\s\/]?|$)/)){ %>
+                      <i class="bar fa fa-glass-martini"></i>
+                    <% }; %>
+                  </td>
                   <td><%= d.closeDay %></td>
                   <td><%= d.lastOrder %></td>
                   <td>
@@ -2078,7 +2160,7 @@
               <% }); %>
 
               <tr>
-                <td colspan="5">&nbsp;</td>
+                <td colspan="6">&nbsp;</td>
                 <td>(全 <%= region.data.length %> 件)</td>
               </tr>
             </table>
