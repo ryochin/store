@@ -14,20 +14,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <style type="text/css">
       body {
-        color: #000;
-        background: #E0E0E2;
+        color: #bcbcbc;
+        background: #333336;
         font-size: 9pt;
       }
       a {
-        color: #336a97;
+        color: #aaccee;
       }
       h1 {
-        color: #262626;
+        color: #eee;
         font-size: 11pt;
         margin: 16px 0 12px 6px;
       }
       p {
-        color: #767676;
+        color: #bcbcbc;
         margin-left: 6px
       }
       h2 {
@@ -35,8 +35,8 @@
       }
       td {
         padding: 7px !important;
-        color: #333;
-        border-color: #CAC9D0 !important;
+        color: #ccc;
+        border-color: #535359 !important;
       }
       .nav-tabs li a {
         padding: 6px 10px;
@@ -45,46 +45,94 @@
         margin: auto 4px;
       }
       i.star {
-        color: #EE4220;
+        color: rgb(187, 114, 99);
       }
       i.fa-thumbs-down {
         color: #666666;
       }
       i.fa-check {
-        color: #8B9298;
-      }
-      i.fish {
-        color: #9099f1;
-      }
-      i.sweets {
-        color: #d0a640;
-      }
-      i.cafe {
-        color: #724c22;
-      }
-      i.bar {
-        color: #999;
+        color: rgb(163, 176, 187);
       }
       .unvisited {
-        color: #bcc3c9;
+        color: #99a2aa;
       }
+
+      /* .nav-tabs > .tab-content {
+        background-color: #666;
+      }
+      .nav-tabs > a:hover {
+        background-color: #aaa;
+      } */
     </style>
     <script type="text/javascript">
       var list = [
         {
-          "name": "New!",
+          "name": "🔰",
           "id": "new",
           "data": [
             {
-              "name": "M.J. Smile",
-              "genre": "バー/カフェ",
+              "name": "京音",
+              "nameAlter": "けいおん",
+              "genre": "たこ焼き系",
               "unvisited": true,
-              "closeDay": "日",
-              "lastOrder": "22:30?",
-              "location": "吉祥寺 南",
-              "memo": "ライブ有",
-              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213558/",
-              "home": "https://www.mjsmile.com/"
+              "closeDay": "水",
+              "lastOrder": "22:00?",
+              "location": "荻窪 南",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230892/",
+              "link": ["http://ogikubo.hungry.jp/gourmet/2456"]
+            },
+            {
+              "name": "ナチュールイタリアン Reve",
+              "genre": "イタリアン",
+              "unvisited": true,
+              "closeDay": "不定 日昼のみ",
+              "lastOrder": "22:00 飲22:30",
+              "location": "荻窪 南",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230580/"
+            },
+            {
+              "name": "居酒屋おざ",
+              "genre": "居酒屋",
+              "unvisited": true,
+              "closeDay": "不定",
+              "lastOrder": "23:00",
+              "location": "荻窪 南",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13208222/",
+              "link": ["http://ogikubo.hungry.jp/gourmet/3400"]
+            },
+            {
+              "name": "サカナとタナカ",
+              "genre": "居酒屋/海鮮",
+              "unvisited": true,
+              "closeDay": "不明",
+              "lastOrder": "23:30?",
+              "location": "荻窪 北",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13216152/"
+            },
+            {
+              "name": "赤と黒",
+              "genre": "カレー",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "21:30 土日祝20:30",
+              "location": "八幡通り",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13226318/",
+              "twitter": "akakuro_ogikubo"
+            },
+            {
+              "name": "小松庵",
+              "genre": "そば",
+              "unvisited": true,
+              "closeDay": "木",
+              "lastOrder": "20:30?",
+              "location": "荻窪　商店街",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054239/"
             },
             {
               "name": "グレートスコット!",
@@ -98,26 +146,41 @@
               "link": ["https://hitosara.com/0006082070/"]
             },
             {
-              "name": "鮨処虎秀",
-              "genre": "寿司",
+              "name": "中華徳大",
+              "genre": "中華",
               "unvisited": true,
               "closeDay": "日祝",
-              "lastOrder": "22:30",
-              "location": "神宮前",
-              "memo": "評判高",
-              "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13219374/"
+              "lastOrder": "20:30?",
+              "location": "すずらん",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001111/",
+              "home": "http://hw001.spaaqs.ne.jp/t-ao-ogi/tokudaiindex.htm"
             },
             {
-              "name": "根室花まる",
-              "genre": "回転寿司",
+              "name": "wood good brothers",
+              "genre": "カフェ/イタリアン",
               "unvisited": true,
-              "closeDay": "無休",
-              "lastOrder": "22:30 日祝21:30",
-              "location": "丸の内",
+              "closeDay": "主に月",
+              "lastOrder": "20:30/日祝17:30",
+              "location": "すずらん",
               "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1302/A130201/13153777/"
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13212560/",
+              "home": "http://woodgoodbrothers.favy.jp"
             },
 
+            { "type": "separator" }, // --------------------------------
+
+            {
+              "name": "M.J. Smile",
+              "genre": "バー/カフェ",
+              "unvisited": true,
+              "closeDay": "日",
+              "lastOrder": "22:30?",
+              "location": "吉祥寺 南",
+              "memo": "ライブ有",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213558/",
+              "home": "https://www.mjsmile.com/"
+            },
             {
               "name": "ヴィッラ マニョーリア",
               "genre": "イタリアン",
@@ -136,7 +199,7 @@
               "genre": "ベトナム/タイ料理",
               "closeDay": "無休",
               "lastOrder": "21:00",
-              "location": "吉祥寺 井の頭公園内",
+              "location": "吉祥寺 井の頭公園",
               "memo": "動物可",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005873/"
             },
@@ -170,27 +233,6 @@
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13223552/",
               "link": ["https://kichifan.com/2018/07/25/huahouse_report/"]
-            },
-            {
-              "name": "トーキョースパイスカレー 赤と黒",
-              "genre": "カレー",
-              "unvisited": true,
-              "closeDay": "無休",
-              "lastOrder": "21:30 土日祝 20:30",
-              "location": "八幡通り",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13226318/",
-              "twitter": "https://twitter.com/akakuro_ogikubo"
-            },
-            {
-              "name": "小松庵",
-              "genre": "そば",
-              "unvisited": true,
-              "closeDay": "木",
-              "lastOrder": "20:30?",
-              "location": "荻窪　商店街",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054239/"
             },
             {
               "name": "くまもり食堂",
@@ -235,48 +277,63 @@
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13174703/",
               "home": "http://quattrolabo.com"
             },
+
+            { "type": "separator" }, // --------------------------------
+
             {
-              "name": "京音",
-              "nameAlter": "けいおん",
-              "genre": "たこ焼き系",
+              "name": "SOUTH",
+              "nameAlter": "サウス",
+              "genre": "オセアニア料理",
               "unvisited": true,
-              "closeDay": "水",
-              "lastOrder": "22:00?",
-              "location": "荻窪 南",
+              "closeDay": "無休",
+              "lastOrder": "22:00",
+              "location": "恵比寿GP 39F",
               "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230892/",
-              "link": ["http://ogikubo.hungry.jp/gourmet/2456"]
+              "tabelog": "https://tabelog.com/tokyo/A1303/A130302/13212585/",
+              "home": "https://southbyterra.tokyo/"
             },
             {
-              "name": "ナチュールイタリアン Reve",
+              "name": "鮨処虎秀",
+              "genre": "寿司",
+              "unvisited": true,
+              "closeDay": "日祝",
+              "lastOrder": "22:30",
+              "location": "神宮前",
+              "memo": "評判高",
+              "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13219374/"
+            },
+            {
+              "name": "根室花まる",
+              "genre": "回転寿司",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "22:30 日祝21:30",
+              "location": "丸の内",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1302/A130201/13153777/"
+            },
+            {
+              "name": "バル デ オジャリア",
+              "nameAlter": "Bar de Ollaria",
+              "genre": "スペイン料理/バル",
+              "unvisited": true,
+              "closeDay": "無",
+              "lastOrder": "22:30",
+              "location": "銀座 南西",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13058155/",
+              "home": "http://www.ollaria.com"
+            },
+            {
+              "name": "スミヤ 新宿",
               "genre": "イタリアン",
               "unvisited": true,
-              "closeDay": "不定 日昼のみ",
-              "lastOrder": "22:00 飲22:30",
-              "location": "荻窪 南",
+              "closeDay": "月",
+              "lastOrder": "23:30 日22:00",
+              "location": "新宿 アルタ裏",
               "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230580/"
-            },
-            {
-              "name": "居酒屋おざ",
-              "genre": "居酒屋",
-              "unvisited": true,
-              "closeDay": "不定",
-              "lastOrder": "23:00",
-              "location": "荻窪 南",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13208222/",
-              "link": ["http://ogikubo.hungry.jp/gourmet/3400"]
-            },
-            {
-              "name": "サカナとタナカ",
-              "genre": "居酒屋/海鮮",
-              "unvisited": true,
-              "closeDay": "不明",
-              "lastOrder": "23:30?",
-              "location": "荻窪 北",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13216152/"
+              "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13009218/",
+              "home": "https://sumiya-shinjuku.com/"
             }
           ]
         },
@@ -414,18 +471,6 @@
               "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13146821/"
             },
             {
-              "name": "ベルソーレ",
-              "nameAlter": "Bel Sole",
-              "nogood": true,
-              "genre": "イタリアン",
-              "closeDay": "月祝/木昼",
-              "lastOrder": "21:30",
-              "location": "八幡通り",
-              "memo": null,
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13013583/",
-              "home": "http://blogs.yahoo.co.jp/nqgby641"
-            },
-            {
               "name": "ごはん",
               "genre": "定食",
               "star": true,
@@ -558,6 +603,17 @@
               "location": "北",
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13135388/"
+            },
+            {
+              "name": "一膳めし屋すずらん",
+              "genre": "居酒屋/定食",
+              "closeDay": "日",
+              "lastOrder": "22:30/土22:00",
+              "location": "すずらん",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13144986/",
+              "home": "http://norix.sakura.ne.jp/suzuran/",
+              "link": ["https://ameblo.jp/ichizenmeshiya-suzuran/"]
             },
 
             // 23:00 -
@@ -744,7 +800,8 @@
               "lastOrder": "21:30",
               "location": "駅前",
               "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13116014/"
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13116014/",
+              "home": "http://www.la-gallina.jp/"
             },
             {
               "name": "TO THE HERBS",
@@ -958,17 +1015,6 @@
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13171369/",
               "twitter": "oiwaspice"
-            },
-            {
-              "name": "シューベル",
-              "genre": "カレー",
-              "nogood": true,
-              "closeDay": "月",
-              "lastOrder": "01:00 日21:00",
-              "location": "南",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13166330/",
-              "home": "http://curry-shubell.com/"
             },
             {
               "name": "欧風料理 華",
@@ -1839,8 +1885,7 @@
             {
               "name": "デリー",
               "nameAlter": "DELHI",
-              "unvisited": true,
-              "genre": "印カレー",
+              "genre": "北印カレー",
               "closeDay": "無休",
               "lastOrder": "21:30",
               "location": "６丁目",
@@ -2143,6 +2188,37 @@
               "home": "https://www.princehotels.co.jp/kioicho/dining/levita/"
             }
           ]
+        },
+        {
+          "name": "😨",
+          "id": "graveyard",
+          "data": [
+            {
+              "name": "シューベル",
+              "genre": "カレー",
+              "nogood": true,
+              "closeDay": "月",
+              "lastOrder": "01:00 日21:00",
+              "location": "南",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13166330/",
+              "home": "http://curry-shubell.com/",
+              "memo": "草系"
+            },
+            {
+              "name": "ベルソーレ",
+              "nameAlter": "Bel Sole",
+              "nogood": true,
+              "genre": "イタリアン",
+              "closeDay": "月祝/木昼",
+              "lastOrder": "21:30",
+              "location": "八幡通り",
+              "memo": null,
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13013583/",
+              "home": "http://blogs.yahoo.co.jp/nqgby641",
+              "memo": "悪い意味で家庭的"
+            }
+          ]
         }
       ];
 
@@ -2192,196 +2268,202 @@
               </tr>
               <% region.data.forEach(function(d) { %>
                 <tr>
-                  <td nowrap>
-                    <!-- star & unvisited -->
-                    <% if('star' in d && d.star) { %>
-                      <i class="star fa fa-star"></i>
-                    <% } else if('unvisited' in d && d.unvisited) { %>
-                      <i class="unvisited fa fa-question"></i>
-                    <% } else if('nogood' in d && d.nogood) { %>
-                      <i class="unvisited fa fa-thumbs-down" title="イマイチ"></i>
-                    <% }else{ %>
-                      <i class="fa fa-check"></i>
-                    <% }; %>
+                  <% if('type' in d && d.type === 'separator') { %>
+                    <td colspan="7" class="separator">
+                      &nbsp;
+                    </td>
+                  <% } else { %>
+                    <td nowrap>
+                      <!-- star & unvisited -->
+                      <% if('star' in d && d.star) { %>
+                        <i class="star fa fa-star"></i>
+                      <% } else if('unvisited' in d && d.unvisited) { %>
+                        <i class="unvisited fa fa-question"></i>
+                      <% } else if('nogood' in d && d.nogood) { %>
+                        <i class="unvisited fa fa-thumbs-down" title="イマイチ"></i>
+                      <% }else{ %>
+                        <i class="fa fa-check"></i>
+                      <% }; %>
 
-                    <% if(d.tabelog){ %>
-                      <a href="<%= d.tabelog %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
-                    <% }else{ %>
-                      <%= d.name %>
-                    <% }; %>
-                  </td>
-                  <td>
-                    <!-- home -->
-                    <% if(d.home){ %>
-                      <a href="<%= d.home %>" target="_blank">
-                        <i class="fa fa-home"></i>
-                      </a>
-                    <% }; %>
-
-                    <!-- twitter -->
-                    <% if(d.twitter){ %>
-                      <a href="https://twitter.com/<%= d.twitter %>" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    <% }; %>
-
-                    <!-- links -->
-                    <% if(d.link){ %>
-                      <% d.link.forEach(function(link, i) { %>
-                        <a href="<%= link %>" target="_blank">
-                          <i class="fa fa-link"></i>
+                      <% if(d.tabelog){ %>
+                        <a href="<%= d.tabelog %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
+                      <% }else{ %>
+                        <%= d.name %>
+                      <% }; %>
+                    </td>
+                    <td>
+                      <!-- home -->
+                      <% if(d.home){ %>
+                        <a href="<%= d.home %>" target="_blank">
+                          <i class="fa fa-home"></i>
                         </a>
-                      <% }); %>
-                    <% }; %>
-                  </td>
-                  <td>
-                    <%= d.genre %>
+                      <% }; %>
 
-                    <!-- pizza -->
-                    <% if(d.genre.match(/(ピザ|ピッツァ)([\s\/]?|$)/)){ %>
-                      <span>🍕</span>
-                    <% }; %>
+                      <!-- twitter -->
+                      <% if(d.twitter){ %>
+                        <a href="https://twitter.com/<%= d.twitter %>" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      <% }; %>
 
-                    <!-- pasta -->
-                    <% if(d.genre.match(/(パスタ)([\s\/]?|$)/)){ %>
-                      <span>🍝</span>
-                    <% }; %>
+                      <!-- links -->
+                      <% if(d.link){ %>
+                        <% d.link.forEach(function(link, i) { %>
+                          <a href="<%= link %>" target="_blank">
+                            <i class="fa fa-link"></i>
+                          </a>
+                        <% }); %>
+                      <% }; %>
+                    </td>
+                    <td>
+                      <%= d.genre %>
 
-                    <!-- italian -->
-                    <% if(d.genre.match(/(イタリアン)([\s\/]?|$)/)){ %>
-                      <span>🇮🇹</span>
-                    <% }; %>
+                      <!-- pizza -->
+                      <% if(d.genre.match(/(ピザ|ピッツァ)([\s\/]?|$)/)){ %>
+                        <span>🍕</span>
+                      <% }; %>
 
-                    <!-- curry -->
-                    <% if(d.genre.match(/((インド|印)カ(レ|リ)ー)([\s\/]?|$)/)){ %>
-                      <span>🇮🇳🍛</span>
-                    <% } else if(d.genre.match(/(カ(レ|リ)ー)([\s\/]?|$)/)){ %>
-                      <span>🍛</span>
-                    <% }; %>
+                      <!-- pasta -->
+                      <% if(d.genre.match(/(パスタ)([\s\/]?|$)/)){ %>
+                        <span>🍝</span>
+                      <% }; %>
 
-                    <!-- men -->
-                    <% if(d.genre.match(/(ラーメン|うどん|そば|蕎麦)([\s\/]?|$)/)){ %>
-                      <span>🍜</span>
-                    <% }; %>
+                      <!-- italian -->
+                      <% if(d.genre.match(/(イタリアン)([\s\/]?|$)/)){ %>
+                        <span>🇮🇹</span>
+                      <% }; %>
 
-                    <!-- sushi -->
-                    <% if(d.genre.match(/(寿司)([\s\/]?|$)/)){ %>
-                      <span>🍣</span>
-                    <% }; %>
+                      <!-- curry -->
+                      <% if(d.genre.match(/((インド|印)カ(レ|リ)ー)([\s\/]?|$)/)){ %>
+                        <span>🇮🇳🍛</span>
+                      <% } else if(d.genre.match(/(カ(レ|リ)ー)([\s\/]?|$)/)){ %>
+                        <span>🍛</span>
+                      <% }; %>
 
-                    <!-- tenpura -->
-                    <% if(d.genre.match(/(天ぷら|天麩羅|天丼)([\s\/]?|$)/)){ %>
-                      <span>🍤</span>
-                    <% }; %>
+                      <!-- men -->
+                      <% if(d.genre.match(/(ラーメン|うどん|そば|蕎麦)([\s\/]?|$)/)){ %>
+                        <span>🍜</span>
+                      <% }; %>
 
-                    <!-- japanese -->
-                    <% if(d.genre.match(/(和食|割烹|小料理)([\s\/]?|$)/)){ %>
-                      <span>🇯🇵</span>
-                    <% }; %>
+                      <!-- sushi -->
+                      <% if(d.genre.match(/(寿司)([\s\/]?|$)/)){ %>
+                        <span>🍣</span>
+                      <% }; %>
 
-                    <!-- french -->
-                    <% if(d.genre.match(/(フレンチ|フランス)([\s\/]?|$)/)){ %>
-                      <span>🇫🇷</span>
-                    <% }; %>
+                      <!-- tenpura -->
+                      <% if(d.genre.match(/(天ぷら|天麩羅|天丼)([\s\/]?|$)/)){ %>
+                        <span>🍤</span>
+                      <% }; %>
 
-                    <!-- spanish -->
-                    <% if(d.genre.match(/(スペイン)([\s\/]?|$)/)){ %>
-                      <span>🥘</span>
-                    <% }; %>
+                      <!-- japanese -->
+                      <% if(d.genre.match(/(和食|割烹|小料理)([\s\/]?|$)/)){ %>
+                        <span>🇯🇵</span>
+                      <% }; %>
 
-                    <!-- chinese -->
-                    <% if(d.genre.match(/(中華)([\s\/]?|$)/)){ %>
-                      <span>🥟</span>
-                    <% }; %>
+                      <!-- french -->
+                      <% if(d.genre.match(/(フレンチ|フランス)([\s\/]?|$)/)){ %>
+                        <span>🇫🇷</span>
+                      <% }; %>
 
-                    <!-- western -->
-                    <% if(d.genre.match(/(洋食|北欧|ロシア|地中海|西洋|欧州|ファミレス)([\s\/]?|$)/)){ %>
-                      <span>🍽</span>
-                    <% }; %>
+                      <!-- spanish -->
+                      <% if(d.genre.match(/(スペイン)([\s\/]?|$)/)){ %>
+                        <span>🥘</span>
+                      <% }; %>
 
-                    <!-- international -->
-                    <% if(d.genre.match(/(ベトナム|タイ|エスニック|アジア|多国籍|メキシコ|台湾)([\s\/]?|$)/)){ %>
-                      <span>🥙</span>
-                    <% }; %>
+                      <!-- chinese -->
+                      <% if(d.genre.match(/(中華)([\s\/]?|$)/)){ %>
+                        <span>🥟</span>
+                      <% }; %>
 
-                    <!-- fast food -->
-                    <% if(d.genre.match(/((たこ|お好み)焼き)([\s\/]?|$)/)){ %>
-                      <span>🌮</span>
-                    <% }; %>
+                      <!-- western -->
+                      <% if(d.genre.match(/(洋食|北欧|ロシア|地中海|西洋|欧州|ファミレス)([\s\/]?|$)/)){ %>
+                        <span>🍽</span>
+                      <% }; %>
 
-                    <!-- sandwitch -->
-                    <% if(d.genre.match(/(サンドイッチ)([\s\/]?|$)/)){ %>
-                      <span>🥖</span>
-                    <% }; %>
+                      <!-- international -->
+                      <% if(d.genre.match(/(ベトナム|タイ|エスニック|アジア|オセアニア|多国籍|メキシコ|台湾)([\s\/]?|$)/)){ %>
+                        <span>🥙</span>
+                      <% }; %>
 
-                    <!-- burger -->
-                    <% if(d.genre.match(/(バーガー)([\s\/]?|$)/)){ %>
-                      <span>🍔</span>
-                    <% }; %>
+                      <!-- fast food -->
+                      <% if(d.genre.match(/((たこ|お好み)焼き)([\s\/]?|$)/)){ %>
+                        <span>🌮</span>
+                      <% }; %>
 
-                    <!-- kayu -->
-                    <% if(d.genre.match(/(粥)([\s\/]?|$)/)){ %>
-                      <span>🍚</span>
-                    <% }; %>
+                      <!-- sandwitch -->
+                      <% if(d.genre.match(/(サンドイッチ)([\s\/]?|$)/)){ %>
+                        <span>🥖</span>
+                      <% }; %>
 
-                    <!-- fish -->
-                    <% if(d.genre.match(/(魚介?|海鮮|うなぎ)([\s\/]?|$)/)){ %>
-                      <span>🐟</span>
-                    <% }; %>
+                      <!-- burger -->
+                      <% if(d.genre.match(/(バーガー)([\s\/]?|$)/)){ %>
+                        <span>🍔</span>
+                      <% }; %>
 
-                    <!-- vege -->
-                    <% if(d.genre.match(/(野菜)([\s\/]?|$)/)){ %>
-                      <span>🥗</span>
-                    <% }; %>
+                      <!-- kayu -->
+                      <% if(d.genre.match(/(粥)([\s\/]?|$)/)){ %>
+                        <span>🍚</span>
+                      <% }; %>
 
-                    <!-- teishoku -->
-                    <% if(d.genre.match(/(定食|弁当)([\s\/]?|$)/)){ %>
-                      <span>🍱</span>
-                    <% }; %>
+                      <!-- fish -->
+                      <% if(d.genre.match(/(魚介?|海鮮|うなぎ)([\s\/]?|$)/)){ %>
+                        <span>🐟</span>
+                      <% }; %>
 
-                    <!-- sweets -->
-                    <% if(d.genre.match(/(スイーツ|ケーキ|クレープ)([\s\/]?|$)/)){ %>
-                      <span>🍰</span>
-                    <% }; %>
+                      <!-- vege -->
+                      <% if(d.genre.match(/(野菜)([\s\/]?|$)/)){ %>
+                        <span>🥗</span>
+                      <% }; %>
 
-                    <!-- cafe -->
-                    <% if(d.genre.match(/(カフェ)([\s\/]?|$)/)){ %>
-                      <span>☕️</span>
-                    <% }; %>
+                      <!-- teishoku -->
+                      <% if(d.genre.match(/(定食|弁当)([\s\/]?|$)/)){ %>
+                        <span>🍱</span>
+                      <% }; %>
 
-                    <!-- juice -->
-                    <% if(d.genre.match(/(ジュース)([\s\/]?|$)/)){ %>
-                      <span>🥤</span>
-                    <% }; %>
+                      <!-- sweets -->
+                      <% if(d.genre.match(/(スイーツ|ケーキ|クレープ)([\s\/]?|$)/)){ %>
+                        <span>🍰</span>
+                      <% }; %>
 
-                    <!-- ice -->
-                    <% if(d.genre.match(/(アイス|氷)([\s\/]?|$)/)){ %>
-                      <span>🍨</span>
-                    <% }; %>
+                      <!-- cafe -->
+                      <% if(d.genre.match(/(カフェ)([\s\/]?|$)/)){ %>
+                        <span>☕️</span>
+                      <% }; %>
 
-                    <!-- bar -->
-                    <% if(d.genre.match(/(バー|バー?ル)([\s\/]?|$)/)){ %>
-                      <span>🍸</span>
-                    <% }; %>
+                      <!-- juice -->
+                      <% if(d.genre.match(/(ジュース)([\s\/]?|$)/)){ %>
+                        <span>🥤</span>
+                      <% }; %>
 
-                    <!-- izakaya -->
-                    <% if(d.genre.match(/(居酒屋|飲み)([\s\/]?|$)/)){ %>
-                      <span>🍶</span>
-                    <% }; %>
-                  </td>
-                  <td><%= d.closeDay %></td>
-                  <td><%= d.lastOrder %></td>
-                  <td>
-                    <% if(region.name.match(/^New/)){ %>
-                      <a href="https://www.google.co.jp/maps/search/<%= d.name %>" target="_blank">
-                    <% } else { %>
-                      <a href="https://www.google.co.jp/maps/search/<%= region.name.replace(/（.+?）/, '') %>+<%= d.name %>" target="_blank">
-                    <% }; %>
-                        <i class="fa fa-map-marker-alt"></i>
-                      </a>
-                    <%= d.location %>
-                  </td>
-                  <td><%= d.memo %></td>
+                      <!-- ice -->
+                      <% if(d.genre.match(/(アイス|氷)([\s\/]?|$)/)){ %>
+                        <span>🍨</span>
+                      <% }; %>
+
+                      <!-- bar -->
+                      <% if(d.genre.match(/(バー|バー?ル)([\s\/]?|$)/)){ %>
+                        <span>🍸</span>
+                      <% }; %>
+
+                      <!-- izakaya -->
+                      <% if(d.genre.match(/(居酒屋|飲み)([\s\/]?|$)/)){ %>
+                        <span>🍶</span>
+                      <% }; %>
+                    </td>
+                    <td><%= d.closeDay %></td>
+                    <td><%= d.lastOrder %></td>
+                    <td>
+                      <% if(region.name.match(/^New/)){ %>
+                        <a href="https://www.google.co.jp/maps/search/<%= d.name %>" target="_blank">
+                      <% } else { %>
+                        <a href="https://www.google.co.jp/maps/search/<%= region.name.replace(/（.+?）/, '') %>+<%= d.name %>" target="_blank">
+                      <% }; %>
+                          <i class="fa fa-map-marker-alt"></i>
+                        </a>
+                      <%= d.location %>
+                    </td>
+                    <td><%= d.memo %></td>
+                  <% } %>
                 </tr>
               <% }); %>
 
