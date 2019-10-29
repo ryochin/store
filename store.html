@@ -163,17 +163,6 @@
               "link": ["https://hitosara.com/0006082070/"]
             },
             {
-              "name": "中華徳大",
-              "genre": "中華",
-              "unvisited": true,
-              "closeDay": "日祝",
-              "lastOrder": "20:30?",
-              "location": "すずらん",
-              "memo": "",
-              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001111/",
-              "home": "http://hw001.spaaqs.ne.jp/t-ao-ogi/tokudaiindex.htm"
-            },
-            {
               "name": "wood good brothers",
               "genre": "カフェ/イタリアン",
               "unvisited": true,
@@ -183,6 +172,29 @@
               "memo": "",
               "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13212560/",
               "home": "http://woodgoodbrothers.favy.jp"
+            },
+            {
+              "name": "ル クール ピュー",
+              "nameAlter": "Le Coeur Pur",
+              "genre": "パン/デリ",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "19:30?",
+              "location": "すずらん",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13203565/",
+              "home": "http://www.lecoeurpur.co.jp/"
+            },
+            {
+              "name": "Garden House Crafts",
+              "genre": "パン/デリ",
+              "unvisited": true,
+              "closeDay": "無休",
+              "lastOrder": "20:30?",
+              "location": "ルミネ１F",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13215366/",
+              "home": "https://ghghgh.jp/gardenhousecrafts/"
             },
 
             { "type": "separator" }, // --------------------------------
@@ -253,6 +265,30 @@
               "memo": "元荻窪アルベロ",
               "tabelog": null,
               "home": "https://www.facebook.com/megriva.tokyo/"
+            },
+            {
+              "name": "とら屋食堂",
+              "genre": "南印カレー",
+              "unvisited": true,
+              "closeDay": "不定",
+              "lastOrder": "21:00",
+              "location": "西荻 北",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13217996/",
+              "twitter": "toraya_syokudo",
+              "link": ["https://kichifan.com/2019/07/31/toraya_shokudou/"]
+            },
+            {
+              "name": "Rojiura Curry SAMURAI.",
+              "genre": "スープカレー",
+              "unvisited": true,
+              "closeDay": "不定",
+              "lastOrder": "22:00",
+              "location": "吉祥寺 北",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13199491/",
+              "home": "http://samurai-curry.com/",
+              "link": ["https://www.instagram.com/samurai.kj/"]
             }
           ]
         },
@@ -1110,6 +1146,17 @@
               "location": "南",
               "memo": "地中海系焼き物",
               "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13214007/"
+            },
+            {
+              "name": "築地スパイス食堂 かぶと",
+              "genre": "カレー",
+              "star": true,
+              "closeDay": "不定",
+              "lastOrder": "21:00",
+              "location": "南",
+              "memo": "",
+              "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13225618/",
+              "home": ["https://www.instagram.com/kabuto_2018/"]
             },
 
             // 21:30
@@ -2351,6 +2398,11 @@
                     </td>
                     <td nowrap>
                       <%= d.genre %>
+
+                      <!-- bread -->
+                      <% if(d.genre.match(/(パン|ブレッド|ベーカリー)([\s\/]?|$)/)){ %>
+                        <span>🍞</span>
+                      <% }; %>
 
                       <!-- pizza -->
                       <% if(d.genre.match(/(ピザ|ピッツァ)([\s\/]?|$)/)){ %>
