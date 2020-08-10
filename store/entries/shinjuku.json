@@ -1,0 +1,201 @@
+[
+  {
+    "name": "カフェナチュレ",
+    "genre": "カフェ",
+    "unvisited": true,
+    "closeDay": "不明",
+    "lastOrder": "19:30",
+    "location": "新宿駅",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130402/13040445/"
+  },
+
+  // 20:30
+  {
+    "name": "curry 草枕",
+    "genre": "カレー",
+    "closeDay": "無休",
+    "lastOrder": "20:30",
+    "location": "新宿",
+    "memo": "人気店",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13042970/"
+  },
+  {
+    "name": "水山",
+    "nameAlter": "すいざん",
+    "genre": "うどん 丼",
+    "closeDay": "不定",
+    "lastOrder": "20:30",
+    "location": "紀伊国屋地下",
+    "memo": "ｲﾏｲﾁになった",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13016554/"
+  },
+  {
+    "name": "マンゴツリーカフェ",
+    "genre": "タイ料理",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "20:30コ",
+    "location": "新宿ルミネ1 7F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13030311/",
+    "home": "https://mangotree.jp/shop/mangotree-cafe/shinjuku"
+  },
+
+  // 21:00
+  {
+    "name": "CLOVE",
+    "nameAlter": "クローブ",
+    "genre": "カレー",
+    "closeDay": "不定",
+    "lastOrder": "21:00",
+    "location": "紀伊国屋地下",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13135095/"
+  },
+  {
+    "name": "チャヤマクロビ",
+    "genre": "イタリアン、野菜",
+    "closeDay": "不定",
+    "lastOrder": "21:15",
+    "location": "伊勢丹７Ｆ",
+    "memo": "マクロビ、高",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000967/"
+  },
+  {
+    "name": "フィッシュ",
+    "nameAlter": "fish",
+    "genre": "南印カレー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "21:00",
+    "location": "西新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13222551/",
+    "home": "https://www.facebook.com/FISH.indian.curry",
+    "link": ["https://193go.jp/shinjuku-curry-fish"]
+  },
+
+  // 21:30
+  {
+    "name": "Manna（新宿中村屋）",
+    "genre": "カレー",
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "新宿３丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13174647/"
+  },
+
+  // 22:00
+  {
+    "name": "Caffice",
+    "genre": "カフェ/オフィス",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "食22:00/飲22:30",
+    "location": "新宿４丁目",
+    "memo": "電源あり",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13174391/"
+  },
+
+  // 22:30
+  {
+    "name": "カフェ ラ・ボエム",
+    "genre": "カフェ イタリアン",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "新宿御苑",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130402/13004291/"
+  },
+  {
+    "name": "西尾さん",
+    "genre": "居酒屋",
+    "unvisited": true,
+    "closeDay": "日or月",
+    "lastOrder": "22:30",
+    "location": "新宿三丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13026389/"
+  },
+  {
+    "name": "サナギ新宿",
+    "genre": "エスニック？",
+    "unvisited": true,
+    "closeDay": "不定休",
+    "lastOrder": "22:00コ",
+    "location": "新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13203241/"
+  },
+  {
+    "name": "サンサール新宿店",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13006805/"
+  },
+  {
+    "name": "すうぷ屋",
+    "genre": "パスタ/スープ",
+    "unvisited": true,
+    "closeDay": "ほぼ無休",
+    "lastOrder": "22:15?",
+    "location": "ミロード8F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000826/",
+    "home": "http://sangs.co.jp/soup-ya/"
+  },
+  {
+    "name": "COTO-COTO 茶寮",
+    "genre": "パスタ風うどん/スイーツ",
+    "star": true,
+    "closeDay": "ほぼ無休",
+    "lastOrder": "22:30",
+    "location": "ミロード8F",
+    "memo": "カード不可",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13184035/",
+    "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=823"]
+  },
+  {
+    "name": "ヘッドクォーターズカフェ",
+    "nameAlter": "Head Quarters cafe",
+    "unvisited": true,
+    "genre": "カフェ飯",
+    "closeDay": "ほぼ無休",
+    "lastOrder": "22:30",
+    "location": "ミロード8F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13166843/",
+    "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=826"]
+  },
+
+  // 23:00
+  {
+    "name": "カフェ ウォール",
+    "genre": "カフェ",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "23:00",
+    "location": "新宿駅",
+    "memo": "カクテル有",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13171550/"
+  },
+
+  // 23:30
+  {
+    "name": "こころむすび",
+    "genre": "割烹 小料理",
+    "unvisited": true,
+    "closeDay": "日祝",
+    "lastOrder": "23:30",
+    "location": "新宿三丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13039210/"
+  }
+]

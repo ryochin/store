@@ -1,0 +1,26 @@
+[
+  {
+    "name": " negombo33",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "22:30",
+    "location": "高円寺南",
+    "memo": "ルー無くなり次第",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131904/13228221/",
+    "link": ["https://193go.jp/koenji-curry-negombo"]
+  },
+  {
+    "name": "エリックサウス カレー＆ビリヤニセンター",
+    "genre": "南印カレー",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "21:30",
+    "location": "高円寺",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131904/13245273/",
+    "home": "https://enso.ne.jp/erick-koenji/",
+    "twitter": "ericksouthkej",
+    "link": ["https://193go.jp/koenji-biriyanicenter"]
+  }
+]

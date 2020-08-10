@@ -1,0 +1,108 @@
+[
+  {
+    "name": "キル フェ ボン",
+    "nameAlter": "Qu'il fait bon",
+    "genre": "スイーツ/タルト",
+    "closeDay": "無休",
+    "lastOrder": "19:30?",
+    "location": "１丁目",
+    "memo": "人気店",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13125583/",
+    "home": "http://www.quil-fait-bon.com/"
+  },
+  {
+    "name": "アンリ・シャルパンティエ",
+    "nameAlter": "HENRI CHARPENTIER",
+    "unvisited": true,
+    "genre": "スイーツ",
+    "closeDay": "無休",
+    "lastOrder": "19:30/平日バー 22:30?",
+    "location": "１丁目",
+    "memo": "お高い",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002449/",
+    "home": "http://www.henri-charpentier.com/"
+  },
+  {
+    "name": "びいどろ",
+    "genre": "スペイン料理",
+    "star": true,
+    "closeDay": "無休",
+    "lastOrder": "21:30 日祝21:00",
+    "location": "５丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13015023/",
+    "home": "http://www.vidriog.co.jp/vidrio/"
+  },
+  {
+    "name": "デリー",
+    "nameAlter": "DELHI",
+    "genre": "北印カレー",
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "６丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002616/"
+  },
+  {
+    "name": "グルガオン",
+    "genre": "印カレー",
+    "star": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00 土日祝21:00",
+    "location": "１丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002457/"
+  },
+  {
+    "name": "アーンドラ・ダイニング",
+    "genre": "南印カレー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00 土日祝21:00",
+    "location": "１丁目",
+    "memo": "店内に喫煙所",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13136701/"
+  },
+  {
+    "name": "ダルマサーガラ",
+    "nameAlter": "Dharmasagara",
+    "star": true,
+    "genre": "北印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:00 土日祝21:00",
+    "location": "４丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002374/"
+  },
+  {
+    "name": "マントラカフェ",
+    "genre": "北印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:30?",
+    "location": "５丁目",
+    "memo": "銀座５内/肉強制",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13123385/"
+  },
+  {
+    "name": "ゼスト キャンティーナ",
+    "nameAlter": "",
+    "unvisited": true,
+    "genre": "メキシコ料理",
+    "closeDay": "無休",
+    "lastOrder": "23:30 金土祝前24:30",
+    "location": "銀座",
+    "memo": "肉メイン？",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13009492/"
+  },
+  {
+    "name": "クリッパー",
+    "nameAlter": "CLIPPER",
+    "genre": "バー",
+    "closeDay": "日祝",
+    "lastOrder": "02:30？",
+    "location": "２丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13075585/",
+    "home": "http://barclipper.jp/"
+  }
+]

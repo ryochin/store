@@ -1,0 +1,80 @@
+[
+  {
+    "name": "とら屋食堂",
+    "genre": "南印カレー",
+    "closeDay": "不定",
+    "lastOrder": "21:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13217996/",
+    "twitter": "toraya_syokudo",
+    "link": ["https://kichifan.com/2019/07/31/toraya_shokudou/"]
+  },
+  {
+    "name": "大岩食堂",
+    "genre": "南印カレー",
+    "star": true,
+    "closeDay": "月火",
+    "lastOrder": "22:00",
+    "location": "MyLoad",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13171369/",
+    "twitter": "oiwaspice"
+  },
+  {
+    "name": "タムタム",
+    "genre": "モロッコ料理",
+    "unvisited": true,
+    "closeDay": "月/1,3火",
+    "lastOrder": "22:00",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13245434/",
+    "twitter": "morocco_tamtamu",
+    "link": ["https://193go.jp/nishiogi-tamtamu"]
+  },
+  {
+    "name": "欧風料理 華",
+    "genre": "西洋各国料理",
+    "unvisited": true,
+    "closeDay": "木",
+    "lastOrder": "22:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13011830/",
+    "home": "http://hana-nishiogi-restaurant.com/"
+  },
+  {
+    "name": "サジロクローブ",
+    "nameAlter": "Sajilo Clove",
+    "genre": "北印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "北",
+    "memo": "ちょい遠い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13137062/",
+    "home": "http://sajilocafe.jp/",
+    "memo": "提供遅・甘"
+  },
+  {
+    "name": "MINTON HOUSE",
+    "genre": "ジャズバー",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "22:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13165473/",
+    "home": "http://www7b.biglobe.ne.jp/~mintonhouse/page005.html"
+  },
+  {
+    "name": "アヒルの空",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "木",
+    "lastOrder": "22:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13100655/"
+  }
+]

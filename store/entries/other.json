@@ -1,0 +1,207 @@
+[
+  {
+    "name": "シターラ 青山",
+    "nameAlter": "SITAARA",
+    "genre": "カレー",
+    "closeDay": "月末日",
+    "lastOrder": "21:30",
+    "location": "表参道",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1306/A130602/13009705/"
+  },
+  {
+    "name": "ハブモアカレー",
+    "nameAlter": "have more curry",
+    "unvisited": true,
+    "genre": "カレー",
+    "closeDay": "木/日夜",
+    "lastOrder": "21:00",
+    "location": "表参道",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1306/A130602/13188166/"
+  },
+  {
+    "name": "ZATTA",
+    "genre": "バー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "00:00",
+    "location": "西新宿ﾋﾙﾄﾝ",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13172873/"
+  },
+  {
+    "name": "びじゃぽん",
+    "genre": "バー",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "01:00",
+    "location": "横浜",
+    "memo": "",
+    "tabelog": "https://tabelog.com/kanagawa/A1401/A140102/14049406/"
+  },
+  {
+    "name": "つじ半",
+    "genre": "海鮮丼",
+    "unvisited": true,
+    "closeDay": "不定休",
+    "lastOrder": "21:00",
+    "location": "日本橋",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1302/A130202/13146590/"
+  },
+  {
+    "name": "金子半之助 本店",
+    "genre": "天丼",
+    "unvisited": true,
+    "closeDay": "不定休",
+    "lastOrder": "21:30 土日祝20:30",
+    "location": "日本橋",
+    "memo": "売切御免",
+    "tabelog": "https://tabelog.com/tokyo/A1302/A130202/13118694/",
+    "home": "http://kaneko-hannosuke.com/shopinfo-2/"
+  },
+  {
+    "name": "エリックサウス",
+    "genre": "印カレー",
+    "star": true,
+    "closeDay": "無休",
+    "lastOrder": "21:30 土日祝21:00",
+    "location": "八重洲地下",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1302/A130201/13130363/"
+  },
+  {
+    "name": "東京らっきょブラザーズ",
+    "genre": "スープカレー",
+    "unvisited": true,
+    "closeDay": "第二水",
+    "lastOrder": "21:00",
+    "location": "早稲田",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1305/A130504/13040401/"
+  },
+  {
+    "name": "魚がし日本一",
+    "genre": "寿司",
+    "unvisited": true,
+    "closeDay": "日祝",
+    "lastOrder": "22:30 土20:30",
+    "location": "霞ヶ関飯野Bld",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1308/A130802/13174251/",
+    "home": "http://www.uogashi-nihonichi.com/kasumigaseki/"
+  },
+  {
+    "name": "シバカリー ワラ",
+    "nameAlter": "shiva curry wara",
+    "unvisited": true,
+    "genre": "カレー",
+    "closeDay": "月・月祝火",
+    "lastOrder": "21:45",
+    "location": "三軒茶屋",
+    "memo": "渋谷＋２駅",
+    "tabelog": "https://tabelog.com/tokyo/A1317/A131706/13151738/"
+  },
+  {
+    "name": "ニルヴァナム",
+    "nameAlter": "Nirvanam",
+    "unvisited": true,
+    "genre": "印カレー",
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "神谷町",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1307/A130704/13019915/"
+  },
+  {
+    "name": "ピアッティ カステリーナ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "20:30?",
+    "location": "神楽坂",
+    "memo": "お高め 中目黒にも",
+    "tabelog": "https://tabelog.com/tokyo/A1309/A130905/13130769/",
+    "home": "http://castellina.co.jp"
+  },
+  {
+    "name": "BOSQUE",
+    "nameAlter": "",
+    "genre": "メキシコ料理",
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "目黒",
+    "memo": "創作系/お高め",
+    "tabelog": "https://tabelog.com/tokyo/A1316/A131601/13216177/"
+  },
+  {
+    "name": "フリホーレス",
+    "nameAlter": "",
+    "unvisited": true,
+    "genre": "メキシコ料理",
+    "closeDay": "第三水",
+    "lastOrder": "21:45",
+    "location": "代官山",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130303/13213937/"
+  },
+  {
+    "name": "ラ・カシータ",
+    "nameAlter": "",
+    "unvisited": true,
+    "genre": "メキシコ料理",
+    "closeDay": "火",
+    "lastOrder": "22:00",
+    "location": "代官山",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130303/13002061/"
+  },
+  {
+    "name": "エルパソ",
+    "nameAlter": "ELPASO",
+    "unvisited": true,
+    "genre": "メキシコ料理",
+    "closeDay": "日",
+    "lastOrder": "22:30",
+    "location": "青山",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1306/A130603/13155452/"
+  },
+  {
+    "name": "重慶茶樓",
+    "nameAlter": "ジュウケイサロウ",
+    "unvisited": true,
+    "genre": "中華",
+    "closeDay": "無休",
+    "lastOrder": "20:00 週末20:50",
+    "location": "横浜中華街",
+    "memo": null,
+    "tabelog": "https://tabelog.com/kanagawa/A1401/A140105/14000494/",
+    "home": "http://www.jukeihanten.com/"
+  },
+  {
+    "name": "謝甜記",
+    "nameAlter": "シャテンキ",
+    "unvisited": true,
+    "genre": "中華/粥",
+    "closeDay": "無休",
+    "lastOrder": "20:00? 週末21:00?",
+    "location": "横浜中華街",
+    "memo": null,
+    "tabelog": "https://tabelog.com/kanagawa/A1401/A140105/14000676/",
+    "home": "http://www.shatenki-nigouten.co.jp/"
+  },
+  {
+    "name": "スカイギャラリーラウンジ レヴィータ",
+    "nameAlter": "Sky Gallery Lounge Levita",
+    "unvisited": true,
+    "genre": "バー",
+    "closeDay": "無休",
+    "lastOrder": "01:30?",
+    "location": "赤坂",
+    "memo": "超お高いが完全禁煙",
+    "tabelog": "https://tabelog.com/tokyo/A1308/A130801/13198668/",
+    "home": "https://www.princehotels.co.jp/kioicho/dining/levita/"
+  }
+]

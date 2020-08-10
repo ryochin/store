@@ -1,0 +1,79 @@
+[
+  {
+    "name": " 半月",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "土日祝",
+    "lastOrder": "16:00",
+    "location": "西新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13211678/"
+  },
+  {
+    "name": "SOUTH",
+    "nameAlter": "サウス",
+    "genre": "オセアニア料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "恵比寿GP 39F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130302/13212585/",
+    "home": "https://southbyterra.tokyo/"
+  },
+  {
+    "name": "鮨処虎秀",
+    "genre": "寿司",
+    "unvisited": true,
+    "closeDay": "日祝",
+    "lastOrder": "22:30",
+    "location": "神宮前",
+    "memo": "評判高",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13219374/"
+  },
+  {
+    "name": "根室花まる",
+    "genre": "回転寿司",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:30 日祝21:30",
+    "location": "丸の内",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1302/A130201/13153777/"
+  },
+  {
+    "name": "バル デ オジャリア",
+    "nameAlter": "Bar de Ollaria",
+    "genre": "スペイン料理/バル",
+    "unvisited": true,
+    "closeDay": "無",
+    "lastOrder": "22:30",
+    "location": "銀座 南西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13058155/",
+    "home": "http://www.ollaria.com"
+  },
+  {
+    "name": "スミヤ 新宿",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "23:30 日22:00",
+    "location": "新宿 アルタ裏",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13009218/",
+    "home": "https://sumiya-shinjuku.com/"
+  },
+  {
+    "name": "Megriva",
+    "nameAlter": "メグリヴァ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "?",
+    "lastOrder": "?",
+    "location": "中目黒",
+    "memo": "元荻窪アルベロ",
+    "tabelog": null,
+    "home": "https://www.facebook.com/megriva.tokyo/"
+  }
+]

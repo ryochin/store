@@ -1,0 +1,83 @@
+[
+  {
+    "name": "🔰",
+    "id": "new"
+  },
+  {
+    "name": "荻",
+    "geo": "荻窪",
+    "id": "ogikubo"
+  },
+  {
+    "name": "荻未",
+    "geo": "荻窪",
+    "id": "ogikubo-unvisited"
+  },
+  {
+    "name": "西荻",
+    "geo": "西荻窪",
+    "id": "nishiogi"
+  },
+  {
+    "name": "吉",
+    "geo": "吉祥寺",
+    "id": "kichijoji"
+  },
+  {
+    "name": "阿佐",
+    "geo": "阿佐ヶ谷",
+    "id": "asagaya"
+  },
+  {
+    "name": "中央",
+    "geo": "中央線",
+    "id": "chuosen"
+  },
+  {
+    "name": "西新",
+    "geo": "西新宿",
+    "id": "nishi-shinjuku"
+  },
+  {
+    "name": "新",
+    "geo": "新宿",
+    "id": "shinjuku"
+  },
+  {
+    "name": "渋",
+    "geo": "渋谷",
+    "id": "shibuya"
+  },
+  {
+    "name": "池",
+    "geo": "池袋",
+    "id": "ikebukuro"
+  },
+  {
+    "name": "六",
+    "geo": "六本木",
+    "id": "roppongi"
+  },
+  {
+    "name": "銀",
+    "geo": "銀座",
+    "id": "ginza"
+  },
+  {
+    "name": "他",
+    "geo": "東京",
+    "id": "other"
+  },
+  {
+    "name": "🚭❓️",
+    "id": "unknown"
+  },
+  {
+    "name": "😨",
+    "id": "nothankyou"
+  },
+  {
+    "name": "✝️",
+    "id": "graveyard"
+  }
+]

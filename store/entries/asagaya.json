@@ -1,0 +1,65 @@
+[
+  {
+    "name": "じゃんぐる",
+    "genre": "居酒屋",
+    "unvisited": true,
+    "closeDay": "火",
+    "lastOrder": "01:30 日20:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13169181/"
+  },
+  {
+    "name": "プラバート",
+    "genre": "南印カレー",
+    "unvisited": false,
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "南阿駅",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13220407/",
+    "instagram": "prabhat.jp"
+  },
+  {
+    "name": "はなまるうどん",
+    "genre": "うどん",
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "パ北",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13027100/",
+    "home": "https://www.hanamaruudon.com/shop/detail_109.html"
+  },
+  {
+    "name": "らぁ麺 いしばし",
+    "genre": "ラーメン",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "21:30?",
+    "location": "パ南",
+    "memo": "スープ切終",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13230178/",
+    "twitter": "ramen1484"
+  },
+  {
+    "name": "ピッキーヌ",
+    "nameAlter": "Plikk Kee Noo",
+    "unvisited": true,
+    "genre": "タイ料理",
+    "closeDay": "火",
+    "lastOrder": "19:30コ",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13000728/",
+    "home": "http://thai-restaurant-plikk-kee-noo-asagaya.com/"
+  },
+  {
+    "name": "101アンゼロアン",
+    "genre": "フレンチ",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "23:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13147108/"
+  }
+]

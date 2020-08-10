@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/ryochin/developer-favicon/master/favicon_static.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js" integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" integrity="sha256-lIFJvX0EbEpgbhha1orNrXaV1TKngfVWrIbwgcHl80E=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>    <title>飲食店メモ</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <style type="text/css">
+      body {
+        color: #bcbcbc;
+        background: #333336;
+        font-size: 9pt;
+      }
+      a {
+        color: #aaccee;
+      }
+      h1 {
+        color: #eee;
+        font-size: 11pt;
+        margin: 16px 0 12px 6px;
+      }
+      p {
+        color: #bcbcbc;
+        margin-left: 6px
+      }
+      h2 {
+        font-size: 11pt;
+      }
+      table {
+        border: 0 !important;
+      }
+      td {
+        padding: 7px !important;
+        color: #ccc;
+        border-color: #535359 !important;
+      }
+      .nav-tabs li a {
+        padding: 6px 10px;
+      }
+      i {
+        margin: auto 4px;
+      }
+      i.star {
+        color: #dd7766;
+      }
+      i.fa-thumbs-down {
+        color: #666666;
+      }
+      i.fa-check {
+        color: #99dc99;
+      }
+      i.map-icon {
+        color: #cc7766;
+      }
+      .unvisited {
+        color: #9ca9ac;
+      }
+
+      @media screen and (max-width: 960px) {
+        body, .container {
+          padding: 2px;
+        }
+        h1 {
+          margin: 6px 4px;
+        }
+        .description {
+          display: none;
+        }
+        th, td {
+          padding: 3px 2px !important;
+        }
+        td > i {
+          margin: 0 2px;
+        }
+        td > i.map-icon {
+          display: none;
+        }
+      }
+    </style>
+    <script type="text/javascript">
+      var list = __LIST__;
+
+      document.addEventListener('DOMContentLoaded', function() {
+        $('#content').html(_.template($('#store-template').html(), { list: list }));
+
+        var cookieKey = 'storeRegion';
+
+        $('.region-tab').on('click', function(){
+          $('.tab-title').removeClass('active');
+
+          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 });
+        });
+
+        var region = Cookies.get(cookieKey);
+        if( region !== undefined ){
+          $('.nav-tabs a[href="#region-' + region + '"]').tab('show');
+
+          $('#region-title-' + region).addClass('active');
+        }
+        else {
+          $('#region-title-ogikubo').addClass('active');
+        }
+      });
+    </script>
+    <script type="text/template" id="store-template">
+      <ul class="nav nav-tabs">
+        <% list.forEach(function(region, n) { %>
+          <li class="tab-title <%= n === 0 ? 'show' : '' %>" id="region-title-<%= region.id %>">
+            <a href="#region-<%= region.id %>" data-toggle="tab" class="region-tab" data-region="<%= region.id %>"><%= region.name %></a>
+          </li>
+        <% }); %>
+      </ul>
+
+      <div class="tab-content">
+        <% list.forEach(function(region, n) { %>
+          <div class="tab-pane <%= n === 0 ? 'active' : '' %>" id="region-<%= region.id %>">
+            <table class="table table-responsive">
+              <tr>
+                <th>店名</th>
+                <th>&nbsp;</th>
+                <th>ジャンル</th>
+                <th>定休</th>
+                <th>L.O.</th>
+                <th>場所</th>
+                <th>メモ</th>
+              </tr>
+              <% region.data.forEach(function(d) { %>
+                <tr>
+                  <% if('type' in d && d.type === 'separator') { %>
+                    <td colspan="7" class="separator">
+                      &nbsp;
+                    </td>
+                  <% } else { %>
+                    <td nowrap>
+                      <!-- star & unvisited -->
+                      <% if('star' in d && d.star) { %>
+                        <i class="star fa fa-star"></i>
+                      <% } else if('unvisited' in d && d.unvisited) { %>
+                        <i class="unvisited fa fa-question"></i>
+                      <% } else if('nogood' in d && d.nogood) { %>
+                        <i class="unvisited fa fa-thumbs-down" title="イマイチ"></i>
+                      <% }else{ %>
+                        <i class="fa fa-check"></i>
+                      <% }; %>
+
+                      <% if(d.tabelog){ %>
+                        <a href="<%= d.tabelog %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
+                      <% }else{ %>
+                        <%= d.name %>
+                      <% }; %>
+                    </td>
+                    <td>
+                      <!-- home -->
+                      <% if(d.home){ %>
+                        <a href="<%= d.home %>" target="_blank">
+                          <i class="fa fa-home"></i>
+                        </a>
+                      <% }; %>
+
+                      <!-- twitter -->
+                      <% if(d.twitter){ %>
+                        <a href="https://twitter.com/<%= d.twitter %>" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      <% }; %>
+
+                      <!-- facebook -->
+                      <% if(d.facebook){ %>
+                        <a href="https://facebook.com/<%= d.facebook %>" target="_blank">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      <% }; %>
+
+                      <!-- instagram -->
+                      <% if(d.instagram){ %>
+                        <a href="https://instagram.com/<%= d.instagram %>" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      <% }; %>
+
+                      <!-- links -->
+                      <% if(d.link){ %>
+                        <% d.link.forEach(function(link, i) { %>
+                          <a href="<%= link %>" target="_blank">
+                            <i class="fa fa-link"></i>
+                          </a>
+                        <% }); %>
+                      <% }; %>
+                    </td>
+                    <td nowrap>
+                      <%= d.genre %>
+
+                      <!-- bread -->
+                      <% if(d.genre.match(/(パン|ブレッド|ベーカリー)([\s\/]?|$)/)){ %>
+                        <span>🍞</span>
+                      <% }; %>
+
+                      <!-- pizza -->
+                      <% if(d.genre.match(/(ピザ|ピッツァ)([\s\/]?|$)/)){ %>
+                        <span>🍕</span>
+                      <% }; %>
+
+                      <!-- pasta -->
+                      <% if(d.genre.match(/(パスタ)([\s\/]?|$)/)){ %>
+                        <span>🍝</span>
+                      <% }; %>
+
+                      <!-- italian -->
+                      <% if(d.genre.match(/(イタリアン)([\s\/]?|$)/)){ %>
+                        <span>🇮🇹</span>
+                      <% }; %>
+
+                      <!-- curry -->
+                      <% if(d.genre.match(/((インド|印)カ(レ|リ)ー)([\s\/]?|$)/)){ %>
+                        <span>🇮🇳🍛</span>
+                      <% } else if(d.genre.match(/(カ(レ|リ)ー)([\s\/]?|$)/)){ %>
+                        <span>🍛</span>
+                      <% }; %>
+
+                      <!-- men -->
+                      <% if(d.genre.match(/(ラーメン|うどん|そば|蕎麦)([\s\/]?|$)/)){ %>
+                        <span>🍜</span>
+                      <% }; %>
+
+                      <!-- sushi -->
+                      <% if(d.genre.match(/(寿司)([\s\/]?|$)/)){ %>
+                        <span>🍣</span>
+                      <% }; %>
+
+                      <!-- tenpura -->
+                      <% if(d.genre.match(/(天ぷら|天麩羅|天丼)([\s\/]?|$)/)){ %>
+                        <span>🍤</span>
+                      <% }; %>
+
+                      <!-- japanese -->
+                      <% if(d.genre.match(/(和食|割烹|小料理)([\s\/]?|$)/)){ %>
+                        <span>🇯🇵</span>
+                      <% }; %>
+
+                      <!-- french -->
+                      <% if(d.genre.match(/(フレンチ|フランス)([\s\/]?|$)/)){ %>
+                        <span>🇫🇷</span>
+                      <% }; %>
+
+                      <!-- spanish -->
+                      <% if(d.genre.match(/(スペイン)([\s\/]?|$)/)){ %>
+                        <span>🥘</span>
+                      <% }; %>
+
+                      <!-- chinese -->
+                      <% if(d.genre.match(/(中華)([\s\/]?|$)/)){ %>
+                        <span>🥟</span>
+                      <% }; %>
+
+                      <!-- western -->
+                      <% if(d.genre.match(/(洋食|北欧|ロシア|地中海|西洋|欧州|ファミレス)([\s\/]?|$)/)){ %>
+                        <span>🍽</span>
+                      <% }; %>
+
+                      <!-- international -->
+                      <% if(d.genre.match(/(ベトナム|タイ|エスニック|アジア|オセアニア|多国籍|メキシコ|台湾)([\s\/]?|$)/)){ %>
+                        <span>🥙</span>
+                      <% }; %>
+
+                      <!-- fast food -->
+                      <% if(d.genre.match(/((たこ|お好み)焼き)([\s\/]?|$)/)){ %>
+                        <span>🌮</span>
+                      <% }; %>
+
+                      <!-- sandwitch -->
+                      <% if(d.genre.match(/(サンドイッチ)([\s\/]?|$)/)){ %>
+                        <span>🥖</span>
+                      <% }; %>
+
+                      <!-- burger -->
+                      <% if(d.genre.match(/(バーガー)([\s\/]?|$)/)){ %>
+                        <span>🍔</span>
+                      <% }; %>
+
+                      <!-- kayu -->
+                      <% if(d.genre.match(/(粥)([\s\/]?|$)/)){ %>
+                        <span>🍚</span>
+                      <% }; %>
+
+                      <!-- fish -->
+                      <% if(d.genre.match(/(魚介?|海鮮|うなぎ)([\s\/]?|$)/)){ %>
+                        <span>🐟</span>
+                      <% }; %>
+
+                      <!-- vege -->
+                      <% if(d.genre.match(/(野菜)([\s\/]?|$)/)){ %>
+                        <span>🥗</span>
+                      <% }; %>
+
+                      <!-- teishoku -->
+                      <% if(d.genre.match(/(定食|弁当)([\s\/]?|$)/)){ %>
+                        <span>🍱</span>
+                      <% }; %>
+
+                      <!-- sweets -->
+                      <% if(d.genre.match(/(スイーツ|ケーキ|クレープ)([\s\/]?|$)/)){ %>
+                        <span>🍰</span>
+                      <% }; %>
+
+                      <!-- cafe -->
+                      <% if(d.genre.match(/(カフェ)([\s\/]?|$)/)){ %>
+                        <span>☕️</span>
+                      <% }; %>
+
+                      <!-- juice -->
+                      <% if(d.genre.match(/(ジュース)([\s\/]?|$)/)){ %>
+                        <span>🥤</span>
+                      <% }; %>
+
+                      <!-- ice -->
+                      <% if(d.genre.match(/(アイス|氷)([\s\/]?|$)/)){ %>
+                        <span>🍨</span>
+                      <% }; %>
+
+                      <!-- bar -->
+                      <% if(d.genre.match(/(バー|バー?ル)([\s\/]?|$)/)){ %>
+                        <span>🍸</span>
+                      <% }; %>
+
+                      <!-- izakaya -->
+                      <% if(d.genre.match(/(居酒屋|飲み)([\s\/]?|$)/)){ %>
+                        <span>🍶</span>
+                      <% }; %>
+
+                      <!-- bistro -->
+                      <% if(d.genre.match(/(ビストロ)([\s\/]?|$)/)){ %>
+                        <span>🍽</span>
+                      <% }; %>
+                    </td>
+                    <td><%= d.closeDay %></td>
+                    <td><%= d.lastOrder %></td>
+                    <td>
+                      <i class="map-icon fa fa-map-marker-alt"></i>
+                      <% if(region.name.match(/^New/)){ %>
+                        <a href="https://www.google.co.jp/maps/search/<%= d.name %>" target="_blank">
+                      <% } else { %>
+                        <a href="https://www.google.co.jp/maps/search/<%= region.geo %>+<%= d.name %>+<%= d.genre %>" target="_blank">
+                      <% }; %>
+                          <%= d.location %>
+                        </a>
+                    </td>
+                    <td><%= d.memo %></td>
+                  <% } %>
+                </tr>
+              <% }); %>
+
+              <tr>
+                <td colspan="6">&nbsp;</td>
+                <td>(全 <%= region.data.length %> 件)</td>
+              </tr>
+            </table>
+          </div>
+        <% }); %>
+      </div>
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <H1>飲食店メモ</H1>
+
+      <p class="description">おもに夜の営業について。完全禁煙のみ</p>
+
+      <div id="content"></div>
+    </div>
+  </body>
+</html>

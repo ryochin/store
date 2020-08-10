@@ -1,0 +1,54 @@
+[
+  {
+    "name": "コチン ニヴァース",
+    "nameAlter": "COCHIN NIVAS",
+    "unvisited": true,
+    "genre": "インドカレー",
+    "closeDay": "月火",
+    "lastOrder": "21:00",
+    "location": "西新宿",
+    "memo": "ちょい遠",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13056242/"
+  },
+  {
+    "name": "丸亀製麺 新宿三井ビル店",
+    "genre": "うどん",
+    "closeDay": "無休",
+    "lastOrder": "21:30 土日祝19:30",
+    "location": "西新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13095189/"
+  },
+  {
+    "name": "ムット",
+    "nameAlter": "MUTHU",
+    "unvisited": true,
+    "genre": "インドカレー",
+    "closeDay": "日",
+    "lastOrder": "21:30?",
+    "location": "西新宿",
+    "memo": "カード不可",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13040853/"
+  },
+  {
+    "name": "もうやんカレー",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "土",
+    "lastOrder": "22:30",
+    "location": "西新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13001046/",
+    "home": "http://www.moyan.jp/"
+  },
+  {
+    "name": "頑固おやじ",
+    "genre": "居酒屋",
+    "unvisited": true,
+    "closeDay": "日祝",
+    "lastOrder": "23:00 土22:00",
+    "location": "西新宿",
+    "memo": "日本酒",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13128233/"
+  }
+]

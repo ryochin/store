@@ -1,0 +1,77 @@
+[
+  {
+    "name": "雷庵",
+    "nameAlter": "ライアン-ＲＹＡＮ-",
+    "unvisited": true,
+    "genre": "そば 和食",
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "",
+    "memo": "ランチあり",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13193603/",
+    "home": "http://rising-tokyo.jp/"
+  },
+  {
+    "name": "タイ料理研究所 渋谷店",
+    "genre": "タイ料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13180281/"
+  },
+  {
+    "name": "ハノイのホイさん",
+    "genre": "ベトナム料理",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "22:00",
+    "location": "",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13126583/"
+  },
+  {
+    "name": "山城屋庄蔵",
+    "genre": "割烹・小料理",
+    "unvisited": true,
+    "closeDay": "？",
+    "lastOrder": "22:00",
+    "location": "渋谷",
+    "memo": "接待",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13020243/"
+  },
+  {
+    "name": "Bar 天竺",
+    "genre": "居酒屋/バー",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "食23:00/飲23:30",
+    "location": "",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13193537/"
+  },
+  {
+    "name": "KINKA SUSHI BAR",
+    "nameAlter": "キンカ",
+    "unvisited": true,
+    "genre": "寿司 居酒屋",
+    "closeDay": "不定",
+    "lastOrder": "23:30 日祝22:30",
+    "location": "",
+    "memo": "ランチあり",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13199924/",
+    "home": "http://www.kinka.com/"
+  },
+  {
+    "name": "スタンド7",
+    "genre": "バー",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "23:30?",
+    "location": "",
+    "memo": "遠",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13139786/",
+    "home": "http://stand7.net/"
+  }
+]
