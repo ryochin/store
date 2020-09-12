@@ -22,6 +22,19 @@
   },
 
   // 20:30
+  {
+    "name": "プリミ・バチ ",
+    "nameAlter": "Primi・Baci",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "20:30コ",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005933/",
+    "home": "http://primibaci.com/",
+    "memo": "お高い"
+  },
 
   // 21:00
   {

@@ -31,16 +31,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13154596/",
     "twitter": "ramen_goryokaku"
   },
-  {
-    "name": "赤と黒",
-    "genre": "カレー",
-    "closeDay": "無休",
-    "lastOrder": "21:30 土日祝20:30",
-    "location": "八幡通り",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13226318/",
-    "twitter": "akakuro_ogikubo"
-  },
 
   // 20:30
   {
@@ -325,7 +315,7 @@
     "name": "ビストロ ぷちぽわ",
     "genre": "ビストロ",
     "closeDay": "日",
-    "lastOrder": "22:30",
+    "lastOrder": "21:00コ",
     "location": "商",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13236588/",

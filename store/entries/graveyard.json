@@ -145,5 +145,38 @@
     "location": "大森",
     "memo": "品川＋３駅",
     "tabelog": "https://tabelog.com/tokyo/A1315/A131502/13127788/"
+  },
+  {
+    "name": "赤と黒",
+    "genre": "カレー",
+    "closeDay": "無休",
+    "lastOrder": "21:30 土日祝20:30",
+    "location": "八幡通り",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13226318/",
+    "twitter": "akakuro_ogikubo"
+  },
+  {
+    "name": "ゼスト キャンティーナ",
+    "nameAlter": "",
+    "unvisited": true,
+    "genre": "メキシコ料理",
+    "closeDay": "無休",
+    "lastOrder": "23:30 金土祝前24:30",
+    "location": "銀座",
+    "memo": "肉メイン？",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13009492/"
+  },
+  {
+    "name": "バル デ オジャリア",
+    "nameAlter": "Bar de Ollaria",
+    "genre": "スペイン料理/バル",
+    "unvisited": true,
+    "closeDay": "無",
+    "lastOrder": "22:30",
+    "location": "銀座 南西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13058155/",
+    "home": "http://www.ollaria.com"
   }
 ]

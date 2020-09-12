@@ -33,7 +33,7 @@
   {
     "name": "マンゴツリーカフェ",
     "genre": "タイ料理",
-    "unvisited": true,
+    "star": true,
     "closeDay": "不定",
     "lastOrder": "20:30コ",
     "location": "新宿ルミネ1 7F",
@@ -96,7 +96,8 @@
     "lastOrder": "食22:00/飲22:30",
     "location": "新宿４丁目",
     "memo": "電源あり",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13174391/"
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13174391/",
+    "home": "http://caffice.jp/"
   },
 
   // 22:30

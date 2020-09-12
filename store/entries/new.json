@@ -42,18 +42,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1302/A130201/13153777/"
   },
   {
-    "name": "バル デ オジャリア",
-    "nameAlter": "Bar de Ollaria",
-    "genre": "スペイン料理/バル",
-    "unvisited": true,
-    "closeDay": "無",
-    "lastOrder": "22:30",
-    "location": "銀座 南西",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13058155/",
-    "home": "http://www.ollaria.com"
-  },
-  {
     "name": "スミヤ 新宿",
     "genre": "イタリアン",
     "unvisited": true,
