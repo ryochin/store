@@ -64,17 +64,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13136701/"
   },
   {
-    "name": "ダルマサーガラ",
-    "nameAlter": "Dharmasagara",
-    "star": true,
-    "genre": "北印カレー",
-    "closeDay": "無休",
-    "lastOrder": "22:00 土日祝21:00",
-    "location": "４丁目",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002374/"
-  },
-  {
     "name": "マントラカフェ",
     "genre": "北印カレー",
     "closeDay": "無休",

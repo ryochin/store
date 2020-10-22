@@ -73,6 +73,16 @@
     "facebook": "3m3cafe",
     "twitter": "3m3cafe"
   },
+  {
+    "name": "瓜坊の定食屋さん",
+    "genre": "定食/弁当",
+    "closeDay": "日",
+    "lastOrder": "20:30",
+    "location": "仲通り",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13232782/",
+    "instagram": "uribouteishokuya"
+  },
 
   // 21:00
 
@@ -235,7 +245,7 @@
     "closeDay": "平日",
     "lastOrder": "22:00 日祝21:00",
     "location": "住",
-    "memo": "",
+    "memo": "宅配のみ",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13197881/",
     "home": "https://www.ogikubomiopizza.com/"
   },
@@ -252,6 +262,17 @@
   },
 
   // 22:30
+  {
+    "name": "ナタラジ",
+    "genre": "印カレー",
+    "star": true,
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "商：南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13006961/",
+    "home": "http://www.nataraj.co.jp/jp/ogikubo/OgikuboTop.shtml"
+  },
   {
     "name": "エルモチェーロ",
     "nameAlter": "TRATTORIA Elmo Cielo",

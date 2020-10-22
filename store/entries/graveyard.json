@@ -90,7 +90,7 @@
     "closeDay": "無休",
     "lastOrder": "20:30 土日祝19:00",
     "location": "西新宿",
-    "memo": "18時食",
+    "memo": "18時食 業態変更",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13150954/"
   },
   {
@@ -178,5 +178,40 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13058155/",
     "home": "http://www.ollaria.com"
+  },
+  {
+    "name": "花は咲く",
+    "genre": "うどん",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "20:30?",
+    "location": "仲通り",
+    "memo": "ぎょうざ屋へ業態変更",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13227800/"
+  },
+  {
+    "name": "SAMA 吉祥寺店",
+    "genre": "スープカレー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "第二水",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13239721/",
+    "home": "https://hb-sama.com/store/kiti/",
+    "twitter": "sama_kichijoji",
+    "link": ["https://193go.jp/asagaya-southindia"],
+    "memo": ""
+  },
+  {
+    "name": "ダルマサーガラ",
+    "nameAlter": "Dharmasagara",
+    "star": true,
+    "genre": "北印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:00 土日祝21:00",
+    "location": "４丁目",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002374/"
   }
 ]
