@@ -1,3 +1,5 @@
+all: compile upload
+
 compile:
 	cd store && ruby ./compile.rb
 

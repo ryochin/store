@@ -1,5 +1,16 @@
 [
   {
+    "name": "チャオ チェンマイ",
+    "genre": "タイ料理",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "曜日変動",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13248268/",
+    "instagram": "CiaoChiangmai"
+  },
+  {
     "name": "とら屋食堂",
     "genre": "南印カレー",
     "closeDay": "不定",

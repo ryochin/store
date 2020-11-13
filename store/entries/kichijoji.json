@@ -20,10 +20,32 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13200801/",
     "home": "http://flippers-pancake.jp/"
   },
+  {
+    "name": "Café＆Meal_MUJI",
+    "genre": "ダイニング/カフェ",
+    "unvisited": true,
+    "closeDay": "無休？",
+    "lastOrder": "19:30?",
+    "location": "南/マルイ",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13168084/",
+    "home": "https://www.muji.com/jp/ja/shop/detail/045195"
+  },
+  {
+    "name": "びいどろ",
+    "genre": "スペイン料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "曜日変動",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13021233/",
+    "home": "http://www.vidriog.co.jp/vidrio/"
+  },
 
   // 20:30
   {
-    "name": "プリミ・バチ ",
+    "name": "プリミ・バチ",
     "nameAlter": "Primi・Baci",
     "genre": "イタリアン",
     "unvisited": true,
@@ -34,6 +56,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005933/",
     "home": "http://primibaci.com/",
     "memo": "お高い"
+  },
+  {
+    "name": "アムリタ食堂",
+    "genre": "タイ料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "20:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005829/",
+    "home": "http://cafeamrita.jp"
   },
 
   // 21:00
@@ -243,7 +276,7 @@
     "unvisited": true,
     "closeDay": "火",
     "lastOrder": "22:00 日祝21:30",
-    "location": "吉祥寺",
+    "location": "南",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13159155/",
     "home": "http://www.villamagnolia.tokyo"
@@ -264,12 +297,23 @@
     "genre": "スープカレー",
     "closeDay": "不定",
     "lastOrder": "22:00",
-    "location": "吉祥寺 北",
+    "location": "北",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13199491/",
     "home": "http://samurai-curry.com/",
     "link": ["https://www.instagram.com/samurai.kj/"],
     "memo": "甘い"
+  },
+  {
+    "name": "Bubby's",
+    "genre": "パンケーキ/カフェ",
+    "unvisited": true,
+    "closeDay": "不明",
+    "lastOrder": "22:00",
+    "location": "北 コピス",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13205464/",
+    "home": "https://bubbys.jp/locations/kichijoji/"
   },
 
   // 22:30
