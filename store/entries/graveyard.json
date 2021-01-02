@@ -213,5 +213,15 @@
     "location": "４丁目",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002374/"
+  },
+  {
+    "name": "Garden House Crafts",
+    "genre": "パン/デリ",
+    "closeDay": "無休",
+    "lastOrder": "20:30?",
+    "location": "ルミネ１F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13215366/",
+    "home": "https://ghghgh.jp/gardenhousecrafts/"
   }
 ]

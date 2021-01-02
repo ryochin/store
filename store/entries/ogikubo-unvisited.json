@@ -256,17 +256,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230892/",
     "link": ["http://ogikubo.hungry.jp/gourmet/2456"]
   },
-  {
-    "name": "Reve",
-    "nameOriginal": "ナチュールイタリアン Reve",
-    "genre": "イタリアン",
-    "unvisited": true,
-    "closeDay": "不定 日昼のみ",
-    "lastOrder": "22:00 飲22:30",
-    "location": "荻窪 南",
-    "memo": "店外灰皿有",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230580/"
-  },
 
   // 22:30
   {
@@ -352,17 +341,5 @@
     "location": "北",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001114/"
-  },
-  {
-    "name": "サラパオ",
-    "genre": "タイ料理/カレー",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "02:30",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13248930/",
-    "link": ["https://www.chuo-besthome.co.jp/local/sarapao/"],
-    "instagram": "sarapao.ogikubo"
   }
 ]
