@@ -15,7 +15,7 @@ entries = JSON.parse(File.read('./base.json')).each_with_object([]) do |entiry, 
 end
 
 content = File.read('./template.html')
-content.sub! '__LIST__', JSON.dump(entries)
+content.sub! '__LIST__', JSON.pretty_generate(entries)
 content.sub! '__UPDATED_AT__', Time.now.to_s.split(' ')[0].gsub('-', '/')
 
 File.write '../store.html', content

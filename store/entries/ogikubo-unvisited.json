@@ -24,17 +24,6 @@
     "home": "http://www.lecoeurpur.co.jp/"
   },
   {
-    "name": "安斎",
-    "nameAlter": "あんざい",
-    "unvisited": true,
-    "genre": "うなぎ",
-    "closeDay": "水木",
-    "lastOrder": "19:30",
-    "location": "住：遠",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001105/"
-  },
-  {
     "name": "高はし",
     "genre": "そば",
     "unvisited": true,
@@ -87,7 +76,9 @@
     "lastOrder": "20:30",
     "location": "住：南",
     "memo": "お高い",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13000713/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13000713/",
+    "facebook": "dorammatico",
+    "instagram": "dramma_tico"
   },
   {
     "name": "コム デ ジュルノー",
@@ -100,17 +91,6 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13095907/",
     "home": "https://ameblo.jp/commedesjournaux/"
-  },
-  {
-    "name": "Blue Bell",
-    "genre": "洋食 オムライス",
-    "unvisited": true,
-    "closeDay": "第2/4水",
-    "lastOrder": "20:30 日祝昼のみ",
-    "location": "住：駅南東",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13022038/",
-    "twitter": "1040moon"
   },
 
   // 21:00
@@ -165,17 +145,6 @@
     "location": "住宅街/青梅街",
     "memo": "お高い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13207896/"
-  },
-  {
-    "name": "潮州",
-    "nameAlter": "チョウシュウ",
-    "unvisited": true,
-    "genre": "中華",
-    "closeDay": "月/祝翌火",
-    "lastOrder": "21:00",
-    "location": "住宅街",
-    "memo": "お高い",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001116/"
   },
 
   // 21:30
@@ -353,5 +322,19 @@
     "location": "北",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001114/"
+  },
+  {
+    "name": "カルテット",
+    "genre": "カフェ/バル",
+    "unvisited": true,
+    "closeDay": "月火",
+    "lastOrder": "22:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13236512/",
+    "home": "https://cafebarquartet.tokyo/",
+    "twitter": "cafebarQUARTET",
+    "facebook": "cafebarQuartet",
+    "instagram": "cafebarquartet"
   }
 ]

@@ -73,9 +73,28 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13232782/",
     "instagram": "uribouteishokuya"
   },
+  {
+    "name": "Blue Bell",
+    "genre": "洋食 オムライス",
+    "closeDay": "第2/4水",
+    "lastOrder": "20:30 日祝昼のみ",
+    "location": "住：駅南東",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13022038/",
+    "twitter": "1040moon"
+  },
 
   // 21:00
-
+  {
+    "name": "潮州",
+    "nameAlter": "チョウシュウ",
+    "genre": "中華",
+    "closeDay": "月/祝翌火",
+    "lastOrder": "21:00",
+    "location": "住宅街",
+    "memo": "お高い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001116/"
+  },
 
   // 21:30
   {
@@ -258,7 +277,9 @@
     "lastOrder": "22:00 飲22:30",
     "location": "荻窪 南",
     "memo": "店外灰皿有",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230580/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230580/",
+    "facebook": "1948227532147377",
+    "instagram": "syusandesu"
   },
   {
     "name": "さかなや道場",
@@ -361,11 +382,12 @@
     "location": "すずらん",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13144986/",
-    "home": "http://norix.sakura.ne.jp/suzuran/",
-    "link": ["https://ameblo.jp/ichizenmeshiya-suzuran/"]
+    "link": ["https://ameblo.jp/ichizenmeshiya-suzuran/"],
+    "twitter": "ogikubo_suzuran"
   },
   {
     "name": "倉はし",
+    "closed": true,
     "genre": "お好み焼き",
     "closeDay": "無休",
     "lastOrder": "22:30 土日祝22:00",
@@ -389,14 +411,16 @@
   {
     "name": "赤津庄兵衛",
     "nameAlter": "アカツショウベイ",
-    "genre": "和/魚介",
+    "genre": "和/魚介/カレー",
     "star": true,
     "closeDay": "水/第三火",
     "lastOrder": "23:00",
     "location": "青梅街道",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13209982/",
-    "home": "http://akatsusyoubei.com"
+    "home": "http://akatsusyoubei.com",
+    "facebook": "akatsusyoubei",
+    "instagram": "showbei0612"
   },
 
   // 23:30

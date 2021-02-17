@@ -18,7 +18,9 @@
     "lastOrder": "20:30",
     "location": "新宿",
     "memo": "人気店",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13042970/"
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13042970/",
+    "home": "https://currykusa.com/",
+    "twitter": "currykusa"
   },
   {
     "name": "水山",
@@ -60,7 +62,8 @@
     "lastOrder": "21:15",
     "location": "伊勢丹７Ｆ",
     "memo": "マクロビ、高",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000967/"
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000967/",
+    "home": "http://www.chayam.co.jp/restaurant/isetan.shtml"
   },
   {
     "name": "フィッシュ",
@@ -130,7 +133,9 @@
     "lastOrder": "22:00コ",
     "location": "新宿",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13203241/"
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13203241/",
+    "home": "http://sanagi.tokyo/",
+    "instagram": "sanagi.shinjuku"
   },
   {
     "name": "サンサール新宿店",

@@ -11,6 +11,19 @@
     "link": ["https://193go.jp/koenji-curry-negombo"]
   },
   {
+    "name": " かりい食堂",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "月火",
+    "lastOrder": "20:30?",
+    "location": "高円寺",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131904/13225661/",
+    "home": "http://so-king.hatenablog.jp/",
+    "twitter": "kokuno_bito",
+    "instagram": "kokuno_bito"
+  },
+  {
     "name": "エリックサウス カレー＆ビリヤニセンター",
     "genre": "南印カレー",
     "closeDay": "水",

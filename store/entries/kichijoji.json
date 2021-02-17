@@ -42,6 +42,19 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13021233/",
     "home": "http://www.vidriog.co.jp/vidrio/"
   },
+  {
+    "name": "PEP spanish bar",
+    "genre": "スペイン料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "19:00",
+    "location": "東",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13202871/",
+    "home": "https://www.mothersgroup.jp/shop/pep.html",
+    "facebook": "spanishbarPEP",
+    "instagram": "pepspanishbar"
+  },
 
   // 20:30
   {
@@ -112,7 +125,8 @@
     "lastOrder": "21:00",
     "location": "井の頭公園",
     "memo": "動物可",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005873/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005873/",
+    "instagram": "pepacafe_forest"
   },
   {
     "name": "四歩",
@@ -236,7 +250,9 @@
     "lastOrder": "22:00",
     "location": "北",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13050854/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13050854/",
+    "facebook": "216361091731289",
+    "instagram": "latelierdugout"
   },
   {
     "name": "Cafe RUSSIA",
@@ -258,7 +274,8 @@
     "lastOrder": "22:00",
     "location": "南/吉祥寺通",
     "memo": "新規",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13222179/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13222179/",
+    "home": "https://desalita-kichijoji.com/"
   },
   {
     "name": "築地玉寿司",
@@ -480,6 +497,9 @@
     "lastOrder": "01:30",
     "location": "南東の通り",
     "memo": "ジン",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213388/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213388/",
+    "twitter": "thewigtown",
+    "facebook": "TheWigtown.Kichijoji",
+    "instagram": "thewigtown"
   }
 ]

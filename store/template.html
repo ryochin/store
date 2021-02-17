@@ -154,10 +154,18 @@
                         <i class="fa fa-check"></i>
                       <% }; %>
 
+                      <% if(d.closed){ %>
+                        <strike>
+                      <% }; %>
+
                       <% if(d.tabelog){ %>
                         <a href="<%= d.tabelog %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
                       <% }else{ %>
                         <%= d.name %>
+                      <% }; %>
+
+                      <% if(d.closed){ %>
+                        </strike>
                       <% }; %>
                     </td>
                     <td>
