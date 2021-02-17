@@ -15,7 +15,7 @@
     "unvisited": false,
     "closeDay": "無休",
     "lastOrder": "21:30",
-    "location": "南阿駅",
+    "location": "南駅",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13220407/",
     "instagram": "prabhat.jp"
@@ -61,5 +61,51 @@
     "location": "北",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13147108/"
+  },
+  {
+    "name": "YO-HO's cafe Lanai",
+    "genre": "ハワイアン",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "21:30",
+    "location": "北駅",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13129036/",
+    "facebook": "yohoasagaya"
+  },
+  {
+    "name": "Lupi32",
+    "genre": "ピッツァ",
+    "unvisited": true,
+    "closeDay": "月/不定",
+    "lastOrder": "20:00?",
+    "location": "中間",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13193803/",
+    "home": "http://www.lupi32.com/",
+    "facebook": "lupi32",
+    "instagram": "lupi32"
+  },
+  {
+    "name": "おさかな食堂",
+    "genre": "魚料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "21:30/21:00",
+    "location": "北駅",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13011712/",
+    "home": "http://osakana-s.com/"
+  },
+  {
+    "name": "中國名菜 孫",
+    "genre": "中華",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "中間",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13108399/",
+    "home": "http://www.son-seijun.com/"
   }
 ]

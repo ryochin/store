@@ -109,7 +109,8 @@
     "lastOrder": "20:30 日祝昼のみ",
     "location": "住：駅南東",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13022038/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13022038/",
+    "twitter": "1040moon"
   },
 
   // 21:00
@@ -255,6 +256,17 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230892/",
     "link": ["http://ogikubo.hungry.jp/gourmet/2456"]
+  },
+  {
+    "name": "カプスーラ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "22:00",
+    "location": "荻窪/南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13168900/",
+    "home": "https://www.facebook.com/%E8%8D%BB%E7%AA%AA-%E3%82%AB%E3%83%97%E3%82%B9%E3%83%BC%E3%83%A9-Winebar-Restaurant-Capsula-1492447634375600/"
   },
 
   // 22:30
