@@ -1328,7 +1328,7 @@
       {
         "name": "GG",
         "nameAlter": "pizzeria GG",
-        "genre": "ピザ",
+        "genre": "ピッツェリア",
         "closeDay": "無休",
         "lastOrder": "22:00",
         "location": "南町",
@@ -1432,6 +1432,18 @@
         "memo": "",
         "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13205464/",
         "home": "https://bubbys.jp/locations/kichijoji/"
+      },
+      {
+        "name": "ELMO",
+        "genre": "イタリアン",
+        "unvisited": true,
+        "closeDay": "木",
+        "lastOrder": "22:00",
+        "location": "南",
+        "memo": "",
+        "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13243111/",
+        "instagram": "elmokichijoji",
+        "facebook": "吉祥寺Elmo-エルモ-108129707343544"
       },
       {
         "name": "ラ・ベファーナ",
@@ -1641,7 +1653,6 @@
       {
         "name": "らぁ麺 いしばし",
         "genre": "ラーメン",
-        "unvisited": true,
         "closeDay": "無休",
         "lastOrder": "21:30?",
         "location": "パ南",
@@ -1698,7 +1709,6 @@
       {
         "name": "おさかな食堂",
         "genre": "魚料理",
-        "unvisited": true,
         "closeDay": "無休",
         "lastOrder": "21:30/21:00",
         "location": "北駅",
@@ -2866,7 +2876,7 @@
                       <% }; %>
 
                       <!-- pizza -->
-                      <% if(d.genre.match(/(ピザ|ピッツァ)([\s\/]?|$)/)){ %>
+                      <% if(d.genre.match(/(ピザ|ピッツァ|ピッツェリア)([\s\/]?|$)/)){ %>
                         <span>🍕</span>
                       <% }; %>
 
@@ -3035,7 +3045,7 @@
 
       <p class="description">
         おもに夜の営業について。完全禁煙のみ
-        <span class="updated-at">2021/03/18 更新</span>
+        <span class="updated-at">2021/05/27 更新</span>
       </p>
 
       <div id="content"></div>

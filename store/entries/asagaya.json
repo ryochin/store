@@ -32,7 +32,6 @@
   {
     "name": "らぁ麺 いしばし",
     "genre": "ラーメン",
-    "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "21:30?",
     "location": "パ南",
@@ -89,7 +88,6 @@
   {
     "name": "おさかな食堂",
     "genre": "魚料理",
-    "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "21:30/21:00",
     "location": "北駅",

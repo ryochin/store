@@ -246,7 +246,7 @@
   {
     "name": "GG",
     "nameAlter": "pizzeria GG",
-    "genre": "ピザ",
+    "genre": "ピッツェリア",
     "closeDay": "無休",
     "lastOrder": "22:00",
     "location": "南町",
@@ -345,6 +345,18 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13205464/",
     "home": "https://bubbys.jp/locations/kichijoji/"
+  },
+  {
+    "name": "ELMO",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "木",
+    "lastOrder": "22:00",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13243111/",
+    "instagram": "elmokichijoji",
+    "facebook": "吉祥寺Elmo-エルモ-108129707343544"
   },
 
   // 22:30
