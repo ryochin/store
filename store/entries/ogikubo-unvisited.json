@@ -80,18 +80,6 @@
     "facebook": "dorammatico",
     "instagram": "dramma_tico"
   },
-  {
-    "name": "コム デ ジュルノー",
-    "nameAlter": "comme des journaux",
-    "unvisited": true,
-    "genre": "クレープ",
-    "closeDay": "水",
-    "lastOrder": "20:30",
-    "location": "八幡通り",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13095907/",
-    "home": "https://ameblo.jp/commedesjournaux/"
-  },
 
   // 21:00
   {
@@ -114,16 +102,6 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13056030/",
     "link": ["https://www.town7.net/guide/detail.html?id=3700"]
-  },
-  {
-    "name": "CULTiCO",
-    "genre": "カフェ/イタリアン",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "21:00 金土祝前 22:00",
-    "location": "商",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13193595/"
   },
   {
     "name": "ビストロ天下井",

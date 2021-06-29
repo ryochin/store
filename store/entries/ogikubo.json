@@ -83,6 +83,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13022038/",
     "twitter": "1040moon"
   },
+  {
+    "name": "コム デ ジュルノー",
+    "nameAlter": "comme des journaux",
+    "genre": "クレープ",
+    "closeDay": "水",
+    "lastOrder": "20:30",
+    "location": "八幡通り",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13095907/",
+    "home": "https://ameblo.jp/commedesjournaux/"
+  },
 
   // 21:00
   {
@@ -387,7 +398,6 @@
   },
   {
     "name": "倉はし",
-    "closed": true,
     "genre": "お好み焼き",
     "closeDay": "無休",
     "lastOrder": "22:30 土日祝22:00",

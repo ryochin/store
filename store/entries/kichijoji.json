@@ -48,7 +48,6 @@
   {
     "name": "PEP spanish bar",
     "genre": "スペイン料理",
-    "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "19:00",
     "location": "東",
@@ -57,6 +56,19 @@
     "home": "https://www.mothersgroup.jp/shop/pep.html",
     "facebook": "spanishbarPEP",
     "instagram": "pepspanishbar"
+  },
+  {
+    "name": "CAFE RIGOLETTO",
+    "genre": "イタリアン/スペイン料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "19:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13021901/",
+    "home": "https://www.huge.co.jp/restaurant/rigoletto/kichijoji",
+    "facebook": "huge.restaurant/",
+    "instagram": "rigoletto_kichijoji"
   },
 
   // 20:30

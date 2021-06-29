@@ -223,5 +223,15 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13215366/",
     "home": "https://ghghgh.jp/gardenhousecrafts/"
+  },
+  {
+    "name": "CULTiCO",
+    "genre": "カフェ/イタリアン",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "21:00 金土祝前 22:00",
+    "location": "商",
+    "memo": "閉店",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13193595/"
   }
 ]
