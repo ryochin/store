@@ -233,5 +233,46 @@
     "location": "商",
     "memo": "閉店",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13193595/"
+  },
+  {
+    "name": "カプチーナ",
+    "genre": "ファミレス",
+    "closeDay": "無休",
+    "lastOrder": "21:00",
+    "location": "ﾀｳﾝｾﾌﾞﾝ",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13056030/",
+    "link": ["https://www.town7.net/guide/detail.html?id=3700"]
+  },
+  {
+    "name": "水山",
+    "nameAlter": "すいざん",
+    "genre": "うどん 丼",
+    "closeDay": "不定",
+    "lastOrder": "20:30",
+    "location": "紀伊国屋地下",
+    "memo": "ｲﾏｲﾁになった",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13016554/"
+  },
+  {
+    "name": "すうぷ屋",
+    "genre": "パスタ/スープ",
+    "unvisited": true,
+    "closeDay": "ほぼ無休",
+    "lastOrder": "22:15?",
+    "location": "ミロード8F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000826/",
+    "home": "http://sangs.co.jp/soup-ya/"
+  },
+  {
+    "name": "マントラカフェ",
+    "genre": "北印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:30?",
+    "location": "５丁目",
+    "memo": "銀座５内/肉強制",
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13123385/",
+    "closedAt": "2020.10"
   }
 ]

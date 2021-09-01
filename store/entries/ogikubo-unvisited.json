@@ -80,6 +80,17 @@
     "facebook": "dorammatico",
     "instagram": "dramma_tico"
   },
+  {
+    "name": "鮨 きたがわ ",
+    "genre": "寿司",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "21:30 日祝20:30",
+    "location": "住：西",
+    "memo": "お高い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13234512/",
+    "home": "https://sushi-kitagawa.gorp.jp/"
+  },
 
   // 21:00
   {
@@ -91,27 +102,6 @@
     "location": "駅裏",
     "memo": "お高い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001102/"
-  },
-  {
-    "name": "カプチーナ",
-    "genre": "ファミレス",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "21:00",
-    "location": "ﾀｳﾝｾﾌﾞﾝ",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13056030/",
-    "link": ["https://www.town7.net/guide/detail.html?id=3700"]
-  },
-  {
-    "name": "ビストロ天下井",
-    "genre": "フレンチ ワインバー",
-    "unvisited": true,
-    "closeDay": "水",
-    "lastOrder": "21:00",
-    "location": "住：南",
-    "memo": "お高め",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13120883/"
   },
   {
     "name": "ポワン ドゥ デパー",

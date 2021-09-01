@@ -23,16 +23,6 @@
     "twitter": "currykusa"
   },
   {
-    "name": "水山",
-    "nameAlter": "すいざん",
-    "genre": "うどん 丼",
-    "closeDay": "不定",
-    "lastOrder": "20:30",
-    "location": "紀伊国屋地下",
-    "memo": "ｲﾏｲﾁになった",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13016554/"
-  },
-  {
     "name": "マンゴツリーカフェ",
     "genre": "タイ料理",
     "star": true,
@@ -146,17 +136,6 @@
     "location": "新宿",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13006805/"
-  },
-  {
-    "name": "すうぷ屋",
-    "genre": "パスタ/スープ",
-    "unvisited": true,
-    "closeDay": "ほぼ無休",
-    "lastOrder": "22:15?",
-    "location": "ミロード8F",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000826/",
-    "home": "http://sangs.co.jp/soup-ya/"
   },
   {
     "name": "COTO-COTO 茶寮",

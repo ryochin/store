@@ -106,6 +106,16 @@
     "memo": "お高い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001116/"
   },
+  {
+    "name": "ビストロ天下井",
+    "nameAlter": "あまがい",
+    "genre": "フレンチ ワインバー",
+    "closeDay": "水/１火",
+    "lastOrder": "21:00",
+    "location": "仲通り",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13120883/"
+  },
 
   // 21:30
   {
