@@ -460,6 +460,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213558/",
     "home": "https://www.mjsmile.com/"
   },
+  {
+    "name": "蟹が得意な洋麺屋 PASTA",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "第一月",
+    "lastOrder": "22:30",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13261369/",
+    "instagram": "kani_pasta_crab"
+  },
 
   // 23:00
   {

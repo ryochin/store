@@ -33,6 +33,20 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13004378/"
   },
+  {
+    "name": "ダ オカピート",
+    "nameAlter": "Pizzeria Trattoria da Okapito",
+    "genre": "ピッツァ/イタリアン",
+    "unvisited": true,
+    "closeDay": "水/不定",
+    "lastOrder": "19:30?",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13257953/",
+    "home": "https://daokapito.wixsite.com/okapito",
+    "facebook": "daokapito",
+    "instagram": "pizzeriadaokapito"
+  },
 
   // 20:00
   {
@@ -189,7 +203,7 @@
     "unvisited": true,
     "closeDay": "水",
     "lastOrder": "22:00?",
-    "location": "荻窪 南",
+    "location": "南",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230892/",
     "link": ["http://ogikubo.hungry.jp/gourmet/2456"]
@@ -204,6 +218,19 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13168900/",
     "home": "https://www.facebook.com/%E8%8D%BB%E7%AA%AA-%E3%82%AB%E3%83%97%E3%82%B9%E3%83%BC%E3%83%A9-Winebar-Restaurant-Capsula-1492447634375600/"
+  },
+  {
+    "name": "ラ・デエサ",
+    "nameAlter": "La Dehesa",
+    "genre": "スペイン/ビストロ",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "22:00?",
+    "location": "駅前",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13258210/",
+    "home": "https://ladehesa.jp/",
+    "facebook": "ladehesa.ogikubo"
   },
 
   // 22:30
@@ -236,7 +263,7 @@
     "unvisited": true,
     "closeDay": "不定",
     "lastOrder": "23:00",
-    "location": "荻窪 南",
+    "location": "南",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13208222/",
     "link": ["http://ogikubo.hungry.jp/gourmet/3400"]
@@ -267,7 +294,7 @@
     "unvisited": true,
     "closeDay": "不明",
     "lastOrder": "23:30?",
-    "location": "荻窪 北",
+    "location": "北",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13216152/"
   },
