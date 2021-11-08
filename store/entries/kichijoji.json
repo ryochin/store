@@ -463,7 +463,6 @@
   {
     "name": "蟹が得意な洋麺屋 PASTA",
     "genre": "イタリアン",
-    "unvisited": true,
     "closeDay": "第一月",
     "lastOrder": "22:30",
     "location": "西",
@@ -473,17 +472,6 @@
   },
 
   // 23:00
-  {
-    "name": "ビストロ エピス",
-    "nameAlter": "Bistro epices",
-    "unvisited": true,
-    "genre": "フレンチ",
-    "closeDay": "月",
-    "lastOrder": "23:00",
-    "location": "駅前（南）",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13039682/"
-  },
   {
     "name": "にほん酒や",
     "genre": "居酒屋",

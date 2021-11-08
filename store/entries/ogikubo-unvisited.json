@@ -47,6 +47,28 @@
     "facebook": "daokapito",
     "instagram": "pizzeriadaokapito"
   },
+  {
+    "name": "キエロティエ",
+    "nameAlter": "Kielotie",
+    "genre": "カフェ/フィンランド料理",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "19:30?",
+    "location": "白山通り",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13217895/",
+    "facebook": "kielotie"
+  },
+  {
+    "name": "旨辛麺かつくに",
+    "genre": "ラーメン",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "19:30?",
+    "location": "駅東",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13247265/"
+  },
 
   // 20:00
   {
@@ -82,18 +104,6 @@
   },
 
   // 20:30
-  {
-    "name": "Drammatico",
-    "genre": "イタリアン",
-    "unvisited": true,
-    "closeDay": "水/第3火",
-    "lastOrder": "20:30",
-    "location": "住：南",
-    "memo": "お高い",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13000713/",
-    "facebook": "dorammatico",
-    "instagram": "dramma_tico"
-  },
   {
     "name": "鮨 きたがわ ",
     "genre": "寿司",

@@ -6,7 +6,7 @@
     "closeDay": "無休",
     "lastOrder": "22:00",
     "location": "ハモニカ横町",
-    "memo": "",
+    "memo": "コロナで閉店",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13130985/"
   },
   {
@@ -251,7 +251,7 @@
     "closeDay": "不定",
     "lastOrder": "20:30",
     "location": "紀伊国屋地下",
-    "memo": "ｲﾏｲﾁになった",
+    "memo": "ビル立て替えのため閉店",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13016554/"
   },
   {
@@ -274,5 +274,16 @@
     "memo": "銀座５内/肉強制",
     "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13123385/",
     "closedAt": "2020.10"
+  },
+  {
+    "name": "ビストロ エピス",
+    "nameAlter": "Bistro epices",
+    "unvisited": true,
+    "genre": "フレンチ",
+    "closeDay": "月",
+    "lastOrder": "23:00",
+    "location": "駅前（南）",
+    "memo": "吉祥寺→豊島区移転",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13039682/"
   }
 ]

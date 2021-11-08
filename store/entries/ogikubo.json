@@ -94,6 +94,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13095907/",
     "home": "https://ameblo.jp/commedesjournaux/"
   },
+  {
+    "name": "Drammatico",
+    "genre": "イタリアン",
+    "closeDay": "水/第3火",
+    "lastOrder": "20:30",
+    "location": "住：南",
+    "memo": "お高い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13000713/",
+    "facebook": "dorammatico",
+    "instagram": "dramma_tico"
+  },
 
   // 21:00
   {
@@ -461,6 +472,16 @@
     "location": "教会通り",
     "memo": "ｽｰﾌﾟ次第",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13122625/"
+  },
+  {
+    "name": "サンパ",
+    "genre": "フレンチ",
+    "closeDay": "日",
+    "lastOrder": "23:30",
+    "location": "白山通り",
+    "memo": "肉メイン",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13090634/",
+    "home": "http://sympa.in/"
   },
 
   // 00:00 -
