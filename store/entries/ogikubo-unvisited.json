@@ -1,5 +1,15 @@
 [
   {
+    "name": "あもん",
+    "unvisited": true,
+    "genre": "中華",
+    "closeDay": "水",
+    "lastOrder": "不明",
+    "location": "商",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13044852/"
+  },
+  {
     "name": "カフェ スティル",
     "nameAlter": "Cafe Style",
     "unvisited": true,
@@ -34,20 +44,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13004378/"
   },
   {
-    "name": "ダ オカピート",
-    "nameAlter": "Pizzeria Trattoria da Okapito",
-    "genre": "ピッツァ/イタリアン",
-    "unvisited": true,
-    "closeDay": "水/不定",
-    "lastOrder": "19:30?",
-    "location": "西",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13257953/",
-    "home": "https://daokapito.wixsite.com/okapito",
-    "facebook": "daokapito",
-    "instagram": "pizzeriadaokapito"
-  },
-  {
     "name": "キエロティエ",
     "nameAlter": "Kielotie",
     "genre": "カフェ/フィンランド料理",
@@ -80,17 +76,6 @@
     "location": "住",
     "memo": "売切次第",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001113/"
-  },
-  {
-    "name": "松月庵",
-    "genre": "そばうどん",
-    "unvisited": true,
-    "closeDay": "日",
-    "lastOrder": "20:00?",
-    "location": "すずらん",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13068134/",
-    "home": "https://ogikubo-suzuran.com/%e9%a3%b2%e9%a3%9f%e5%ba%97%e3%83%aa%e3%82%b9%e3%83%88/%e6%9d%be%e6%9c%88%e5%ba%b5/"
   },
   {
     "name": "中華徳大",

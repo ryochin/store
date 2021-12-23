@@ -31,6 +31,16 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13154596/",
     "twitter": "ramen_goryokaku"
   },
+  {
+    "name": "松月庵",
+    "genre": "そばうどん",
+    "closeDay": "日",
+    "lastOrder": "20:00? 土19:30?",
+    "location": "すずらん",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13068134/",
+    "home": "https://ogikubo-suzuran.com/%e9%a3%b2%e9%a3%9f%e5%ba%97%e3%83%aa%e3%82%b9%e3%83%88/%e6%9d%be%e6%9c%88%e5%ba%b5/"
+  },
 
   // 20:30
   {
@@ -251,7 +261,7 @@
     "closeDay": "無休",
     "lastOrder": "21:30 日祝21:00",
     "location": "ルミネ",
-    "memo": "濃い目",
+    "memo": null,
     "tabelog": "",
     "link": ["https://byo.co.jp/tsukumi/"]
   },
@@ -275,6 +285,19 @@
     "location": "タウンセブン",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13121513/"
+  },
+  {
+    "name": "ダ オカピート",
+    "nameAlter": "Pizzeria Trattoria da Okapito",
+    "genre": "ピッツァ/イタリアン",
+    "closeDay": "水/不定",
+    "lastOrder": "21:30?",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13257953/",
+    "home": "https://daokapito.wixsite.com/okapito",
+    "facebook": "daokapito",
+    "instagram": "pizzeriadaokapito"
   },
 
   // 22:00
