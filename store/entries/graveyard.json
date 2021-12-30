@@ -285,5 +285,16 @@
     "location": "駅前（南）",
     "memo": "吉祥寺→豊島区移転",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13039682/"
+  },
+  {
+    "name": "チャヤマクロビ",
+    "genre": "イタリアン、野菜",
+    "closeDay": "不定",
+    "lastOrder": "21:15",
+    "location": "伊勢丹７Ｆ",
+    "memo": "業態変更",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000967/",
+    "home": "http://www.chayam.co.jp/restaurant/isetan.shtml",
+    "closedAt": "2021.09"
   }
 ]

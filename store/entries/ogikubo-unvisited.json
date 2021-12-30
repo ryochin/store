@@ -326,5 +326,16 @@
     "twitter": "cafebarQUARTET",
     "facebook": "cafebarQuartet",
     "instagram": "cafebarquartet"
+  },
+  {
+    "name": "馬来",
+    "nameAlter": "まき",
+    "genre": "居酒屋",
+    "unvisited": true,
+    "closeDay": "日、祝月",
+    "lastOrder": "23:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13034674/"
   }
 ]

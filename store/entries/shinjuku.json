@@ -46,14 +46,15 @@
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13135095/"
   },
   {
-    "name": "チャヤマクロビ",
+    "name": "Green Italian TORCIA",
     "genre": "イタリアン、野菜",
+    "unvisited": true,
     "closeDay": "不定",
-    "lastOrder": "21:15",
+    "lastOrder": "21:15?",
     "location": "伊勢丹７Ｆ",
-    "memo": "マクロビ、高",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000967/",
-    "home": "http://www.chayam.co.jp/restaurant/isetan.shtml"
+    "memo": "マクロビ系",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13265784/",
+    "site": ["https://chayam.co.jp/pr-20211122-torcia/"]
   },
   {
     "name": "フィッシュ",
