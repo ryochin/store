@@ -296,5 +296,42 @@
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000967/",
     "home": "http://www.chayam.co.jp/restaurant/isetan.shtml",
     "closedAt": "2021.09"
+  },
+  {
+    "name": "あもん",
+    "unvisited": true,
+    "genre": "中華",
+    "closeDay": "水",
+    "lastOrder": "不明",
+    "location": "商",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13044852/",
+    "closedAt": "2022.01.31"
+  },
+  {
+    "name": "京音",
+    "nameAlter": "けいおん",
+    "genre": "たこ焼き系",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "22:00?",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230892/",
+    "link": ["http://ogikubo.hungry.jp/gourmet/2456"],
+    "memo": "業態変更",
+    "closedAt": "2021.12?"
+  },
+  {
+    "name": "和庵",
+    "genre": "割烹・小料理",
+    "unvisited": true,
+    "closeDay": "日月",
+    "lastOrder": "23:00 祝21:30",
+    "location": "商：北西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13045144/",
+    "home": "https://blog.goo.ne.jp/furisode55",
+    "closedAt": "2019.06"
   }
 ]
