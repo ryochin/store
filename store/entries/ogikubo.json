@@ -2,7 +2,6 @@
   {
     "name": "さんかく山",
     "genre": "定食",
-    "star": true,
     "closeDay": "日祝",
     "lastOrder": "19:30 土19:00",
     "location": "商",
@@ -139,6 +138,16 @@
   },
 
   // 21:30
+  {
+    "name": "ﾌﾚｯｼｭﾈｽバーガー",
+    "genre": "バーガー",
+    "closeDay": "無休？",
+    "lastOrder": "21:30?",
+    "location": "青梅沿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13146359/",
+    "home": "https://search.freshnessburger.co.jp/fb/spot/detail?code=0000000119"
+  },
   {
     "name": "せきば",
     "genre": "そば",
@@ -391,7 +400,6 @@
   {
     "name": "洋麺屋五右衛門",
     "genre": "パスタ",
-    "star": true,
     "closeDay": "無休",
     "lastOrder": "22:30",
     "location": "商",
