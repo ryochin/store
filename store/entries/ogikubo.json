@@ -140,6 +140,7 @@
   // 21:30
   {
     "name": "ﾌﾚｯｼｭﾈｽバーガー",
+    "star": true,
     "genre": "バーガー",
     "closeDay": "無休？",
     "lastOrder": "21:30?",
@@ -190,6 +191,7 @@
   },
   {
     "name": "TO THE HERBS",
+    "star": true,
     "genre": "パスタ/クレープ",
     "closeDay": "無休",
     "lastOrder": "21:30 日祝21:00",
@@ -266,6 +268,7 @@
   },
   {
     "name": "つくみ",
+    "star": true,
     "genre": "和食/麺",
     "closeDay": "無休",
     "lastOrder": "21:30 日祝21:00",
@@ -314,7 +317,6 @@
     "name": "ミオピッツァ",
     "nameAlter": "MIO PIZZA",
     "genre": "ピザ",
-    "star": true,
     "closeDay": "平日",
     "lastOrder": "22:00 日祝21:00",
     "location": "住",
@@ -354,6 +356,16 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13045800/",
     "home": "https://sakanayadojo-official.com/shop/ogikubo/"
+  },
+  {
+    "name": "カプスーラ",
+    "genre": "イタリアン",
+    "closeDay": "月",
+    "lastOrder": "22:00",
+    "location": "荻窪/南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13168900/",
+    "home": "https://www.facebook.com/%E8%8D%BB%E7%AA%AA-%E3%82%AB%E3%83%97%E3%82%B9%E3%83%BC%E3%83%A9-Winebar-Restaurant-Capsula-1492447634375600/"
   },
 
   // 22:30
@@ -503,16 +515,6 @@
     "location": "教会通り",
     "memo": "ｽｰﾌﾟ次第",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13122625/"
-  },
-  {
-    "name": "サンパ",
-    "genre": "フレンチ",
-    "closeDay": "日",
-    "lastOrder": "23:30",
-    "location": "白山通り",
-    "memo": "肉メイン",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13090634/",
-    "home": "http://sympa.in/"
   },
 
   // 00:00 -

@@ -171,17 +171,6 @@
     "link": ["https://hitosara.com/0006082070/"]
   },
   {
-    "name": "カプスーラ",
-    "genre": "イタリアン",
-    "unvisited": true,
-    "closeDay": "月",
-    "lastOrder": "22:00",
-    "location": "荻窪/南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13168900/",
-    "home": "https://www.facebook.com/%E8%8D%BB%E7%AA%AA-%E3%82%AB%E3%83%97%E3%82%B9%E3%83%BC%E3%83%A9-Winebar-Restaurant-Capsula-1492447634375600/"
-  },
-  {
     "name": "ラ・デエサ",
     "nameAlter": "La Dehesa",
     "genre": "スペイン/ビストロ",
@@ -294,5 +283,29 @@
     "location": "北",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13034674/"
+  },
+  {
+    "name": "サンパ",
+    "genre": "フレンチ",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "23:30",
+    "location": "白山通り",
+    "memo": "肉メイン",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13090634/",
+    "home": "http://sympa.in/"
+  },
+  {
+    "name": "洋食とBar Switch",
+    "genre": "バー/洋食",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "食22:00/ド23:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13146345/",
+    "home": "http://barswitch.jp/",
+    "facebook": "BarSwitch",
+    "instagram": "youshoku_bar"
   }
 ]

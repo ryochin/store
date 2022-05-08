@@ -1,5 +1,20 @@
 [
   {
+    "name": "INO CINQ Cafe",
+    "nameAlter": "イノ サンク カフェ",
+    "unvisited": true,
+    "genre": "カフェ/ランチ",
+    "closeDay": "不定",
+    "lastOrder": "17:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13258850/",
+    "home": "http://ino5.com/cafe/",
+    "facebook": "INO-CINQ-Cafe-107023061467375",
+    "instagram": "ino5cafe",
+    "link": ["https://193go.jp/kichi-ino-cinq-gw"]
+  },
+  {
     "name": "chai break",
     "nameAlter": "チャイブレイク",
     "unvisited": true,
@@ -233,7 +248,6 @@
   {
     "name": "もんくすふーず",
     "nameAlter": "MONK’S FOODS",
-    "star": true,
     "genre": "自然食 和食",
     "closeDay": "水",
     "lastOrder": "22:00 土日祝21:00",
@@ -350,7 +364,6 @@
   {
     "name": "Bubby's",
     "genre": "パンケーキ/カフェ",
-    "unvisited": true,
     "closeDay": "不明",
     "lastOrder": "22:00",
     "location": "北 コピス",
