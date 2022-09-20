@@ -91,7 +91,6 @@
     "name": "プリミ・バチ",
     "nameAlter": "Primi・Baci",
     "genre": "イタリアン",
-    "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "20:30コ",
     "location": "南",
@@ -207,6 +206,30 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13225618/",
     "twitter": "spice_kabuto",
     "instagram": "kabuto_2018"
+  },
+  {
+    "name": "ISENTEI",
+    "genre": "イタリアン",
+    "closeDay": "火水",
+    "lastOrder": "21:00",
+    "location": "公園内",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13260154/",
+    "facebook": "ISENTEI-100573945593603",
+    "instagram": "isentei202109",
+    "home": "https://isentei2021.studio.site/"
+  },
+  {
+    "name": "トスカーナ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00 日祝21:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13018889/",
+    "instagram": "toscana_kichijyoji",
+    "home": "https://toscana-kichijoji.com"
   },
 
   // 21:30
@@ -374,7 +397,6 @@
   {
     "name": "ELMO",
     "genre": "イタリアン",
-    "unvisited": true,
     "closeDay": "木",
     "lastOrder": "22:00",
     "location": "南",
@@ -386,7 +408,6 @@
   {
     "name": "GONZO",
     "genre": "イタリアン",
-    "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "22:00",
     "location": "北",

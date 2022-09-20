@@ -469,6 +469,17 @@
     "memo": null,
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206170/"
   },
+  {
+    "name": "魚人（ウオンチュ）",
+    "genre": "沖縄料理",
+    "closeDay": "火",
+    "lastOrder": "22:30?",
+    "location": "すずらん",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13205599/",
+    "home": "http://uonchu-ogikubo.com/",
+    "instagram": "uonchu"
+  },
 
   // 23:00
   {
