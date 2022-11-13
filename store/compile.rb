@@ -20,6 +20,6 @@ content = File.read('./template.html')
 content.sub! '__LIST__', JSON.pretty_generate(entries)
 content.sub! '__UPDATED_AT__', Time.now.to_s.split(' ')[0].gsub('-', '/')
 
-File.write '../store.html', content
+File.write '../index.html', content
 
-puts 'store.html created.'
+puts 'index.html created.'

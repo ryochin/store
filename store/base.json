@@ -4,6 +4,16 @@
     "id": "new"
   },
   {
+    "name": "吉",
+    "geo": "吉祥寺",
+    "id": "kichijoji"
+  },
+  {
+    "name": "西荻",
+    "geo": "西荻窪",
+    "id": "nishiogi"
+  },
+  {
     "name": "荻",
     "geo": "荻窪",
     "id": "ogikubo"
@@ -12,16 +22,6 @@
     "name": "荻未",
     "geo": "荻窪",
     "id": "ogikubo-unvisited"
-  },
-  {
-    "name": "西荻",
-    "geo": "西荻窪",
-    "id": "nishiogi"
-  },
-  {
-    "name": "吉",
-    "geo": "吉祥寺",
-    "id": "kichijoji"
   },
   {
     "name": "阿佐",
