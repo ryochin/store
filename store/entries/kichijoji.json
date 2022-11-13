@@ -39,7 +39,7 @@
     "instagram": "flippers.jp"
   },
   {
-    "name": "Café＆Meal_MUJI",
+    "name": "Café&Meal MUJI",
     "genre": "ダイニング/カフェ",
     "unvisited": true,
     "closeDay": "無休？",
@@ -127,17 +127,6 @@
     "instagram": "amritashokudou"
   },
   {
-    "name": "ヨシダゴハン",
-    "nameAlter": "YOSHIDAGOHAN",
-    "genre": "洋食 定食",
-    "closeDay": "平日休？",
-    "lastOrder": "21:00",
-    "location": "西",
-    "memo": "実質🍛のみ",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13175705/",
-    "home": "http://ameblo.jp/yoshidagohan/"
-  },
-  {
     "name": "リトル・スパイス",
     "genre": "カレー",
     "unvisited": true,
@@ -222,7 +211,6 @@
   {
     "name": "トスカーナ",
     "genre": "イタリアン",
-    "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "22:00 日祝21:30",
     "location": "北",
@@ -335,7 +323,7 @@
     "closeDay": "無休",
     "lastOrder": "22:00",
     "location": "南/吉祥寺通",
-    "memo": "新規",
+    "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13222179/",
     "home": "https://desalita-kichijoji.com/"
   },

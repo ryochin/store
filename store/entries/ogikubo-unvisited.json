@@ -45,16 +45,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13217895/",
     "facebook": "kielotie"
   },
-  {
-    "name": "旨辛麺かつくに",
-    "genre": "ラーメン",
-    "unvisited": true,
-    "closeDay": "月",
-    "lastOrder": "19:30?",
-    "location": "駅東",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13247265/"
-  },
 
   // 20:00
   {
@@ -175,7 +165,7 @@
     "nameAlter": "La Dehesa",
     "genre": "スペイン/ビストロ",
     "unvisited": true,
-    "closeDay": "水",
+    "closeDay": "水/１３月",
     "lastOrder": "22:00?",
     "location": "駅前",
     "memo": "",

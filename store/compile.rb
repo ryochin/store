@@ -2,16 +2,18 @@
 
 require 'json'
 
-entries = JSON.parse(File.read('./base.json')).each_with_object([]) do |entiry, result|
-  file = File.join('./entries', '%s.json' % entiry['id'])
+entries = JSON.parse(File.read('./base.json')).each_with_object([]) do |entity, result|
+  file = File.join('./entries', '%s.json' % entity['id'])
 
   next if !File.exist?(file)
 
   puts "loading #{file} ..."
 
-  entiry['data'] = JSON.parse(File.read(file))
+  entity['data'] = JSON.parse(File.read(file))
 
-  result << entiry
+  next if entity['data'].length === 0
+
+  result << entity
 end
 
 content = File.read('./template.html')

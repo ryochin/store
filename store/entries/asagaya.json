@@ -74,10 +74,11 @@
   },
   {
     "name": "Lupi32",
+    "nameAlter": "ルーピ トレンタドゥエ",
     "genre": "ピッツァ",
     "unvisited": true,
     "closeDay": "月/不定",
-    "lastOrder": "20:00?",
+    "lastOrder": "22:00",
     "location": "中間",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13193803/",
