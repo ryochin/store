@@ -104,7 +104,7 @@
     "tabelog": "https://tabelog.com/tokyo/A1317/A131706/13151738/"
   },
   {
-    "name": "ニルヴァナム",
+    "name": "ニルワナム",
     "nameAlter": "Nirvanam",
     "unvisited": true,
     "genre": "印カレー",
@@ -144,18 +144,8 @@
     "lastOrder": "21:45",
     "location": "代官山",
     "memo": null,
-    "tabelog": "https://tabelog.com/tokyo/A1303/A130303/13213937/"
-  },
-  {
-    "name": "ラ・カシータ",
-    "nameAlter": "",
-    "unvisited": true,
-    "genre": "メキシコ料理",
-    "closeDay": "火",
-    "lastOrder": "22:00",
-    "location": "代官山",
-    "memo": null,
-    "tabelog": "https://tabelog.com/tokyo/A1303/A130303/13002061/"
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130302/13262279/",
+    "home": "https://frijoles.jp/"
   },
   {
     "name": "エルパソ",

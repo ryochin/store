@@ -110,6 +110,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005829/",
     "home": "http://cafeamrita.jp"
   },
+  {
+    "name": "スパ吉",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "20:30?",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13262912/",
+    "home": "https://spakichi.co.jp/pages/location"
+  },
 
   // 21:00
   {
@@ -172,7 +183,8 @@
     "lastOrder": "21:00",
     "location": "北",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005761/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005761/",
+    "home": "https://alltgott2002.com"
   },
   {
     "name": "やきべ",
@@ -436,7 +448,10 @@
     "lastOrder": "22:30/日祝21:00",
     "location": "南",
     "memo": "ﾃﾗｽ喫煙可",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13129774/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13129774/",
+    "home": "https://www.mothersgroup.jp/shop/mothers_kichijoji.html",
+    "facebook": "Motherskichijoji",
+    "instagram": "trattoria_e_pizzeria_mothers"
   },
   {
     "name": "Sajilo Cafe",
@@ -515,7 +530,10 @@
     "lastOrder": "23:30",
     "location": "北",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13107739/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13107739/",
+    "home": "http://web-farmer.jp/",
+    "twitter": "nihonsyuya",
+    "instagram": "nihonsyuya_tokyo"
   },
   {
     "name": "魚真",
@@ -526,7 +544,8 @@
     "lastOrder": "23:00 土23:30",
     "location": "北",
     "memo": "人気店",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13015945/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13015945/",
+    "home": "http://www.uoshins.com/"
   },
 
   // 00:00 -
@@ -538,7 +557,9 @@
     "lastOrder": "00:00",
     "location": "北",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13155395/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13155395/",
+    "facebook": "PanoramaKitchen",
+    "instagram": "panoramakitchen_kichijoji"
   },
   {
     "name": "Chill",
@@ -549,17 +570,9 @@
     "lastOrder": "00:00 日祝22:00",
     "location": "駅北",
     "memo": "ワインバー",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13131274/"
-  },
-  {
-    "name": "Wine＆Tapas Chill",
-    "genre": "ワインバー/バル",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "00:00 日祝22:00",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13131274/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13131274/",
+    "facebook": "100063672936875",
+    "instagram": "chill_kichijoji_52"
   },
   {
     "name": "The Wigtown",

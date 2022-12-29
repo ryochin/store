@@ -11,6 +11,17 @@
     "instagram": "yuge_gohan"
   },
   {
+    "name": "もがめ食堂",
+    "genre": "定食",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "20:00?",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13230117/",
+    "twitter": "ni_mogame"
+  },
+  {
     "name": "とら屋食堂",
     "genre": "南印カレー",
     "closeDay": "不定",
@@ -89,9 +100,21 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13100655/"
   },
   {
+    "name": "anicca",
+    "genre": "フレンチ/ビストロ",
+    "unvisited": true,
+    "closeDay": "火",
+    "lastOrder": "22:30?",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13229656/",
+    "home": "http://anicca.tokyo/",
+    "twitter": "aniccatokyo",
+    "facebook": "aniccatokyo"
+  },
+  {
     "name": "チルハナ",
     "genre": "ビストロ",
-    "unvisited": true,
     "closeDay": "月",
     "lastOrder": "23:00",
     "location": "南",

@@ -173,6 +173,17 @@
     "home": "https://ladehesa.jp/",
     "facebook": "ladehesa.ogikubo"
   },
+  {
+    "name": "ブラッセリー ソノリテ",
+    "genre": "フレンチ/ビストロ",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "22:00",
+    "location": "四面道近",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13217687/",
+    "facebook": "brsonorite"
+  },
 
   // 22:30
   {

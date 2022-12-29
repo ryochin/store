@@ -1,15 +1,4 @@
 [
-  {
-    "name": "カフェナチュレ",
-    "genre": "カフェ",
-    "unvisited": true,
-    "closeDay": "不明",
-    "lastOrder": "19:30",
-    "location": "新宿駅",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130402/13040445/"
-  },
-
   // 20:30
   {
     "name": "curry 草枕",
