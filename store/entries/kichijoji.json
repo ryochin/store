@@ -241,7 +241,8 @@
     "lastOrder": "21:30?",
     "location": "北",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005823/"
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005823/",
+    "home": "https://sabo-musashinobunko.jimdofree.com/"
   },
   {
     "name": "金子屋",
@@ -454,8 +455,8 @@
     "instagram": "trattoria_e_pizzeria_mothers"
   },
   {
-    "name": "Sajilo Cafe",
-    "nameAlter": "サジロ カフェ",
+    "name": "サジロ カフェ",
+    "nameAlter": "Sajilo Cafe",
     "genre": "印カレー カフェ",
     "closeDay": "水",
     "lastOrder": "22:30",

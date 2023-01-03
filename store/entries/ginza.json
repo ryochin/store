@@ -41,7 +41,8 @@
     "lastOrder": "21:30",
     "location": "６丁目",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002616/"
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002616/",
+    "home": "http://www.delhi.co.jp/"
   },
   {
     "name": "グルガオン",
@@ -51,7 +52,10 @@
     "lastOrder": "22:00 土日祝21:00",
     "location": "１丁目",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002457/"
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13002457/",
+    "home": "http://gurgaontokyo.com/",
+    "facebook": "Gurgaon.chotiwara",
+    "instagram": "gurgaontokyo"
   },
   {
     "name": "アーンドラ・ダイニング",
@@ -61,7 +65,8 @@
     "lastOrder": "22:00 土日祝21:00",
     "location": "１丁目",
     "memo": "店内に喫煙所",
-    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13136701/"
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13136701/",
+    "facebook": "andhradining"
   },
   {
     "name": "クリッパー",

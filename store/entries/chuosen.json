@@ -1,6 +1,6 @@
 [
   {
-    "name": " negombo33",
+    "name": "negombo33",
     "genre": "カレー",
     "unvisited": true,
     "closeDay": "不定",
@@ -11,7 +11,7 @@
     "link": ["https://193go.jp/koenji-curry-negombo"]
   },
   {
-    "name": " かりい食堂",
+    "name": "かりい食堂",
     "genre": "カレー",
     "unvisited": true,
     "closeDay": "月火",
@@ -22,6 +22,19 @@
     "home": "http://so-king.hatenablog.jp/",
     "twitter": "kokuno_bito",
     "instagram": "kokuno_bito"
+  },
+  {
+    "name": "大江カレー",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "水木",
+    "lastOrder": "20:30",
+    "location": "高円寺",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131904/13242813/",
+    "twitter": "s2curryoe",
+    "instagram": "oecurry2019",
+    "link": ["https://193go.jp/koenji-oecurry"]
   },
   {
     "name": "エリックサウス カレー＆ビリヤニセンター",
