@@ -1,5 +1,15 @@
 [
   {
+    "name": "半月",
+    "genre": "カレー",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "16:00",
+    "location": "西新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13211678/"
+  },
+  {
     "name": "コチン ニヴァース",
     "nameAlter": "COCHIN NIVAS",
     "genre": "インドカレー",

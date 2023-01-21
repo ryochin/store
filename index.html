@@ -2,9 +2,19 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
     <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/ryochin/developer-favicon/master/favicon_static.ico">
+    <meta name="application-name" content="飲食店メモ">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="飲食店メモ">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333336">
+    <link rel="dns-prefetch preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch preconnect" href="maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch preconnect" href="use.fontawesome.com">
+    <link rel="apple-touch-icon" type="image/x-icon" href="images/apple-touch-icon-152x152.png" sizes="152x152">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js" integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
@@ -94,16 +104,6 @@
     "name": "🔰",
     "id": "new",
     "data": [
-      {
-        "name": "半月",
-        "genre": "カレー",
-        "unvisited": true,
-        "closeDay": "土日祝",
-        "lastOrder": "16:00",
-        "location": "西新宿",
-        "memo": "",
-        "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13211678/"
-      },
       {
         "name": "SOUTH",
         "nameAlter": "サウス",
@@ -1352,8 +1352,8 @@
         "lastOrder": "23:00 日22:00",
         "location": "商",
         "memo": null,
-        "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13185704/",
-        "home": "http://www.tsubakitei.com/menu/"
+        "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13280221/",
+        "home": "http://www.tsubakitei.com/"
       },
       {
         "name": "赤津庄兵衛",
@@ -1902,6 +1902,16 @@
     "id": "nishi-shinjuku",
     "data": [
       {
+        "name": "半月",
+        "genre": "カレー",
+        "unvisited": true,
+        "closeDay": "不定",
+        "lastOrder": "16:00",
+        "location": "西新宿",
+        "memo": "",
+        "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13211678/"
+      },
+      {
         "name": "コチン ニヴァース",
         "nameAlter": "COCHIN NIVAS",
         "genre": "インドカレー",
@@ -2008,7 +2018,6 @@
         "name": "フィッシュ",
         "nameAlter": "fish",
         "genre": "南印カレー",
-        "unvisited": true,
         "closeDay": "無休",
         "lastOrder": "21:00",
         "location": "西新宿",
@@ -3338,7 +3347,7 @@
 
       <p class="description">
         <span class="notice">おもに夜の営業について。完全禁煙のみ</span>
-        <span class="updated-at">2023/01/03 更新</span>
+        <span class="updated-at">2023/01/21 更新</span>
       </p>
 
       <div id="content"></div>
