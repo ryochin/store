@@ -469,8 +469,7 @@
     "name": "スーリヤ サジロ ",
     "nameAlter": "Surya Sajilo",
     "genre": "印カレー",
-    "unvisited": true,
-    "closeDay": "不明",
+    "closeDay": "無休？",
     "lastOrder": "22:30",
     "location": "西",
     "memo": "",
@@ -490,7 +489,7 @@
   },
   {
     "name": "NERORI",
-    "genre": "イタリアン",
+    "genre": "ビストロ",
     "unvisited": true,
     "closeDay": "無休",
     "lastOrder": "22:30",
