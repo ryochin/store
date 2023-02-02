@@ -52,8 +52,26 @@
     "closeDay": "不明",
     "lastOrder": "不明",
     "location": "南阿佐ヶ谷駅そば",
-    "memo": null,
+    "memo": "味が薄い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13255099/",
     "home": "https://spiceandco.amebaownd.com/"
+  },
+  {
+    "name": "quanto basta",
+    "genre": "イタリアン",
+    "closeDay": "水 祝翌木 2火",
+    "lastOrder": "02:30 日23:30",
+    "location": "日大二高",
+    "memo": "要食事",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13163543/"
+  },
+  {
+    "name": "鳴神",
+    "genre": "ラーメン",
+    "closeDay": "無休",
+    "lastOrder": "23:30",
+    "location": "教会通り",
+    "memo": "ｽｰﾌﾟ次第",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13122625/"
   }
 ]

@@ -197,16 +197,6 @@
     "memo": "お高い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054194/"
   },
-  {
-    "name": "ラーメン久保田",
-    "genre": "ラーメン",
-    "unvisited": true,
-    "closeDay": "水/日祝夜",
-    "lastOrder": "22:30?",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13135388/"
-  },
 
   // 23:00 -
   {
@@ -249,16 +239,6 @@
     "location": "青梅沿：西",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179530/"
-  },
-  {
-    "name": "手もみラーメン 十八番",
-    "genre": "ラーメン",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "01:00?",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001114/"
   },
   {
     "name": "カルテット",

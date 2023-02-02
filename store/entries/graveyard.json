@@ -423,5 +423,16 @@
     "memo": "閉店",
     "tabelog": "https://tabelog.com/tokyo/A1303/A130303/13002061/",
     "closedAt": "2021.01.31"
+  },
+  {
+    "name": "wood good brothers",
+    "genre": "カフェ/イタリアン",
+    "closeDay": "主に月",
+    "lastOrder": "20:30 日祝17:30",
+    "location": "すずらん",
+    "memo": "業態変更",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13212560/",
+    "home": "https://woodgoodbrothers.jp/",
+    "closedAt": "2023.03?"
   }
 ]

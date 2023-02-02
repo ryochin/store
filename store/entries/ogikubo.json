@@ -52,16 +52,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054239/"
   },
   {
-    "name": "wood good brothers",
-    "genre": "カフェ/イタリアン",
-    "closeDay": "主に月",
-    "lastOrder": "20:30 日祝17:30",
-    "location": "すずらん",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13212560/",
-    "home": "http://woodgoodbrothers.favy.jp"
-  },
-  {
     "name": "3米3 (sanmaisan)",
     "genre": "お粥",
     "closeDay": "火",
@@ -489,15 +479,6 @@
     "memo": "タバコ？",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13141730/"
   },
-  {
-    "name": "鳴神",
-    "genre": "ラーメン",
-    "closeDay": "無休",
-    "lastOrder": "23:30",
-    "location": "教会通り",
-    "memo": "ｽｰﾌﾟ次第",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13122625/"
-  },
 
   // 00:00 -
   {
@@ -508,15 +489,6 @@
     "location": "商",
     "memo": "持帰可",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13057770/"
-  },
-  {
-    "name": "quanto basta",
-    "genre": "イタリアン",
-    "closeDay": "水 祝翌木 2火",
-    "lastOrder": "02:30 日23:30",
-    "location": "日大二高",
-    "memo": "要食事",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13163543/"
   },
   {
     "name": "サラパオ",
