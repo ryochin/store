@@ -56,6 +56,17 @@
     "link": ["https://193go.jp/nishiogi-tamtamu"]
   },
   {
+    "name": "ハガレ",
+    "genre": "イタリアン/バー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13223733/",
+    "home": "https://www.kaldi.co.jp/cafe/hagare_nishiogikubo/"
+  },
+  {
     "name": "欧風料理 華",
     "genre": "西洋各国料理",
     "unvisited": true,
