@@ -74,7 +74,7 @@
         color: #cc7766;
       }
       .unvisited {
-        color: #9ca9ac;
+        color: gray;
       }
 
       @media screen and (max-width: 960px) {
@@ -823,8 +823,7 @@
       },
       {
         "name": "欧風料理 華",
-        "genre": "西洋各国料理",
-        "unvisited": true,
+        "genre": "欧風食堂",
         "closeDay": "木",
         "lastOrder": "22:30",
         "location": "南",
@@ -890,6 +889,17 @@
         "link": [
           "https://193go.jp/nishiogi-chilhana"
         ]
+      },
+      {
+        "name": "アピエ",
+        "genre": "スパニッシュ",
+        "unvisited": true,
+        "closeDay": "火",
+        "lastOrder": "24:00",
+        "location": "南",
+        "memo": "",
+        "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13264501/",
+        "instagram": "spanish_nishiogi_apie"
       }
     ]
   },
@@ -1034,7 +1044,7 @@
         "facebook": "casadolcecasa.tokyo"
       },
       {
-        "name": "フレッシュネスバーガー",
+        "name": "フレッシュネスBG",
         "star": true,
         "genre": "バーガー",
         "closeDay": "無休？",
@@ -1193,6 +1203,7 @@
         "name": "ダ オカピート",
         "nameAlter": "Pizzeria Trattoria da Okapito",
         "genre": "ピッツァ/イタリアン",
+        "star": true,
         "closeDay": "水/不定",
         "lastOrder": "21:30?",
         "location": "西",
@@ -3230,7 +3241,7 @@
                       <% }; %>
 
                       <!-- spanish -->
-                      <% if(d.genre.match(/(スペイン)([\s\/]?|$)/)){ %>
+                      <% if(d.genre.match(/(スペイン|スパニッシュ)([\s\/]?|$)/)){ %>
                         <span>🥘</span>
                       <% }; %>
 
@@ -3352,7 +3363,7 @@
 
       <p class="description">
         <span class="notice">おもに夜の営業について。完全禁煙のみ</span>
-        <span class="updated-at">2023/03/11 更新</span>
+        <span class="updated-at">2023/03/17 更新</span>
       </p>
 
       <div id="content"></div>

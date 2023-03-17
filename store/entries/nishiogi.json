@@ -68,8 +68,7 @@
   },
   {
     "name": "欧風料理 華",
-    "genre": "西洋各国料理",
-    "unvisited": true,
+    "genre": "欧風食堂",
     "closeDay": "木",
     "lastOrder": "22:30",
     "location": "南",
@@ -134,5 +133,16 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13277627/",
     "instagram": "chill_hana",
     "link": ["https://193go.jp/nishiogi-chilhana"]
+  },
+  {
+    "name": "アピエ",
+    "genre": "スパニッシュ",
+    "unvisited": true,
+    "closeDay": "火",
+    "lastOrder": "24:00",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13264501/",
+    "instagram": "spanish_nishiogi_apie"
   }
 ]
