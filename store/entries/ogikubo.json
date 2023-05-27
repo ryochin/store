@@ -132,7 +132,7 @@
     "genre": "イタリアン",
     "closeDay": "月/祝翌火",
     "lastOrder": "21:00",
-    "location": "南",
+    "location": "善福寺川",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1318/A131805/13238674/",
     "home": "http://www.casadolcecasa-tokyo.com/",
@@ -151,6 +151,16 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13241386/",
     "facebook": "accogliente20190822",
     "instagram": "accogliente20190822"
+  },
+  {
+    "name": "WINE CASA GRECO 3号店",
+    "genre": "フレンチ/ワインバー",
+    "closeDay": "水",
+    "lastOrder": "21:00?",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13260631/",
+    "home": "https://greco3.owst.jp/"
   },
 
   // 21:30
@@ -343,7 +353,7 @@
     "location": "駅前",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13045800/",
-    "home": "https://sakanayadojo-official.com/shop/ogikubo/"
+    "instagram": "sakanaya_dojo"
   },
   {
     "name": "カプスーラ",

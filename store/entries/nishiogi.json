@@ -33,6 +33,18 @@
     "link": ["https://kichifan.com/2019/07/31/toraya_shokudou/"]
   },
   {
+    "name": "タリカロ",
+    "genre": "南印カレー",
+    "closeDay": "木",
+    "lastOrder": "21:30/日祝20:30",
+    "location": "南",
+    "memo": "辛い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13255518/",
+    "twitter": "Zb0FZMyLrHciWhu",
+    "facebook": "tairkaro.curry",
+    "instagram": "tarikaro_1"
+  },
+  {
     "name": "大岩食堂",
     "genre": "南印カレー",
     "star": true,
@@ -65,6 +77,19 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13223733/",
     "home": "https://www.kaldi.co.jp/cafe/hagare_nishiogikubo/"
+  },
+  {
+    "name": "ラヒ パンジャービー･キッチン",
+    "nameAlter": "Rahi Punjabi Kitchen",
+    "genre": "南印カレー",
+    "unvisited": true,
+    "closeDay": "月火",
+    "lastOrder": "22:00",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13051190/",
+    "home": "http://rahi.jp/contents/index_h.html",
+    "twitter": "nishiogirahi"
   },
   {
     "name": "欧風料理 華",
@@ -144,5 +169,17 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13264501/",
     "instagram": "spanish_nishiogi_apie"
+  },
+  {
+    "name": "シタル",
+    "nameAlter": "SITAL",
+    "genre": "印カレー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "24:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13086481/",
+    "twitter": "SITAL32804317"
   }
 ]

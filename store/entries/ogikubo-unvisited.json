@@ -103,17 +103,6 @@
     "memo": "お高い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13207896/"
   },
-  {
-    "name": "WINE,CASA GRECO３号店",
-    "genre": "フレンチ/ワインバー",
-    "unvisited": true,
-    "closeDay": "水",
-    "lastOrder": "21:00?",
-    "location": "南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13260631/",
-    "home": "https://greco3.owst.jp/"
-  },
 
   // 21:30
   {
