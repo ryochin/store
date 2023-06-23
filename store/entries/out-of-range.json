@@ -71,7 +71,19 @@
     "closeDay": "無休",
     "lastOrder": "23:30",
     "location": "教会通り",
-    "memo": "ｽｰﾌﾟ次第",
+    "memo": "もう行かないだろう",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13122625/"
+  },
+  {
+    "name": "Rojiura Curry SAMURAI.",
+    "genre": "スープカレー",
+    "closeDay": "不定",
+    "lastOrder": "22:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13199491/",
+    "home": "http://samurai-curry.com/",
+    "link": ["https://www.instagram.com/samurai.kj/"],
+    "memo": "甘い"
   }
 ]

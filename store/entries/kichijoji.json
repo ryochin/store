@@ -1,5 +1,19 @@
 [
   {
+    "name": "コロモ チャ ヤ",
+    "unvisited": true,
+    "genre": "カフェ/ランチ",
+    "closeDay": "火水",
+    "lastOrder": "16:30/17:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13154851/",
+    "home": "https://coromo-cya-ya.com/",
+    "twitter": "coromo_cya_ya",
+    "facebook": "coromocyaya",
+    "instagram": "coromo_cya_ya"
+  },
+  {
     "name": "INO CINQ Cafe",
     "nameAlter": "イノ サンク カフェ",
     "unvisited": true,
@@ -361,29 +375,6 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13159155/",
     "home": "http://www.villamagnolia.tokyo"
-  },
-  {
-    "name": "くまもり食堂",
-    "genre": "洋食",
-    "unvisited": true,
-    "closeDay": "火",
-    "lastOrder": "22:00?",
-    "location": "西",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13140612/",
-    "link": ["https://kichifan.com/2017/09/22/kuma_shokudo_omletrice/s"]
-  },
-  {
-    "name": "Rojiura Curry SAMURAI.",
-    "genre": "スープカレー",
-    "closeDay": "不定",
-    "lastOrder": "22:00",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13199491/",
-    "home": "http://samurai-curry.com/",
-    "link": ["https://www.instagram.com/samurai.kj/"],
-    "memo": "甘い"
   },
   {
     "name": "Bubby's",

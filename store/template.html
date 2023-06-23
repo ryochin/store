@@ -179,13 +179,6 @@
                       <% }; %>
                     </td>
                     <td>
-                      <!-- home -->
-                      <% if(d.home){ %>
-                        <a href="<%= d.home %>" target="_blank">
-                          <i class="fa fa-home"></i>
-                        </a>
-                      <% }; %>
-
                       <!-- twitter -->
                       <% if(d.twitter){ %>
                         <a href="https://twitter.com/<%= d.twitter %>" target="_blank">
@@ -204,6 +197,13 @@
                       <% if(d.instagram){ %>
                         <a href="https://instagram.com/<%= d.instagram %>" target="_blank">
                           <i class="fab fa-instagram"></i>
+                        </a>
+                      <% }; %>
+
+                      <!-- home -->
+                      <% if(d.home){ %>
+                        <a href="<%= d.home %>" target="_blank">
+                          <i class="fa fa-home"></i>
                         </a>
                       <% }; %>
 

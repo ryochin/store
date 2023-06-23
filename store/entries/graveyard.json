@@ -433,6 +433,52 @@
     "memo": "業態変更",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13212560/",
     "home": "https://woodgoodbrothers.jp/",
-    "closedAt": "2023.03?"
+    "closedAt": "2022.12.29"
+  },
+  {
+    "name": "3米3 (sanmaisan)",
+    "genre": "お粥",
+    "closeDay": "火",
+    "lastOrder": "20:30",
+    "location": "青梅街道",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13208624/",
+    "facebook": "3m3cafe",
+    "twitter": "3m3cafe",
+    "closedAt": "2023.06?"
+  },
+  {
+    "name": "くまもり食堂",
+    "genre": "洋食",
+    "unvisited": true,
+    "closeDay": "火",
+    "lastOrder": "22:00?",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13140612/",
+    "link": ["https://kichifan.com/2017/09/22/kuma_shokudo_omletrice/s"],
+    "closedAt": "2023.02"
+  },
+  {
+    "name": "潮州",
+    "nameAlter": "チョウシュウ",
+    "genre": "中華",
+    "closeDay": "月/祝翌火",
+    "lastOrder": "21:00",
+    "location": "住宅街",
+    "memo": "お高い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13001116/",
+    "closedAt": "2023.01?"
+  },
+  {
+    "name": "Bar 天竺",
+    "genre": "居酒屋/バー",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "食23:00/飲23:30",
+    "location": "",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13193537/",
+    "closedAt": "2020?"
   }
 ]

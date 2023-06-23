@@ -42,16 +42,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13020243/"
   },
   {
-    "name": "Bar 天竺",
-    "genre": "居酒屋/バー",
-    "unvisited": true,
-    "closeDay": "日",
-    "lastOrder": "食23:00/飲23:30",
-    "location": "",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13193537/"
-  },
-  {
     "name": "KINKA SUSHI BAR",
     "nameAlter": "キンカ",
     "unvisited": true,
@@ -73,5 +63,17 @@
     "memo": "遠",
     "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13139786/",
     "home": "http://stand7.net/"
+  },
+  {
+    "name": "カレーショップ初恋",
+    "genre": "南印カレー",
+    "closeDay": "不定",
+    "lastOrder": "19:00",
+    "location": "",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130301/13240190/",
+    "facebook": "hatsukoi.curry",
+    "instagram": "hatsukoicurry",
+    "home": "http://spicebargroup.jp/"
   }
 ]
