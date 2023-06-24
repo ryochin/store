@@ -31,7 +31,9 @@
     "lastOrder": "19:30",
     "location": "住：遠",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13004378/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13004378/",
+    "home": "http://sobatakahashi.com/",
+    "facebook": "hideo.takahashi.35977"
   },
   {
     "name": "キエロティエ",
@@ -78,7 +80,8 @@
     "location": "住：西",
     "memo": "お高い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13234512/",
-    "home": "https://sushi-kitagawa.gorp.jp/"
+    "home": "https://sushi-kitagawa.gorp.jp/",
+    "instagram": "sushi_kitagawa"
   },
 
   // 21:00
@@ -101,7 +104,9 @@
     "lastOrder": "21:00",
     "location": "住宅街/青梅街",
     "memo": "お高い",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13207896/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13207896/",
+    "home": "http://www.point-de-depart714.com/",
+    "facebook": "pointdedepart714"
   },
 
   // 21:30
@@ -113,7 +118,8 @@
     "lastOrder": "21:30",
     "location": "八幡通り",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13047195/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13047195/",
+    "facebook": "100057307665946"
   },
   {
     "name": "和田上",
@@ -158,6 +164,7 @@
     "location": "寿通",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206808/",
+    "home": "https://www.choibaru.com/",
     "link": ["https://hitosara.com/0006082070/"]
   },
   {
@@ -171,7 +178,8 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13258210/",
     "home": "https://ladehesa.jp/",
-    "facebook": "ladehesa.ogikubo"
+    "facebook": "ladehesa.ogikubo",
+    "instagram": "ladehesa.ogikubo"
   },
   {
     "name": "ブラッセリー ソノリテ",
@@ -208,7 +216,11 @@
     "location": "南",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13208222/",
-    "link": ["http://ogikubo.hungry.jp/gourmet/3400"]
+    "link": ["http://ogikubo.hungry.jp/gourmet/3400"],
+    "home": "https://ja-jp.facebook.com/OZAogikubo/",
+    "twitter": "OZAogikubo",
+    "facebook": "OZAogikubo",
+    "instagram": "ogikubooza"
   },
   {
     "name": "荻窪ダイニング",
@@ -238,7 +250,8 @@
     "lastOrder": "00:00",
     "location": "青梅沿：西",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179530/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179530/",
+    "twitter": "tetrapot0622"
   },
   {
     "name": "カルテット",

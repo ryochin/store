@@ -192,7 +192,8 @@
     "location": "駅前",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13116014/",
-    "home": "https://www.facebook.com/ogikubogallina/"
+    "home": "https://www.facebook.com/ogikubogallina/",
+    "facebook": "ogikubogallina"
   },
   {
     "name": "TO THE HERBS",
@@ -366,7 +367,8 @@
     "lastOrder": "22:30",
     "location": "商：南",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13162376/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13162376/",
+    "instagram": "trattoria_elmocielo"
   },
   {
     "name": "中華屋啓ちゃん",
@@ -375,7 +377,8 @@
     "lastOrder": "22:30",
     "location": "八幡通り",
     "memo": null,
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13129223/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13129223/",
+    "instagram": "chukaya_keichan"
   },
   {
     "name": "呉さんの台湾料理",
@@ -384,7 +387,8 @@
     "lastOrder": "22:30",
     "location": "八幡通り",
     "memo": null,
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13166264/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13166264/",
+    "instagram": "__wusan53"
   },
   {
     "name": "洋麺屋五右衛門",
@@ -444,7 +448,8 @@
     "lastOrder": "22:30 土日祝22:00",
     "location": "青梅街",
     "memo": null,
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206170/"
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206170/",
+    "home": "https://kurahashi.hp.gogo.jp/pc/"
   },
   {
     "name": "魚人（ウオンチュ）",
