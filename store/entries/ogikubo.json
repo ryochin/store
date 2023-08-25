@@ -18,6 +18,16 @@
     "memo": "ﾌｧﾐﾏ内",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179098/"
   },
+  {
+    "name": "桃蕎庵 こばやし",
+    "genre": "そばうどん",
+    "closeDay": "水日",
+    "lastOrder": "19:30?",
+    "location": "八丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13053844/",
+    "link": ["http://8ave.jp/shop/0333906055.html"]
+  },
 
   // 20:00
   {
@@ -461,6 +471,15 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13205599/",
     "home": "http://uonchu-ogikubo.com/",
     "instagram": "uonchu"
+  },
+  {
+    "name": "荻窪飯店",
+    "genre": "中華",
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "環八",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13244342/"
   },
 
   // 23:00
