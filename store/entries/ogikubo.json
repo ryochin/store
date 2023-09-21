@@ -155,7 +155,6 @@
   // 21:30
   {
     "name": "フレッシュネスBG",
-    "star": true,
     "genre": "バーガー",
     "closeDay": "無休？",
     "lastOrder": "21:30?",
@@ -278,7 +277,6 @@
   {
     "name": "洋食亭ブラームス",
     "genre": "洋食",
-    "star": true,
     "closeDay": "無休",
     "lastOrder": "21:30 日祝21:00",
     "location": "ルミネ",
@@ -309,6 +307,17 @@
     "home": "https://daokapito.wixsite.com/okapito",
     "facebook": "daokapito",
     "instagram": "pizzeriadaokapito"
+  },
+  {
+    "name": "Da Masa",
+    "genre": "ピッツァ/イタリアン",
+    "closeDay": "水",
+    "lastOrder": "21:30",
+    "location": "西",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13177105/",
+    "facebook": "100063540520615",
+    "instagram": "da_masa_pizza_al_forno"
   },
 
   // 22:00

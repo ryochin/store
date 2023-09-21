@@ -14,7 +14,6 @@
   {
     "name": "マンゴツリーカフェ",
     "genre": "タイ料理",
-    "star": true,
     "closeDay": "不定",
     "lastOrder": "20:30コ",
     "location": "新宿ルミネ1 7F",
@@ -37,7 +36,6 @@
   {
     "name": "Green Italian TORCIA",
     "genre": "イタリアン、野菜",
-    "unvisited": true,
     "closeDay": "不定",
     "lastOrder": "21:15?",
     "location": "伊勢丹７Ｆ",
@@ -81,6 +79,18 @@
     "memo": "電源あり",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13174391/",
     "home": "http://caffice.jp/"
+  },
+  {
+    "name": "サイアム セラドン",
+    "nameAlter": "SIAM CELADON",
+    "star": true,
+    "genre": "タイ料理",
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "高島屋12F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13039534/",
+    "home": "https://www.restaurants-park.jp/restaurant/?id=29"
   },
 
   // 22:30
@@ -129,7 +139,6 @@
   {
     "name": "COTO-COTO 茶寮",
     "genre": "パスタ風うどん/スイーツ",
-    "star": true,
     "closeDay": "ほぼ無休",
     "lastOrder": "22:30",
     "location": "ミロード8F",

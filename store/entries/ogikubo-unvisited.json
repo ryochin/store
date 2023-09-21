@@ -83,6 +83,16 @@
     "home": "https://sushi-kitagawa.gorp.jp/",
     "instagram": "sushi_kitagawa"
   },
+  {
+    "name": "榛名",
+    "genre": "うどん/天ぷら",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "20:30",
+    "location": "青梅",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13286241/"
+  },
 
   // 21:00
   {
