@@ -1,5 +1,17 @@
 [
   {
+    "name": "もがめ食堂",
+    "unvisited": true,
+    "genre": "定食",
+    "closeDay": "水",
+    "lastOrder": "20:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13293323/",
+    "link": ["https://mrs.living.jp/musashino/newopen/reporter/5518906"],
+    "instagram": "mogame_shokudou_kichijoji"
+  },
+  {
     "name": "カフェ スティル",
     "nameAlter": "Cafe Style",
     "unvisited": true,
@@ -90,7 +102,7 @@
     "closeDay": "水",
     "lastOrder": "20:30",
     "location": "青梅",
-    "memo": "",
+    "memo": "穴子",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13286241/"
   },
 
@@ -151,6 +163,19 @@
     "location": "駅前",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054344/"
+  },
+  {
+    "name": "八好",
+    "genre": "うどん",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "21:30",
+    "location": "八丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13280906/",
+    "home": "https://sites.google.com/view/hachiyoshi-inaniwa/",
+    "twitter": "hachiyoshi_0",
+    "instagram": "hachiyoshi_inaniwa"
   },
 
   // 22:00

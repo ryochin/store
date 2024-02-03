@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build
+    dir: store
+    cmds:
+      - ruby ./compile.rb
+
+  default:
+    cmds:
+      - task -l --sort=none
+    silent: true

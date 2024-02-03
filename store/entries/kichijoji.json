@@ -201,28 +201,6 @@
     "home": "https://alltgott2002.com"
   },
   {
-    "name": "やきべ",
-    "genre": "バル/地中海料理",
-    "unvisited": true,
-    "closeDay": "月火水",
-    "lastOrder": "21:00",
-    "location": "南",
-    "memo": "地中海系焼き物",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13214007/"
-  },
-  {
-    "name": "レインボウスパイス食堂 かぶと",
-    "genre": "カレー",
-    "star": true,
-    "closeDay": "不定",
-    "lastOrder": "21:00",
-    "location": "南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13225618/",
-    "twitter": "spice_kabuto",
-    "instagram": "kabuto_2018"
-  },
-  {
     "name": "ISENTEI",
     "genre": "イタリアン",
     "closeDay": "火水",
@@ -317,19 +295,6 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13047308/",
     "twitter": "pizzeriaGG"
-  },
-  {
-    "name": "ラトリエ・デュ・グー",
-    "nameAlter": "L'atelier du gout",
-    "unvisited": true,
-    "genre": "フレンチ",
-    "closeDay": "火",
-    "lastOrder": "22:00",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13050854/",
-    "facebook": "216361091731289",
-    "instagram": "latelierdugout"
   },
   {
     "name": "Cafe RUSSIA",
@@ -514,16 +479,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213558/",
     "home": "https://www.mjsmile.com/"
   },
-  {
-    "name": "蟹が得意な洋麺屋 PASTA",
-    "genre": "イタリアン",
-    "closeDay": "第一月",
-    "lastOrder": "22:30",
-    "location": "西",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13261369/",
-    "instagram": "kani_pasta_crab"
-  },
 
   // 23:00
   {
@@ -594,7 +549,6 @@
   {
     "name": "The Wigtown",
     "genre": "バー/パブ",
-    "star": true,
     "closeDay": "無休",
     "lastOrder": "01:30",
     "location": "南東の通り",

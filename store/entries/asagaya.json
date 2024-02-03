@@ -52,17 +52,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13147108/"
   },
   {
-    "name": "YO-HO's cafe Lanai",
-    "genre": "ハワイアン",
-    "unvisited": true,
-    "closeDay": "月",
-    "lastOrder": "21:30",
-    "location": "北駅",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13129036/",
-    "facebook": "yohoasagaya"
-  },
-  {
     "name": "Lupi32",
     "nameAlter": "ルーピ トレンタドゥエ",
     "genre": "ピッツァ",
