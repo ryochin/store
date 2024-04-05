@@ -85,5 +85,55 @@
     "home": "http://samurai-curry.com/",
     "link": ["https://www.instagram.com/samurai.kj/"],
     "memo": "甘い"
+  },
+  {
+    "name": "Da Masa",
+    "genre": "ピッツァ/イタリアン",
+    "closeDay": "水",
+    "lastOrder": "21:30",
+    "location": "西",
+    "memo": "質がイマイチ",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13177105/",
+    "facebook": "100063540520615",
+    "instagram": "da_masa_pizza_al_forno"
+  },
+  {
+    "name": "中華屋啓ちゃん",
+    "genre": "中華",
+    "closeDay": "月",
+    "lastOrder": "22:30",
+    "location": "八幡通り",
+    "memo": "７年も行っていない",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13129223/",
+    "instagram": "chukaya_keichan"
+  },
+  {
+    "name": "呉さんの台湾料理",
+    "genre": "台湾料理",
+    "closeDay": "火水",
+    "lastOrder": "22:30",
+    "location": "八幡通り",
+    "memo": "９年前に行ったきり",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13166264/",
+    "instagram": "__wusan53"
+  },
+  {
+    "name": "カフェ アルック",
+    "genre": "カフェ",
+    "closeDay": "日祝",
+    "lastOrder": "21:30 金土23:30",
+    "location": "八幡通り",
+    "memo": "もう行かないだろう",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13146821/",
+    "home": "https://arkku.exblog.jp/"
+  },
+  {
+    "name": "荻窪飯店",
+    "genre": "中華",
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "環八",
+    "memo": "タバコ臭い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13244342/"
   }
 ]

@@ -552,5 +552,28 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131905/13129036/",
     "facebook": "yohoasagaya",
     "closedAt": "2023.12"
+  },
+  {
+    "name": "瓜坊の定食屋さん",
+    "genre": "定食/弁当",
+    "closeDay": "日",
+    "lastOrder": "20:30",
+    "location": "仲通り",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13232782/",
+    "instagram": "uribouteishokuya",
+    "closedAt": "2024.02?"
+  },
+  {
+    "name": "サラパオ",
+    "genre": "タイ料理/カレー",
+    "closeDay": "無休",
+    "lastOrder": "02:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13248930/",
+    "link": ["https://www.chuo-besthome.co.jp/local/sarapao/"],
+    "instagram": "sarapao.ogikubo",
+    "closedAt": "2023末?"
   }
 ]
