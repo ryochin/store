@@ -144,17 +144,6 @@
     "facebook": "100057307665946"
   },
   {
-    "name": "和田上",
-    "nameAlter": "わたがみ",
-    "genre": "寿司",
-    "unvisited": true,
-    "closeDay": "月/月２連",
-    "lastOrder": "21:30 日 21:00",
-    "location": "商",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13080794/"
-  },
-  {
     "name": "元祖寿司",
     "genre": "寿司",
     "unvisited": true,
@@ -274,31 +263,6 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179530/",
     "twitter": "tetrapot0622"
-  },
-  {
-    "name": "カルテット",
-    "genre": "カフェ/バル",
-    "unvisited": true,
-    "closeDay": "月火",
-    "lastOrder": "22:00",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13236512/",
-    "home": "https://cafebarquartet.tokyo/",
-    "twitter": "cafebarQUARTET",
-    "facebook": "cafebarQuartet",
-    "instagram": "cafebarquartet"
-  },
-  {
-    "name": "馬来",
-    "nameAlter": "まき",
-    "genre": "居酒屋",
-    "unvisited": true,
-    "closeDay": "日、祝月",
-    "lastOrder": "23:30",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13034674/"
   },
   {
     "name": "サンパ",

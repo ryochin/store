@@ -575,5 +575,69 @@
     "link": ["https://www.chuo-besthome.co.jp/local/sarapao/"],
     "instagram": "sarapao.ogikubo",
     "closedAt": "2023末?"
+  },
+  {
+    "name": "curry 草枕",
+    "genre": "カレー",
+    "closeDay": "無休",
+    "lastOrder": "20:30",
+    "location": "新宿",
+    "memo": "人気店",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13042970/",
+    "home": "https://currykusa.com/",
+    "twitter": "currykusa",
+    "closedAt": "2024.04.28"
+  },
+  {
+    "name": "馬来",
+    "nameAlter": "まき",
+    "genre": "居酒屋",
+    "unvisited": true,
+    "closeDay": "日、祝月",
+    "lastOrder": "23:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13034674/",
+    "closedAt": "2024.03末"
+  },
+  {
+    "name": "チルハナ",
+    "genre": "ビストロ",
+    "closeDay": "月",
+    "lastOrder": "23:00",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13277627/",
+    "twitter": "chillhana2022",
+    "instagram": "chill_hana",
+    "link": ["https://193go.jp/nishiogi-chilhana"],
+    "closedAt": "2024.04.21"
+  },
+  {
+    "name": "和田上",
+    "nameAlter": "わたがみ",
+    "genre": "寿司",
+    "unvisited": true,
+    "closeDay": "月/月２連",
+    "lastOrder": "21:30 日 21:00",
+    "location": "商",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13080794/",
+    "closedAt": "2024.05.18"
+  },
+  {
+    "name": "カルテット",
+    "genre": "カフェ/バル",
+    "unvisited": true,
+    "closeDay": "月火",
+    "lastOrder": "22:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13236512/",
+    "home": "https://cafebarquartet.tokyo/",
+    "twitter": "cafebarQUARTET",
+    "facebook": "cafebarQuartet",
+    "instagram": "cafebarquartet",
+    "closedAt": "2024.05"
   }
 ]

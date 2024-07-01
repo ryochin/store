@@ -1,17 +1,6 @@
 [
   // 20:30
   {
-    "name": "curry 草枕",
-    "genre": "カレー",
-    "closeDay": "無休",
-    "lastOrder": "20:30",
-    "location": "新宿",
-    "memo": "人気店",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13042970/",
-    "home": "https://currykusa.com/",
-    "twitter": "currykusa"
-  },
-  {
     "name": "マンゴツリーカフェ",
     "genre": "タイ料理",
     "closeDay": "不定",
