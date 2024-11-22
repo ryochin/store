@@ -639,5 +639,17 @@
     "facebook": "cafebarQuartet",
     "instagram": "cafebarquartet",
     "closedAt": "2024.05"
+  },
+  {
+    "name": "orq.",
+    "nameAlter": "オーク",
+    "genre": "ビストロ/野菜料理",
+    "star": true,
+    "closeDay": "不定",
+    "lastOrder": "22:30?",
+    "location": "住：南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206596/",
+    "closedAt": "2024.09 リニューアル"
   }
 ]

@@ -93,6 +93,17 @@
     "facebook": "dorammatico",
     "instagram": "dramma_tico"
   },
+  {
+    "name": "もがめ食堂",
+    "genre": "定食",
+    "closeDay": "水",
+    "lastOrder": "20:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13293323/",
+    "link": ["https://mrs.living.jp/musashino/newopen/reporter/5518906"],
+    "instagram": "mogame_shokudou_kichijoji"
+  },
 
   // 21:00
   {
@@ -313,17 +324,6 @@
 
   // 22:00
   {
-    "name": "orq.",
-    "nameAlter": "オーク",
-    "genre": "ビストロ/野菜料理",
-    "star": true,
-    "closeDay": "不定",
-    "lastOrder": "22:30?",
-    "location": "住：南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206596/"
-  },
-  {
     "name": "Rêve",
     "nameOriginal": "ナチュールイタリアン Reve",
     "genre": "イタリアン",
@@ -441,6 +441,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13205599/",
     "home": "http://uonchu-ogikubo.com/",
     "instagram": "uonchu"
+  },
+  {
+    "name": "有いち",
+    "nameAlter": "ゆういち",
+    "unvisited": true,
+    "genre": "割烹",
+    "closeDay": "日、祝の月",
+    "lastOrder": "22:30",
+    "location": "商：北すぐ",
+    "memo": "お高い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054194/"
   },
 
   // 23:00
