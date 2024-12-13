@@ -1,4 +1,17 @@
 [
+  {
+    "name": "フタバフルーツパーラー",
+    "star": true,
+    "genre": "カフェ",
+    "closeDay": "不定",
+    "lastOrder": "19:00",
+    "location": "新宿三丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13218654/",
+    "home": "https://www.cafecompany.co.jp/brands/futabafruitsparlor/",
+    "facebook": "FutabaFruits",
+    "instagram": "futabafruitsparlor"
+  },
   // 20:30
   {
     "name": "マンゴツリーカフェ",
@@ -33,21 +46,32 @@
     "site": ["https://chayam.co.jp/pr-20211122-torcia/"]
   },
   {
-    "name": "フィッシュ",
-    "nameAlter": "fish",
-    "genre": "南印カレー",
+    "name": "中村屋 オリーブハウス",
+    "genre": "カレー 洋食",
     "closeDay": "無休",
     "lastOrder": "21:00",
-    "location": "西新宿",
+    "location": "高島屋13F",
     "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13222551/",
-    "home": "https://www.facebook.com/FISH.indian.curry",
-    "link": ["https://193go.jp/shinjuku-curry-fish"]
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13030980/",
+    "home": "http://www.nakamuraya.co.jp/",
+    "link": ["https://www.restaurants-park.jp/restaurant/?id=12"]
+  },
+  {
+    "name": "農家の台所",
+    "genre": "野菜料理 定食",
+    "closeDay": "無休",
+    "lastOrder": "21:00",
+    "location": "新宿三丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13094046/",
+    "home": "http://www.noukanodaidokoro.com/",
+    "instagram": "noukanodaidokoro_shinjuku3"
   },
 
   // 21:30
   {
     "name": "Manna（新宿中村屋）",
+    "star": true,
     "genre": "カレー",
     "closeDay": "無休",
     "lastOrder": "21:30",
@@ -80,6 +104,30 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13039534/",
     "home": "https://www.restaurants-park.jp/restaurant/?id=29"
+  },
+  {
+    "name": "北海道イタリアン ミア・ボッカ",
+    "genre": "イタリアン",
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "高島屋13F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13271211/",
+    "home": "https://www.eastone.co.jp/mia-bocca/",
+    "link": ["https://www.restaurants-park.jp/restaurant/?id=495"]
+  },
+  {
+    "name": "シターラ グローブ",
+    "star": true,
+    "nameAlter": "SITAARA Grove",
+    "genre": "印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "高島屋13F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13038457/",
+    "home": "http://www.sitaara.com/",
+    "link": ["https://www.restaurants-park.jp/restaurant/?id=19"]
   },
 
   // 22:30

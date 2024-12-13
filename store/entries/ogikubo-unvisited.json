@@ -118,6 +118,17 @@
     "home": "http://www.point-de-depart714.com/",
     "facebook": "pointdedepart714"
   },
+  {
+    "name": "ORCHESTRA荻窪",
+    "genre": "ビストロ",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "21:00",
+    "location": "駅前",
+    "memo": "元 orq.",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13301718/",
+    "instagram": "orchestra.ogikubo"
+  },
 
   // 21:30
   {

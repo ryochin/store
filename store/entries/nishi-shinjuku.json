@@ -10,14 +10,61 @@
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13211678/"
   },
   {
+    "name": "樹林",
+    "genre": "ダイニング",
+    "closeDay": "無休",
+    "lastOrder": "17:30",
+    "location": "西新宿 京プＨ",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13023995/",
+    "home": "https://www.keioplaza.co.jp/restaurant/list/jurin"
+  },
+  // 21:00
+  {
+    "name": "フィッシュ",
+    "nameAlter": "fish",
+    "genre": "南印カレー",
+    "closeDay": "無休",
+    "lastOrder": "21:00",
+    "location": "西新宿",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13222551/",
+    "home": "https://www.facebook.com/FISH.indian.curry",
+    "link": ["https://193go.jp/shinjuku-curry-fish"]
+  },
+  {
     "name": "コチン ニヴァース",
     "nameAlter": "COCHIN NIVAS",
-    "genre": "インドカレー",
+    "genre": "印カレー",
     "closeDay": "月火",
     "lastOrder": "21:00",
     "location": "西新宿",
     "memo": "ちょい遠",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13056242/"
+  },
+  // 21:30
+  {
+    "name": "グラスコート",
+    "genre": "ビュッフェ",
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "西新宿 京プＨ",
+    "memo": "要予約か",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000772/",
+    "home": "https://www.keioplaza.co.jp/restaurant/list/glasscourt"
+  },
+  {
+    "name": "タント ドマーニ",
+    "nameAlter": "TANTO DOMANI",
+    "genre": "イタリアン",
+    "closeDay": "日",
+    "lastOrder": "21:30",
+    "location": "西新宿 Ｉタワー",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13009166/",
+    "home": "http://tanto-domani.com/",
+    "facebook": "tantodomani",
+    "instagram": "tantodomani"
   },
   {
     "name": "丸亀製麺 新宿三井ビル店",
@@ -32,13 +79,41 @@
     "name": "ムット",
     "nameAlter": "MUTHU",
     "unvisited": true,
-    "genre": "インドカレー",
+    "genre": "印カレー",
     "closeDay": "日",
     "lastOrder": "21:30?",
     "location": "西新宿",
     "memo": "カード不可",
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13040853/"
   },
+  // 22:00
+  {
+    "name": "ナワブ",
+    "nameAlter": "Nawab",
+    "genre": "印カレー",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00?",
+    "location": "西新宿 Ｉタワー",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13269546/",
+    "home": "https://nawab.co.jp/pages/shinjuku",
+    "twitter": "nawabtokyo",
+    "facebook": "nawabcurry",
+    "instagram": "nawabdining_cafe"
+  },
+  {
+    "name": "アショカ 新宿店",
+    "genre": "印カレー",
+    "unvisited": true,
+    "closeDay": "不明",
+    "lastOrder": "22:00",
+    "location": "西新宿",
+    "memo": "ビュッフェ",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13000782/",
+    "home": "http://ashoka-shinjuku.jp/"
+  },
+  // 22:30
   {
     "name": "もうやんカレー",
     "genre": "カレー",
@@ -50,6 +125,19 @@
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13001046/",
     "home": "http://www.moyan.jp/"
   },
+  {
+    "name": "雛鮨",
+    "genre": "寿司",
+    "closeDay": "無休",
+    "lastOrder": "22:30 土日変則",
+    "location": "西新宿 Ｉタワー",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13025833/",
+    "home": "https://hina-sushi.com/",
+    "facebook": "hinasushi.official",
+    "instagram": "hinasushi.official"
+  },
+  // 23:00
   {
     "name": "頑固おやじ",
     "genre": "居酒屋",
