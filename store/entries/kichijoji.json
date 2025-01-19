@@ -342,17 +342,6 @@
     "home": "http://www.tamasushi.co.jp/shop/kichijoji/"
   },
   {
-    "name": "ヴィッラ マニョーリア",
-    "genre": "イタリアン",
-    "unvisited": true,
-    "closeDay": "火",
-    "lastOrder": "22:00 日祝21:30",
-    "location": "南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13159155/",
-    "home": "http://www.villamagnolia.tokyo"
-  },
-  {
     "name": "Bubby's",
     "genre": "パンケーキ/カフェ",
     "closeDay": "不明",

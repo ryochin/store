@@ -651,5 +651,17 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13206596/",
     "closedAt": "2024.09 リニューアル"
+  },
+  {
+    "name": "ヴィッラ マニョーリア",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "火",
+    "lastOrder": "22:00 日祝21:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13159155/",
+    "home": "http://www.villamagnolia.tokyo",
+    "closedAt": "2025.01.31"
   }
 ]
