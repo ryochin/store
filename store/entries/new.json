@@ -1,17 +1,5 @@
 [
   {
-    "name": "SOUTH",
-    "nameAlter": "サウス",
-    "genre": "オセアニア料理",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "22:00",
-    "location": "恵比寿GP 39F",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1303/A130302/13212585/",
-    "home": "https://southbyterra.tokyo/"
-  },
-  {
     "name": "根室花まる",
     "genre": "回転寿司",
     "unvisited": true,
@@ -40,8 +28,8 @@
     "closeDay": "?",
     "lastOrder": "?",
     "location": "中目黒",
-    "memo": "元荻窪アルベロ",
-    "tabelog": null,
+    "memo": "元荻窪アルベロ 紹介制",
+    "tabelog": "https://tabelog.com/tokyo/A1317/A131701/13225445/",
     "home": "https://www.facebook.com/megriva.tokyo/"
   }
 ]

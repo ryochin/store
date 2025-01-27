@@ -86,19 +86,6 @@
     "facebook": "spanishbarPEP",
     "instagram": "pepspanishbar"
   },
-  {
-    "name": "CAFE RIGOLETTO",
-    "genre": "イタリアン/スペイン料理",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "19:00",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13021901/",
-    "home": "https://www.huge.co.jp/restaurant/rigoletto/kichijoji",
-    "facebook": "huge.restaurant/",
-    "instagram": "rigoletto_kichijoji"
-  },
 
   // 20:30
   {
@@ -234,6 +221,45 @@
     "twitter": "italia_kichijoj",
     "instagram": "italian_kichijoji"
   },
+  {
+    "name": "La Creatura",
+    "nameAlter": "ラ クレアトゥーラ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "不定",
+    "lastOrder": "21:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13009986/",
+    "instagram": "la_creatura.kichijoji",
+    "link": ["https://kichifan.com/2025/01/26/kichijoji_pasta/#rtoc-10"]
+  },
+  {
+    "name": "Cetara di Daisuke",
+    "nameAlter": "チェターラ ディ ダイスケ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "水",
+    "lastOrder": "21:00",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13286098/",
+    "twitter": "310daidai",
+    "link": ["https://kichifan.com/2025/01/26/kichijoji_pasta/#rtoc-16"]
+  },
+  {
+    "name": "Come sta",
+    "nameAlter": "コメスタ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "月",
+    "lastOrder": "21:00 金土21:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13291635/",
+    "instagram": "come_sta_",
+    "link": ["https://kichifan.com/2025/01/26/kichijoji_pasta/#rtoc-18"]
+  },
 
   // 21:30
   {
@@ -258,7 +284,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13173834/",
     "home": "http://www.hannosuke.com/"
   },
-
   {
     "name": "まめ蔵",
     "genre": "カレー",
@@ -269,6 +294,35 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13005789/",
     "home": "http://www.kuu-kuu.com/mamezo/",
     "twitter": "mamezo_curry"
+  },
+  {
+    "name": "CAFE RIGOLETTO",
+    "nameAlter": "カフェ リゴレット",
+    "genre": "イタリアン/スペイン料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:30 日祝21:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13021901/",
+    "home": "https://www.huge.co.jp/restaurant/rigoletto",
+    "facebook": "huge.restaurant",
+    "instagram": "rigoletto_kichijoji",
+    "link": ["https://kichifan.com/2025/01/26/kichijoji_pasta/#rtoc-9"]
+  },
+  {
+    "name": "TIMPANO",
+    "nameAlter": "ティンパーノ",
+    "genre": "イタリアン",
+    "unvisited": true,
+    "closeDay": "木",
+    "lastOrder": "21:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13253436/",
+    "home": "https://sites.google.com/view/timpano/",
+    "instagram": "timpano2020",
+    "link": ["https://kichifan.com/2025/01/26/kichijoji_pasta/#rtoc-8"]
   },
 
   // 22:00

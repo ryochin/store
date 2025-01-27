@@ -663,5 +663,32 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13159155/",
     "home": "http://www.villamagnolia.tokyo",
     "closedAt": "2025.01.31"
+  },
+  {
+    "name": "SOUTH",
+    "nameAlter": "サウス",
+    "genre": "オセアニア料理",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "恵比寿GP 39F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1303/A130302/13212585/",
+    "home": "https://southbyterra.tokyo/",
+    "closedAt": "2023.12"
+  },
+  {
+    "name": "タリカロ",
+    "genre": "南印カレー",
+    "closeDay": "木",
+    "lastOrder": "21:30/日祝20:30",
+    "location": "南",
+    "memo": "辛い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13255518/",
+    "twitter": "Zb0FZMyLrHciWhu",
+    "facebook": "tairkaro.curry",
+    "instagram": "tarikaro_1",
+    "closedAt": "2024.12",
+    "memo": "店主病気のため閉店"
   }
 ]

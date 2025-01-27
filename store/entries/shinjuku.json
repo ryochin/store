@@ -195,6 +195,17 @@
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13166843/",
     "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=826"]
   },
+  {
+    "name": "CAPOLI",
+    "nameAlter": "カポリ",
+    "genre": "イタリアン",
+    "closeDay": "無休",
+    "lastOrder": "22:30 日祝22:00",
+    "location": "駅近",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13123990/",
+    "instagram": "capoli412"
+  },
 
   // 23:00
   {
