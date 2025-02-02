@@ -14,9 +14,10 @@
     "genre": "サンドイッチ",
     "closeDay": "不定",
     "lastOrder": "19:45",
-    "location": "商",
-    "memo": "ﾌｧﾐﾏ内",
-    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179098/"
+    "location": "南",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13306007/",
+    "home": "https://www.subway.co.jp/sp/shops/kanto/tokyo/shop2948/"
   },
   {
     "name": "桃蕎庵 こばやし",
@@ -256,7 +257,6 @@
   },
   {
     "name": "つくみ",
-    "star": true,
     "genre": "和食/麺",
     "closeDay": "無休",
     "lastOrder": "21:00?",

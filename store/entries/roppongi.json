@@ -3,12 +3,24 @@
     "name": "ダル・マット",
     "nameAlter": "DAL-MATTO",
     "genre": "イタリアン",
-    "star": true,
     "closeDay": "無休",
     "lastOrder": "22:00",
     "location": "ヒルズ 5F",
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1307/A130701/13162051/",
     "link": ["http://www.roppongihills.com/shops_restaurants/restaurants/00168.html"]
+  },
+  {
+    "name": "ニルヴァーナ ニューヨーク",
+    "nameAlter": "NIRVANA New York",
+    "genre": "印カレー",
+    "star": true,
+    "closeDay": "無休",
+    "lastOrder": "22:00",
+    "location": "ミッドタウン",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1307/A130701/13037327/",
+    "home": "https://nirvana-newyork.jp/",
+    "instagram": "nirvana_new_york"
   }
 ]

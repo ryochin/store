@@ -419,6 +419,7 @@
   {
     "name": "GONZO",
     "genre": "イタリアン",
+    "star": true,
     "closeDay": "無休",
     "lastOrder": "22:00",
     "location": "北",

@@ -12,7 +12,7 @@
   {
     "name": "プラバート",
     "genre": "南印カレー",
-    "unvisited": false,
+    "star": true,
     "closeDay": "無休",
     "lastOrder": "21:30",
     "location": "南駅",

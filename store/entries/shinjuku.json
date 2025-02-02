@@ -12,6 +12,15 @@
     "facebook": "FutabaFruits",
     "instagram": "futabafruitsparlor"
   },
+  {
+    "name": "ル・ブラン",
+    "genre": "イタリアン",
+    "closeDay": "無休",
+    "lastOrder": "19:30?",
+    "location": "新宿三丁",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13033006/"
+  },
   // 20:30
   {
     "name": "マンゴツリーカフェ",

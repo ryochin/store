@@ -99,29 +99,31 @@
       }
     </style>
     <script type="text/javascript">
-      var list = __LIST__;
+      const list = __LIST__
 
-      document.addEventListener('DOMContentLoaded', function() {
-        $('#content').html(_.template($('#store-template').html(), { list: list }));
+      document.addEventListener('DOMContentLoaded', () => {
+        $('#content').html(_.template($('#store-template').html(), { list: list }))
 
-        var cookieKey = 'storeRegion';
+        const cookieKey = 'storeRegion'
 
-        $('.region-tab').on('click', function(){
-          $('.tab-title').removeClass('active');
+        $('.region-tab').on('click', function() {
+          $('.tab-title').removeClass('active')
 
-          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 });
-        });
+          $(this).parent().addClass('active')
 
-        var region = Cookies.get(cookieKey);
+          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 })
+        })
+
+        const region = Cookies.get(cookieKey)
         if( region !== undefined ){
-          $('.nav-tabs a[href="#region-' + region + '"]').tab('show');
+          $('.nav-tabs a[href="#region-' + region + '"]').tab('show')
 
-          $('#region-title-' + region).addClass('active');
+          $('#region-title-' + region).addClass('active')
         }
         else {
-          $('#region-title-ogikubo').addClass('active');
+          $('#region-title-ogikubo').addClass('active')
         }
-      });
+      })
     </script>
     <script type="text/template" id="store-template">
       <ul class="nav nav-tabs">

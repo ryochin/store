@@ -45,6 +45,18 @@
     "home": "http://www.delhi.co.jp/"
   },
   {
+    "name": "METoA Cafe ＆ Kitchen",
+    "genre": "カフェ/ダイニング",
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "５丁目",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13193925/",
+    "home": "https://metoa.jp/cafe/",
+    "facebook": "metoacafeandkitchen",
+    "instagram": "metoacafeandkitchen"
+  },
+  {
     "name": "グルガオン",
     "genre": "印カレー",
     "star": true,
@@ -56,6 +68,20 @@
     "home": "http://gurgaontokyo.com/",
     "facebook": "Gurgaon.chotiwara",
     "instagram": "gurgaontokyo"
+  },
+  {
+    "name": "バンゲラズキッチン",
+    "nameAlter": "Bangera's Kitchen",
+    "genre": "印カレー",
+    "closeDay": "無休",
+    "lastOrder": "22:15",
+    "location": "西２丁目",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13217211/",
+    "home": "http://www.bangeras-kitchen.com/",
+    "twitter": "BangerasKitchen",
+    "facebook": "bangeraskitchenginza",
+    "instagram": "bangeras.kitchen"
   },
   {
     "name": "アーンドラ・ダイニング",

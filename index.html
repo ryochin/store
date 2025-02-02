@@ -99,7 +99,7 @@
       }
     </style>
     <script type="text/javascript">
-      var list = [
+      const list = [
   {
     "name": "🔰",
     "id": "new",
@@ -571,6 +571,7 @@
       {
         "name": "GONZO",
         "genre": "イタリアン",
+        "star": true,
         "closeDay": "無休",
         "lastOrder": "22:00",
         "location": "北",
@@ -971,9 +972,10 @@
         "genre": "サンドイッチ",
         "closeDay": "不定",
         "lastOrder": "19:45",
-        "location": "商",
-        "memo": "ﾌｧﾐﾏ内",
-        "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13179098/"
+        "location": "南",
+        "memo": null,
+        "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13306007/",
+        "home": "https://www.subway.co.jp/sp/shops/kanto/tokyo/shop2948/"
       },
       {
         "name": "桃蕎庵 こばやし",
@@ -1219,7 +1221,6 @@
       },
       {
         "name": "つくみ",
-        "star": true,
         "genre": "和食/麺",
         "closeDay": "無休",
         "lastOrder": "21:00?",
@@ -1756,7 +1757,7 @@
       {
         "name": "プラバート",
         "genre": "南印カレー",
-        "unvisited": false,
+        "star": true,
         "closeDay": "無休",
         "lastOrder": "21:30",
         "location": "南駅",
@@ -2064,6 +2065,15 @@
         "home": "https://www.cafecompany.co.jp/brands/futabafruitsparlor/",
         "facebook": "FutabaFruits",
         "instagram": "futabafruitsparlor"
+      },
+      {
+        "name": "ル・ブラン",
+        "genre": "イタリアン",
+        "closeDay": "無休",
+        "lastOrder": "19:30?",
+        "location": "新宿三丁",
+        "memo": "",
+        "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13033006/"
       },
       {
         "name": "マンゴツリーカフェ",
@@ -2395,7 +2405,6 @@
         "name": "ダル・マット",
         "nameAlter": "DAL-MATTO",
         "genre": "イタリアン",
-        "star": true,
         "closeDay": "無休",
         "lastOrder": "22:00",
         "location": "ヒルズ 5F",
@@ -2404,6 +2413,19 @@
         "link": [
           "http://www.roppongihills.com/shops_restaurants/restaurants/00168.html"
         ]
+      },
+      {
+        "name": "ニルヴァーナ ニューヨーク",
+        "nameAlter": "NIRVANA New York",
+        "genre": "印カレー",
+        "star": true,
+        "closeDay": "無休",
+        "lastOrder": "22:00",
+        "location": "ミッドタウン",
+        "memo": "",
+        "tabelog": "https://tabelog.com/tokyo/A1307/A130701/13037327/",
+        "home": "https://nirvana-newyork.jp/",
+        "instagram": "nirvana_new_york"
       }
     ]
   },
@@ -2458,6 +2480,18 @@
         "home": "http://www.delhi.co.jp/"
       },
       {
+        "name": "METoA Cafe ＆ Kitchen",
+        "genre": "カフェ/ダイニング",
+        "closeDay": "無休",
+        "lastOrder": "21:30",
+        "location": "５丁目",
+        "memo": null,
+        "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13193925/",
+        "home": "https://metoa.jp/cafe/",
+        "facebook": "metoacafeandkitchen",
+        "instagram": "metoacafeandkitchen"
+      },
+      {
         "name": "グルガオン",
         "genre": "印カレー",
         "star": true,
@@ -2469,6 +2503,20 @@
         "home": "http://gurgaontokyo.com/",
         "facebook": "Gurgaon.chotiwara",
         "instagram": "gurgaontokyo"
+      },
+      {
+        "name": "バンゲラズキッチン",
+        "nameAlter": "Bangera's Kitchen",
+        "genre": "印カレー",
+        "closeDay": "無休",
+        "lastOrder": "22:15",
+        "location": "西２丁目",
+        "memo": null,
+        "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13217211/",
+        "home": "http://www.bangeras-kitchen.com/",
+        "twitter": "BangerasKitchen",
+        "facebook": "bangeraskitchenginza",
+        "instagram": "bangeras.kitchen"
       },
       {
         "name": "アーンドラ・ダイニング",
@@ -3547,33 +3595,35 @@
         "twitter": "Zb0FZMyLrHciWhu",
         "facebook": "tairkaro.curry",
         "instagram": "tarikaro_1",
-        "closedAt": "2024.12"
+        "closedAt": "2025.01.22"
       }
     ]
   }
-];
+]
 
-      document.addEventListener('DOMContentLoaded', function() {
-        $('#content').html(_.template($('#store-template').html(), { list: list }));
+      document.addEventListener('DOMContentLoaded', () => {
+        $('#content').html(_.template($('#store-template').html(), { list: list }))
 
-        var cookieKey = 'storeRegion';
+        const cookieKey = 'storeRegion'
 
-        $('.region-tab').on('click', function(){
-          $('.tab-title').removeClass('active');
+        $('.region-tab').on('click', function() {
+          $('.tab-title').removeClass('active')
 
-          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 });
-        });
+          $(this).parent().addClass('active')
 
-        var region = Cookies.get(cookieKey);
+          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 })
+        })
+
+        const region = Cookies.get(cookieKey)
         if( region !== undefined ){
-          $('.nav-tabs a[href="#region-' + region + '"]').tab('show');
+          $('.nav-tabs a[href="#region-' + region + '"]').tab('show')
 
-          $('#region-title-' + region).addClass('active');
+          $('#region-title-' + region).addClass('active')
         }
         else {
-          $('#region-title-ogikubo').addClass('active');
+          $('#region-title-ogikubo').addClass('active')
         }
-      });
+      })
     </script>
     <script type="text/template" id="store-template">
       <ul class="nav nav-tabs">
@@ -3846,7 +3896,7 @@
 
       <p class="description">
         <span class="notice">おもに夜の営業について。完全禁煙のみ</span>
-        <span class="updated-at">2025/01/27 更新</span>
+        <span class="updated-at">2025/02/02 更新</span>
       </p>
 
       <div id="content"></div>
