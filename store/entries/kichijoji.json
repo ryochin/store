@@ -385,17 +385,6 @@
     "home": "https://desalita-kichijoji.com/"
   },
   {
-    "name": "築地玉寿司",
-    "genre": "寿司/海鮮",
-    "star": true,
-    "closeDay": "無休",
-    "lastOrder": "22:00",
-    "location": "駅北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13186848/",
-    "home": "http://www.tamasushi.co.jp/shop/kichijoji/"
-  },
-  {
     "name": "Bubby's",
     "genre": "パンケーキ/カフェ",
     "closeDay": "不明",
@@ -575,18 +564,6 @@
     "twitter": "la_biancara",
     "facebook": "biancaikokka",
     "home": "https://biancara.stores.jp/"
-  },
-  {
-    "name": "PANORAMA KITCHEN",
-    "genre": "イタリアン",
-    "unvisited": true,
-    "closeDay": "火/第２日",
-    "lastOrder": "00:00",
-    "location": "北",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13155395/",
-    "facebook": "PanoramaKitchen",
-    "instagram": "panoramakitchen_kichijoji"
   },
   {
     "name": "Chill",
