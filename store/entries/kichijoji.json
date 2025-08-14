@@ -512,17 +512,6 @@
     "home": "https://www.osteria-nerori.com/",
     "link": ["https://kichifan.com/2018/09/08/nerori_open/"]
   },
-  {
-    "name": "M.J. Smile",
-    "genre": "バー/カフェ",
-    "unvisited": true,
-    "closeDay": "日",
-    "lastOrder": "22:30?",
-    "location": "南",
-    "memo": "ライブ有",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213558/",
-    "home": "https://www.mjsmile.com/"
-  },
 
   // 23:00
   {

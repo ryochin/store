@@ -4,6 +4,7 @@ tasks:
   build:
     desc: Build
     dir: store
+    aliases: [b]
     cmds:
       - ruby ./compile.rb
 

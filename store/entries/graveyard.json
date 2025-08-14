@@ -726,5 +726,78 @@
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13186848/",
     "home": "http://www.tamasushi.co.jp/shop/kichijoji/",
     "closedAt": "2025.02.02"
+  },
+  {
+    "name": "タムタム",
+    "genre": "モロッコ料理",
+    "unvisited": true,
+    "closeDay": "月/1,3火",
+    "lastOrder": "22:00",
+    "location": "西",
+    "memo": "療養とのこと",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13245434/",
+    "twitter": "morocco_tamtamu",
+    "link": ["https://193go.jp/nishiogi-tamtamu"],
+    "closedAt": "2025.05"
+  },
+  {
+    "name": "M.J. Smile",
+    "genre": "バー/カフェ",
+    "unvisited": true,
+    "closeDay": "日",
+    "lastOrder": "22:30?",
+    "location": "南",
+    "memo": "ライブ有",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13213558/",
+    "home": "https://www.mjsmile.com/",
+    "closedAt": "2025.06.15"
+  },
+  {
+    "name": "高はし",
+    "genre": "そば",
+    "unvisited": true,
+    "closeDay": "火水",
+    "lastOrder": "19:30",
+    "location": "住：遠",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13004378/",
+    "home": "http://sobatakahashi.com/",
+    "facebook": "hideo.takahashi.35977",
+    "closedAt": "2025.04.30"
+  },
+  {
+    "name": "COTO-COTO 茶寮",
+    "genre": "パスタ風うどん/スイーツ",
+    "closeDay": "ほぼ無休",
+    "lastOrder": "22:30",
+    "location": "ミロード8F",
+    "memo": "カード不可",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13184035/",
+    "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=823"]
+  },
+  {
+    "name": "ヘッドクォーターズカフェ",
+    "nameAlter": "Head Quarters cafe",
+    "unvisited": true,
+    "genre": "カフェ飯",
+    "closeDay": "ほぼ無休",
+    "lastOrder": "22:30",
+    "location": "ミロード8F",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13166843/",
+    "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=826"]
+  },
+  {
+    "name": "METoA Cafe ＆ Kitchen",
+    "genre": "カフェ/ダイニング",
+    "closeDay": "無休",
+    "lastOrder": "21:30",
+    "location": "５丁目",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1301/A130101/13193925/",
+    "home": "https://metoa.jp/cafe/",
+    "facebook": "metoacafeandkitchen",
+    "instagram": "metoacafeandkitchen",
+    "closedAt": "2025.08.04"
   }
 ]

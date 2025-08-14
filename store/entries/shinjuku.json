@@ -183,28 +183,6 @@
     "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13006805/"
   },
   {
-    "name": "COTO-COTO 茶寮",
-    "genre": "パスタ風うどん/スイーツ",
-    "closeDay": "ほぼ無休",
-    "lastOrder": "22:30",
-    "location": "ミロード8F",
-    "memo": "カード不可",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13184035/",
-    "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=823"]
-  },
-  {
-    "name": "ヘッドクォーターズカフェ",
-    "nameAlter": "Head Quarters cafe",
-    "unvisited": true,
-    "genre": "カフェ飯",
-    "closeDay": "ほぼ無休",
-    "lastOrder": "22:30",
-    "location": "ミロード8F",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1304/A130401/13166843/",
-    "link": ["https://www.odakyu-sc.com/shinjuku-mylord/shop/list/?id=826"]
-  },
-  {
     "name": "CAPOLI",
     "nameAlter": "カポリ",
     "genre": "イタリアン",
