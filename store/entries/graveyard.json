@@ -799,5 +799,83 @@
     "facebook": "metoacafeandkitchen",
     "instagram": "metoacafeandkitchen",
     "closedAt": "2025.08.04"
+  },
+  {
+    "name": "NERORI",
+    "genre": "ビストロ",
+    "unvisited": true,
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13225792/",
+    "home": "https://www.osteria-nerori.com/",
+    "link": ["https://kichifan.com/2018/09/08/nerori_open/"],
+    "memo": "業態変更？"
+  },
+  {
+    "name": "Bubby's",
+    "genre": "パンケーキ/カフェ",
+    "closeDay": "不明",
+    "lastOrder": "22:00",
+    "location": "北 コピス",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13205464/",
+    "home": "https://bubbys.jp/locations/kichijoji/",
+    "closedAt": "2025.10.28"
+  },
+  {
+    "name": "コロモ チャ ヤ",
+    "unvisited": true,
+    "genre": "カフェ/ランチ",
+    "closeDay": "火水",
+    "lastOrder": "16:30/17:30",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13154851/",
+    "home": "https://coromo-cya-ya.com/",
+    "twitter": "coromo_cya_ya",
+    "facebook": "coromocyaya",
+    "instagram": "coromo_cya_ya",
+    "memo": "カフェ休業"
+  },
+  {
+    "name": "アピエ",
+    "genre": "スパニッシュ",
+    "unvisited": true,
+    "closeDay": "火",
+    "lastOrder": "24:00",
+    "location": "南",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13264501/",
+    "instagram": "spanish_nishiogi_apie",
+    "closedAt": "2025.08.31"
+  },
+  {
+    "name": "魚人（ウオンチュ）",
+    "genre": "沖縄料理",
+    "closeDay": "火",
+    "lastOrder": "22:30?",
+    "location": "すずらん",
+    "memo": null,
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13205599/",
+    "home": "http://uonchu-ogikubo.com/",
+    "instagram": "uonchu",
+    "closedAt": "2025.12.30"
+  },
+  {
+    "name": "ラ・デエサ",
+    "nameAlter": "La Dehesa",
+    "genre": "スペイン/ビストロ",
+    "unvisited": true,
+    "closeDay": "水/１３月",
+    "lastOrder": "22:00?",
+    "location": "駅前",
+    "memo": "物件オーナーと揉めたらしい？",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13258210/",
+    "home": "https://ladehesa.jp/",
+    "facebook": "ladehesa.ogikubo",
+    "instagram": "ladehesa.ogikubo",
+    "closedAt": "2025.11?"
   }
 ]

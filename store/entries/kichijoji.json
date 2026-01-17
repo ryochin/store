@@ -1,19 +1,5 @@
 [
   {
-    "name": "コロモ チャ ヤ",
-    "unvisited": true,
-    "genre": "カフェ/ランチ",
-    "closeDay": "火水",
-    "lastOrder": "16:30/17:30",
-    "location": "南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13154851/",
-    "home": "https://coromo-cya-ya.com/",
-    "twitter": "coromo_cya_ya",
-    "facebook": "coromocyaya",
-    "instagram": "coromo_cya_ya"
-  },
-  {
     "name": "INO CINQ Cafe",
     "nameAlter": "イノ サンク カフェ",
     "unvisited": true,
@@ -385,16 +371,6 @@
     "home": "https://desalita-kichijoji.com/"
   },
   {
-    "name": "Bubby's",
-    "genre": "パンケーキ/カフェ",
-    "closeDay": "不明",
-    "lastOrder": "22:00",
-    "location": "北 コピス",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13205464/",
-    "home": "https://bubbys.jp/locations/kichijoji/"
-  },
-  {
     "name": "ELMO",
     "genre": "イタリアン",
     "closeDay": "木",
@@ -499,18 +475,6 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13161730/",
     "facebook": "kichijojitsukinami"
-  },
-  {
-    "name": "NERORI",
-    "genre": "ビストロ",
-    "unvisited": true,
-    "closeDay": "無休",
-    "lastOrder": "22:30",
-    "location": "南",
-    "memo": "",
-    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13225792/",
-    "home": "https://www.osteria-nerori.com/",
-    "link": ["https://kichifan.com/2018/09/08/nerori_open/"]
   },
 
   // 23:00
