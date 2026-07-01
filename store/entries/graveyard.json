@@ -877,5 +877,49 @@
     "facebook": "ladehesa.ogikubo",
     "instagram": "ladehesa.ogikubo",
     "closedAt": "2025.11?"
+  },
+  {
+    "name": "Café&Meal MUJI",
+    "genre": "ダイニング/カフェ",
+    "closeDay": "無休？",
+    "lastOrder": "19:30?",
+    "location": "南/マルイ",
+    "memo": "物販区画増床のため",
+    "tabelog": "https://tabelog.com/tokyo/A1320/A132001/13168084/",
+    "home": "https://www.muji.com/jp/ja/shop/detail/045195",
+    "closedAt": "2026.05.31"
+  },
+  {
+    "name": "Rêve",
+    "nameOriginal": "ナチュールイタリアン Reve",
+    "genre": "イタリアン",
+    "closeDay": "不定 日昼のみ",
+    "lastOrder": "22:00 飲22:30",
+    "location": "荻窪 南",
+    "memo": "店外灰皿有",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13230580/",
+    "facebook": "1948227532147377",
+    "instagram": "syusandesu",
+    "closedAt": "2025.03.31"
+  },
+  {
+    "name": "せきば",
+    "genre": "そば",
+    "closeDay": "水",
+    "lastOrder": "21:30",
+    "location": "八幡通り",
+    "memo": "閉店したっぽい",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13059245/",
+    "closedAt": "2025?"
+  },
+  {
+    "name": "ごはん",
+    "genre": "定食",
+    "closeDay": "土夜/日",
+    "lastOrder": "21:30",
+    "location": "商",
+    "memo": "再開発のため",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13183882/",
+    "closedAt": "2026.03"
   }
 ]

@@ -94,6 +94,7 @@
     "name": "サジロクローブ",
     "nameAlter": "Sajilo Clove",
     "genre": "北印カレー",
+    "star": true,
     "closeDay": "無休",
     "lastOrder": "22:30",
     "location": "北",
@@ -149,5 +150,15 @@
     "memo": "",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131907/13086481/",
     "twitter": "SITAL32804317"
+  },
+  {
+    "name": "有いち",
+    "nameAlter": "ゆういち",
+    "genre": "割烹",
+    "closeDay": "日、祝の月",
+    "lastOrder": "22:30",
+    "location": "北",
+    "memo": "",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13054194/"
   }
 ]

@@ -135,5 +135,47 @@
     "location": "環八",
     "memo": "タバコ臭い",
     "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13244342/"
+  },
+  {
+    "name": "アコリエンテ",
+    "nameAlter": "ACCOGLIENTE",
+    "genre": "イタリアン",
+    "closeDay": "水/昼月水",
+    "lastOrder": "21:00",
+    "location": "北",
+    "memo": "塩辛い",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13241386/",
+    "facebook": "accogliente20190822",
+    "instagram": "accogliente20190822"
+  },
+  {
+    "name": "もがめ食堂",
+    "genre": "定食",
+    "closeDay": "水",
+    "lastOrder": "20:30",
+    "location": "南",
+    "memo": "味が濃すぎる",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13293323/",
+    "link": ["https://mrs.living.jp/musashino/newopen/reporter/5518906"],
+    "instagram": "mogame_shokudou_kichijoji"
+  },
+  {
+    "name": "洋麺屋五右衛門",
+    "genre": "パスタ",
+    "closeDay": "無休",
+    "lastOrder": "22:30",
+    "location": "商",
+    "memo": "６年も行っていない",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13120508/"
+  },
+  {
+    "name": "WINE CASA GRECO 3号店",
+    "genre": "フレンチ/ワインバー",
+    "closeDay": "水",
+    "lastOrder": "21:00?",
+    "location": "南",
+    "memo": "クオリティいまいち",
+    "tabelog": "https://tabelog.com/tokyo/A1319/A131906/13260631/",
+    "home": "https://greco3.owst.jp/"
   }
 ]
