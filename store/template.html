@@ -11,18 +11,18 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#333336">
     <link rel="dns-prefetch preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="dns-prefetch preconnect" href="maxcdn.bootstrapcdn.com">
-    <link rel="dns-prefetch preconnect" href="use.fontawesome.com">
     <link rel="apple-touch-icon" type="image/x-icon" href="images/apple-touch-icon-152x152.png" sizes="152x152">
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js" integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" integrity="sha256-lIFJvX0EbEpgbhha1orNrXaV1TKngfVWrIbwgcHl80E=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>    <title>飲食店メモ</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title>飲食店メモ</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.14.8/cdn.min.js" integrity="sha384-X9kJyAubVxnP0hcA+AMMs21U445qsnqhnUF8EBlEpP3a42Kh/JwWjlv2ZcvGfphb" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <style type="text/css">
+      [x-cloak] {
+        display: none !important;
+      }
       body {
         color: #bcbcbc;
         background: #333336;
@@ -76,6 +76,9 @@
       .unvisited {
         color: gray;
       }
+      .closed {
+        text-decoration: line-through;
+      }
 
       @media screen and (max-width: 960px) {
         body, .container {
@@ -98,296 +101,143 @@
         }
       }
     </style>
+
     <script type="text/javascript">
-      const list = __LIST__
+      document.addEventListener("alpine:init", () => {
+        Alpine.data("storeApp", () => ({
+          list: __LIST__,
+          selected: null,
+          DEFAULT_REGION: "ogikubo",
 
-      document.addEventListener('DOMContentLoaded', () => {
-        $('#content').html(_.template($('#store-template').html(), { list: list }))
+          init() {
+            const has = (id) => this.list.some((r) => r.id === id);
+            let saved = null;
+            try {
+              saved = localStorage.getItem("storeRegion");
+            } catch (e) {
+              saved = null;
+            }
 
-        const cookieKey = 'storeRegion'
+            this.selected = has(saved)
+              ? saved
+              : has(this.DEFAULT_REGION)
+                ? this.DEFAULT_REGION
+                : this.list.length
+                  ? this.list[0].id
+                  : null;
+          },
 
-        $('.region-tab').on('click', function() {
-          $('.tab-title').removeClass('active')
+          select(id) {
+            this.selected = id;
+            try {
+              localStorage.setItem("storeRegion", id);
+            } catch (e) {
+              // 保存不可の環境でも表示は継続する
+            }
+          },
 
-          $(this).parent().addClass('active')
+          move(delta) {
+            if (!this.list.length) {
+              return;
+            }
+            let idx = this.list.findIndex((r) => r.id === this.selected);
+            if (idx === -1) {
+              idx = 0;
+            }
+            const next = (idx + delta + this.list.length) % this.list.length;
+            this.select(this.list[next].id);
+          },
 
-          Cookies.set(cookieKey, $(this).data('region'), { expires: 30 })
-        })
+          onKey(e) {
+            if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) {
+              return;
+            }
+            const el = e.target;
+            if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) {
+              return;
+            }
+            if (e.key === "ArrowLeft") {
+              e.preventDefault();
+              this.move(-1);
+            } else if (e.key === "ArrowRight") {
+              e.preventDefault();
+              this.move(1);
+            }
+          },
 
-        const region = Cookies.get(cookieKey)
-        if( region !== undefined ){
-          $('.nav-tabs a[href="#region-' + region + '"]').tab('show')
+          statusIcon(d) {
+            if (d.star) {
+              return { cls: "star fa-solid fa-star", title: null };
+            }
+            if (d.unvisited) {
+              return { cls: "unvisited fa-solid fa-question", title: null };
+            }
+            if (d.nogood) {
+              return { cls: "unvisited fa-solid fa-thumbs-down", title: "イマイチ" };
+            }
+            return { cls: "fa-solid fa-check", title: null };
+          },
 
-          $('#region-title-' + region).addClass('active')
-        }
-        else {
-          $('#region-title-ogikubo').addClass('active')
-        }
-      })
-    </script>
-    <script type="text/template" id="store-template">
-      <ul class="nav nav-tabs">
-        <% list.forEach(function(region, n) { %>
-          <li class="tab-title <%= n === 0 ? 'show' : '' %>" id="region-title-<%= region.id %>">
-            <a href="#region-<%= region.id %>" data-toggle="tab" class="region-tab" data-region="<%= region.id %>"><%= region.name %></a>
-          </li>
-        <% }); %>
-      </ul>
+          genreEmojis(genre) {
+            if (!genre) {
+              return "";
+            }
 
-      <div class="tab-content">
-        <% list.forEach(function(region, n) { %>
-          <div class="tab-pane <%= n === 0 ? 'active' : '' %>" id="region-<%= region.id %>">
-            <table class="table table-responsive">
-              <tr>
-                <th>店名</th>
-                <th>&nbsp;</th>
-                <th>ジャンル</th>
-                <th>定休</th>
-                <th>L.O.</th>
-                <th>場所</th>
-                <th>メモ</th>
-              </tr>
-              <% region.data.forEach(function(d) { %>
-                <tr>
-                  <% if('type' in d && d.type === 'separator') { %>
-                    <td colspan="7" class="separator">
-                      &nbsp;
-                    </td>
-                  <% } else { %>
-                    <td nowrap>
-                      <!-- star & unvisited -->
-                      <% if('star' in d && d.star) { %>
-                        <i class="star fa fa-star"></i>
-                      <% } else if('unvisited' in d && d.unvisited) { %>
-                        <i class="unvisited fa fa-question"></i>
-                      <% } else if('nogood' in d && d.nogood) { %>
-                        <i class="unvisited fa fa-thumbs-down" title="イマイチ"></i>
-                      <% }else{ %>
-                        <i class="fa fa-check"></i>
-                      <% }; %>
+            const emojis = [];
 
-                      <% if(d.closed){ %>
-                        <strike>
-                      <% }; %>
+            if (/(パン|ブレッド|ベーカリー)([\s\/]?|$)/.test(genre)) emojis.push("🍞");
+            if (/(ピザ|ピッツァ|ピッツェリア)([\s\/]?|$)/.test(genre)) emojis.push("🍕");
+            if (/(パスタ)([\s\/]?|$)/.test(genre)) emojis.push("🍝");
+            if (/(イタリアン)([\s\/]?|$)/.test(genre)) emojis.push("🇮🇹");
 
-                      <% if(d.tabelog){ %>
-                        <a href="<%= d.tabelog %>" target="_blank" title="<%= d.nameAlter %>"><%= d.name %></a>
-                      <% }else{ %>
-                        <%= d.name %>
-                      <% }; %>
+            if (/((インド|印)カ(レ|リ)ー)([\s\/]?|$)/.test(genre)) {
+              emojis.push("🇮🇳🍛");
+            } else if (/(カ(レ|リ)ー)([\s\/]?|$)/.test(genre)) {
+              emojis.push("🍛");
+            }
 
-                      <% if(d.closed){ %>
-                        </strike>
-                      <% }; %>
-                    </td>
-                    <td>
-                      <!-- twitter -->
-                      <% if(d.twitter){ %>
-                        <a href="https://twitter.com/<%= d.twitter %>" target="_blank">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      <% }; %>
+            if (/(ラーメン|うどん|そば|蕎麦)([\s\/]?|$)/.test(genre)) emojis.push("🍜");
+            if (/(寿司)([\s\/]?|$)/.test(genre)) emojis.push("🍣");
+            if (/(天ぷら|天麩羅|天丼)([\s\/]?|$)/.test(genre)) emojis.push("🍤");
+            if (/(和食|割烹|小料理)([\s\/]?|$)/.test(genre)) emojis.push("🇯🇵");
+            if (/(フレンチ|フランス)([\s\/]?|$)/.test(genre)) emojis.push("🇫🇷");
+            if (/(スペイン|スパニッシュ)([\s\/]?|$)/.test(genre)) emojis.push("🥘");
+            if (/(中華)([\s\/]?|$)/.test(genre)) emojis.push("🥟");
+            if (/(洋食|北欧|ロシア|地中海|西洋|欧州|ファミレス)([\s\/]?|$)/.test(genre)) emojis.push("🍽");
+            if (/(ベトナム|タイ|エスニック|アジア|オセアニア|多国籍|メキシコ|台湾)([\s\/]?|$)/.test(genre)) emojis.push("🥙");
+            if (/((たこ|お好み)焼き)([\s\/]?|$)/.test(genre)) emojis.push("🌮");
+            if (/(サンドイッチ)([\s\/]?|$)/.test(genre)) emojis.push("🥖");
+            if (/(バーガー)([\s\/]?|$)/.test(genre)) emojis.push("🍔");
+            if (/(粥)([\s\/]?|$)/.test(genre)) emojis.push("🍚");
+            if (/(魚介?|海鮮|うなぎ)([\s\/]?|$)/.test(genre)) emojis.push("🐟");
+            if (/(野菜)([\s\/]?|$)/.test(genre)) emojis.push("🥗");
+            if (/(定食|弁当)([\s\/]?|$)/.test(genre)) emojis.push("🍱");
+            if (/(スイーツ|ケーキ|クレープ)([\s\/]?|$)/.test(genre)) emojis.push("🍰");
+            if (/(カフェ)([\s\/]?|$)/.test(genre)) emojis.push("☕️");
+            if (/(ジュース)([\s\/]?|$)/.test(genre)) emojis.push("🥤");
+            if (/(アイス|氷)([\s\/]?|$)/.test(genre)) emojis.push("🍨");
+            if (/(バー|バー?ル)([\s\/]?|$)/.test(genre)) emojis.push("🍸");
+            if (/(居酒屋|飲み)([\s\/]?|$)/.test(genre)) emojis.push("🍶");
+            if (/(ビストロ)([\s\/]?|$)/.test(genre)) emojis.push("🍽");
 
-                      <!-- facebook -->
-                      <% if(d.facebook){ %>
-                        <a href="https://facebook.com/<%= d.facebook %>" target="_blank">
-                          <i class="fab fa-facebook"></i>
-                        </a>
-                      <% }; %>
+            return emojis.join(" ");
+          },
 
-                      <!-- instagram -->
-                      <% if(d.instagram){ %>
-                        <a href="https://instagram.com/<%= d.instagram %>" target="_blank">
-                          <i class="fab fa-instagram"></i>
-                        </a>
-                      <% }; %>
+          mapUrl(region, d) {
+            const base = "https://www.google.co.jp/maps/search/";
 
-                      <!-- home -->
-                      <% if(d.home){ %>
-                        <a href="<%= d.home %>" target="_blank">
-                          <i class="fa fa-home"></i>
-                        </a>
-                      <% }; %>
+            if (/^New/.test(region.name)) {
+              return base + encodeURIComponent(d.name);
+            }
+            const query = [region.geo, d.name, d.genre].filter(Boolean).join(" ");
+            return base + encodeURIComponent(query);
+          },
 
-                      <!-- links -->
-                      <% if(d.link){ %>
-                        <% d.link.forEach(function(link, i) { %>
-                          <a href="<%= link %>" target="_blank">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        <% }); %>
-                      <% }; %>
-                    </td>
-                    <td nowrap>
-                      <%= d.genre %>
-
-                      <!-- bread -->
-                      <% if(d.genre.match(/(パン|ブレッド|ベーカリー)([\s\/]?|$)/)){ %>
-                        <span>🍞</span>
-                      <% }; %>
-
-                      <!-- pizza -->
-                      <% if(d.genre.match(/(ピザ|ピッツァ|ピッツェリア)([\s\/]?|$)/)){ %>
-                        <span>🍕</span>
-                      <% }; %>
-
-                      <!-- pasta -->
-                      <% if(d.genre.match(/(パスタ)([\s\/]?|$)/)){ %>
-                        <span>🍝</span>
-                      <% }; %>
-
-                      <!-- italian -->
-                      <% if(d.genre.match(/(イタリアン)([\s\/]?|$)/)){ %>
-                        <span>🇮🇹</span>
-                      <% }; %>
-
-                      <!-- curry -->
-                      <% if(d.genre.match(/((インド|印)カ(レ|リ)ー)([\s\/]?|$)/)){ %>
-                        <span>🇮🇳🍛</span>
-                      <% } else if(d.genre.match(/(カ(レ|リ)ー)([\s\/]?|$)/)){ %>
-                        <span>🍛</span>
-                      <% }; %>
-
-                      <!-- men -->
-                      <% if(d.genre.match(/(ラーメン|うどん|そば|蕎麦)([\s\/]?|$)/)){ %>
-                        <span>🍜</span>
-                      <% }; %>
-
-                      <!-- sushi -->
-                      <% if(d.genre.match(/(寿司)([\s\/]?|$)/)){ %>
-                        <span>🍣</span>
-                      <% }; %>
-
-                      <!-- tenpura -->
-                      <% if(d.genre.match(/(天ぷら|天麩羅|天丼)([\s\/]?|$)/)){ %>
-                        <span>🍤</span>
-                      <% }; %>
-
-                      <!-- japanese -->
-                      <% if(d.genre.match(/(和食|割烹|小料理)([\s\/]?|$)/)){ %>
-                        <span>🇯🇵</span>
-                      <% }; %>
-
-                      <!-- french -->
-                      <% if(d.genre.match(/(フレンチ|フランス)([\s\/]?|$)/)){ %>
-                        <span>🇫🇷</span>
-                      <% }; %>
-
-                      <!-- spanish -->
-                      <% if(d.genre.match(/(スペイン|スパニッシュ)([\s\/]?|$)/)){ %>
-                        <span>🥘</span>
-                      <% }; %>
-
-                      <!-- chinese -->
-                      <% if(d.genre.match(/(中華)([\s\/]?|$)/)){ %>
-                        <span>🥟</span>
-                      <% }; %>
-
-                      <!-- western -->
-                      <% if(d.genre.match(/(洋食|北欧|ロシア|地中海|西洋|欧州|ファミレス)([\s\/]?|$)/)){ %>
-                        <span>🍽</span>
-                      <% }; %>
-
-                      <!-- international -->
-                      <% if(d.genre.match(/(ベトナム|タイ|エスニック|アジア|オセアニア|多国籍|メキシコ|台湾)([\s\/]?|$)/)){ %>
-                        <span>🥙</span>
-                      <% }; %>
-
-                      <!-- fast food -->
-                      <% if(d.genre.match(/((たこ|お好み)焼き)([\s\/]?|$)/)){ %>
-                        <span>🌮</span>
-                      <% }; %>
-
-                      <!-- sandwitch -->
-                      <% if(d.genre.match(/(サンドイッチ)([\s\/]?|$)/)){ %>
-                        <span>🥖</span>
-                      <% }; %>
-
-                      <!-- burger -->
-                      <% if(d.genre.match(/(バーガー)([\s\/]?|$)/)){ %>
-                        <span>🍔</span>
-                      <% }; %>
-
-                      <!-- kayu -->
-                      <% if(d.genre.match(/(粥)([\s\/]?|$)/)){ %>
-                        <span>🍚</span>
-                      <% }; %>
-
-                      <!-- fish -->
-                      <% if(d.genre.match(/(魚介?|海鮮|うなぎ)([\s\/]?|$)/)){ %>
-                        <span>🐟</span>
-                      <% }; %>
-
-                      <!-- vege -->
-                      <% if(d.genre.match(/(野菜)([\s\/]?|$)/)){ %>
-                        <span>🥗</span>
-                      <% }; %>
-
-                      <!-- teishoku -->
-                      <% if(d.genre.match(/(定食|弁当)([\s\/]?|$)/)){ %>
-                        <span>🍱</span>
-                      <% }; %>
-
-                      <!-- sweets -->
-                      <% if(d.genre.match(/(スイーツ|ケーキ|クレープ)([\s\/]?|$)/)){ %>
-                        <span>🍰</span>
-                      <% }; %>
-
-                      <!-- cafe -->
-                      <% if(d.genre.match(/(カフェ)([\s\/]?|$)/)){ %>
-                        <span>☕️</span>
-                      <% }; %>
-
-                      <!-- juice -->
-                      <% if(d.genre.match(/(ジュース)([\s\/]?|$)/)){ %>
-                        <span>🥤</span>
-                      <% }; %>
-
-                      <!-- ice -->
-                      <% if(d.genre.match(/(アイス|氷)([\s\/]?|$)/)){ %>
-                        <span>🍨</span>
-                      <% }; %>
-
-                      <!-- bar -->
-                      <% if(d.genre.match(/(バー|バー?ル)([\s\/]?|$)/)){ %>
-                        <span>🍸</span>
-                      <% }; %>
-
-                      <!-- izakaya -->
-                      <% if(d.genre.match(/(居酒屋|飲み)([\s\/]?|$)/)){ %>
-                        <span>🍶</span>
-                      <% }; %>
-
-                      <!-- bistro -->
-                      <% if(d.genre.match(/(ビストロ)([\s\/]?|$)/)){ %>
-                        <span>🍽</span>
-                      <% }; %>
-                    </td>
-                    <td><%= d.closeDay %></td>
-                    <td><%= d.lastOrder %></td>
-                    <td>
-                      <i class="map-icon fa fa-map-marker-alt"></i>
-                      <% if(region.name.match(/^New/)){ %>
-                        <a href="https://www.google.co.jp/maps/search/<%= d.name %>" target="_blank">
-                      <% } else { %>
-                        <a href="https://www.google.co.jp/maps/search/<%= region.geo %>+<%= d.name %>+<%= d.genre %>" target="_blank">
-                      <% }; %>
-                          <%= d.location %>
-                        </a>
-                    </td>
-                    <td><%= d.memo %></td>
-                  <% } %>
-                </tr>
-              <% }); %>
-
-              <tr>
-                <td colspan="6">&nbsp;</td>
-                <td>(全 <%= region.data.length %> 件)</td>
-              </tr>
-            </table>
-          </div>
-        <% }); %>
-      </div>
+          safeUrl(url) {
+            return typeof url === "string" && /^https?:\/\//i.test(url) ? url : null;
+          },
+        }));
+      });
     </script>
   </head>
   <body>
@@ -399,7 +249,107 @@
         <span class="updated-at">__UPDATED_AT__ 更新</span>
       </p>
 
-      <div id="content"></div>
+      <div id="app" x-data="storeApp" x-cloak @keydown.window="onKey($event)">
+        <ul class="nav nav-tabs">
+          <template x-for="region in list" :key="region.id">
+            <li class="tab-title" :class="{ active: selected === region.id }" :id="'region-title-' + region.id">
+              <a :href="'#region-' + region.id" class="region-tab" @click.prevent="select(region.id)" x-text="region.name"></a>
+            </li>
+          </template>
+        </ul>
+
+        <div class="tab-content">
+          <template x-for="region in list" :key="region.id">
+            <div class="tab-pane" :class="{ active: selected === region.id }" :id="'region-' + region.id">
+              <table class="table table-responsive">
+                <thead>
+                  <tr>
+                    <th>店名</th>
+                    <th>&nbsp;</th>
+                    <th>ジャンル</th>
+                    <th>定休</th>
+                    <th x-text="region.id === 'graveyard' ? '閉店' : 'L.O.'"></th>
+                    <th>場所</th>
+                    <th>メモ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <template x-for="(d, i) in region.data" :key="i">
+                    <tr>
+                      <!-- separator -->
+                      <td colspan="7" class="separator" x-show="d.type === 'separator'">
+                        &nbsp;
+                      </td>
+
+                      <!-- 店名 -->
+                      <td nowrap x-show="d.type !== 'separator'">
+                        <i :class="statusIcon(d).cls" :title="statusIcon(d).title"></i>
+                        <template x-if="d.tabelog">
+                          <a :href="safeUrl(d.tabelog)" target="_blank" rel="noopener noreferrer" :title="d.nameAlter" :class="{ closed: d.closed }" x-text="d.name"></a>
+                        </template>
+                        <template x-if="!d.tabelog">
+                          <span :class="{ closed: d.closed }" x-text="d.name"></span>
+                        </template>
+                      </td>
+
+                      <!-- SNS / リンク -->
+                      <td x-show="d.type !== 'separator'">
+                        <template x-if="d.twitter">
+                          <a :href="'https://twitter.com/' + d.twitter" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+                        </template>
+                        <template x-if="d.facebook">
+                          <a :href="'https://facebook.com/' + d.facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook"></i>
+                          </a>
+                        </template>
+                        <template x-if="d.instagram">
+                          <a :href="'https://instagram.com/' + d.instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+                        </template>
+                        <template x-if="d.home">
+                          <a :href="safeUrl(d.home)" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-house"></i>
+                          </a>
+                        </template>
+                        <template x-for="(l, li) in (d.link || [])" :key="li">
+                          <a :href="safeUrl(l)" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-link"></i>
+                          </a>
+                        </template>
+                      </td>
+
+                      <!-- ジャンル -->
+                      <td nowrap x-show="d.type !== 'separator'">
+                        <span x-text="d.genre"></span>
+                        <span x-text="genreEmojis(d.genre)"></span>
+                      </td>
+
+                      <td x-show="d.type !== 'separator'" x-text="d.closeDay"></td>
+                      <td x-show="d.type !== 'separator'" x-text="region.id === 'graveyard' ? (d.closedAt || '') : d.lastOrder"></td>
+
+                      <!-- 場所 -->
+                      <td x-show="d.type !== 'separator'">
+                        <i class="map-icon fa-solid fa-location-dot"></i>
+                        <a :href="mapUrl(region, d)" target="_blank" rel="noopener noreferrer" x-text="d.location"></a>
+                      </td>
+
+                      <td x-show="d.type !== 'separator'" x-text="d.memo"></td>
+                    </tr>
+                  </template>
+
+                  <tr>
+                    <td colspan="6">&nbsp;</td>
+                    <td x-text="'(全 ' + region.data.length + ' 件)'"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </template>
+        </div>
+      </div>
     </div>
   </body>
 </html>
